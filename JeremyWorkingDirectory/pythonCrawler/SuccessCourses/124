@@ -1,0 +1,549 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >U750420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U750420">認知科學議題研討（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>周麗芳 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='D801  ' >社科院大樓                    階梯教室-心理</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U750420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >U753040</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U753040">認知科學議題研討（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>周麗芳 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[5]6</TD>
+<TD><a class='room' href='#' name='D801  ' >社科院大樓                    階梯教室-心理</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U753040&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >U780920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U780920">教學實習（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>龔俊嘉 <BR />謝淑蘭*<BR />楊政達 <BR />周麗芳 <BR />林君昱 <BR />胡中凡 <BR />鄭中平 <BR />胡書榕 <BR />黃碧群 <BR />陳德祐 <BR />黃柏僩 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[2]1</TD>
+<TD><a class='room' href='#' name='D801  ' >社科院大樓                    階梯教室-心理</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U780920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >U790100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U790100">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>龔俊嘉 <BR />謝淑蘭*<BR />楊政達 <BR />周麗芳 <BR />林君昱 <BR />胡中凡 <BR />鄭中平 <BR />胡書榕 <BR />黃碧群 <BR />陳德祐 <BR />黃柏僩 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[5]8</TD>
+<TD><a class='room' href='#' name='D801  ' >社科院大樓                    階梯教室-心理</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U790100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7106</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >U781000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U781000">行為科學研究法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周麗芳 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U781000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7224</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >U782500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U782500">華人組織行為</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周麗芳 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U782500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7234</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >U790220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U790220">情緒與記憶專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳德祐 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[2]9~B</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U790220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7030</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >U773000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U773000">心理計量專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭中平 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U773000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7033</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >U753300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U753300">心理學工具程式集在認知科學上的應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>龔俊嘉 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U753300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >U772600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U772600">老化認知神經科學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝淑蘭 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='80209 ' >社科院大樓                    80209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U772600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7031</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >U772800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U772800">發展科學進階研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡中凡 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]9~B</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U772800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7033</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >U782900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U782900">記憶研究特論(一)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林君昱 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]9~B</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U782900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須先經授課老師同意才可選修</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7238</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >U771720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U771720">神經科學綜論(二)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡書榕 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[3]9~B</TD>
+<TD><a class='room' href='#' name='80209 ' >社科院大樓                    80209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U771720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須先經授課老師同意才可選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >U753100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U753100">物質濫用導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡書榕 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[5]9~B</TD>
+<TD><a class='room' href='#' name='80209 ' >社科院大樓                    80209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U753100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須先經授課老師同意才可選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS7208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >U772500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U772500">學習記憶神經生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳德祐 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]9~B</TD>
+<TD><a class='room' href='#' name='D801  ' >社科院大樓                    階梯教室-心理</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U772500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大碩合開課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CS5001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >TA82300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=TA82300">健身運動與認知神經科學專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊政達*</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=TA82300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教室於心理系5樓玻璃會議室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >AHS9042</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >D842100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=D842100">統計機器學習與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃柏僩 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='80204 ' >社科院大樓                    80204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D842100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大碩合開課程。建議具備微積分與R程式之基礎</TD>
+<TD>需先修以下科目:《心理與教育統計學（一）                  /必修/3.0學分/60分以上》《心理與教育統計學（二）                  /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PSY5000</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >U383300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U383300">決策與判斷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許清芳 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='A424  ' >社科院大樓                    A424</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U383300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>外所學生須經授課教師確認統計基本知識，同意後才可選修本課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EDU7016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >心理所           CS</TD>
+<TD style='text-align: center;' >U7</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >U354400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U7&cono=U354400">資料管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許清芳 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >36</TD>
+<TD><BR>[2]N~6</TD>
+<TD><a class='room' href='#' name='75309 ' >資訊大樓                      75309</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U354400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EDU7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

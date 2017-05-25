@@ -1,0 +1,597 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >S860420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S860420">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S860420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與專題討論(四)合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >S860420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S860420">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>蕭雅心 <BR />游一龍*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[4]6~7</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S860420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >S860440</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S860440">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S860440&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與專題討論(二)合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6093</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >S850420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S850420">專題研究（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林君昱 <BR />蕭雅心 <BR />游一龍 <BR />余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]0<BR>[2]0</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S850420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課地點所研討室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6095</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >S850440</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S850440">專題研究（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林君昱 <BR />楊延光 <BR />余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]0<BR>[2]0</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S850440&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課地點所研討室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6097</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >S863100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S863100">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林君昱 <BR />楊延光 <BR />游一龍 <BR />柯慧貞 <BR />余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[4]0<BR>[3]0</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S863100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >S857600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S857600">發展心理病理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃惠玲 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='202D  ' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S857600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所甲組。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6020</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >S857700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S857700">兒童心理治療</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃惠玲 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[4]5~7</TD>
+<TD><a class='room' href='#' name='205D  ' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S857700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6021</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >S859600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S859600">臨床心理衡鑑</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>余睿羚*<BR />郭乃文 <BR />黃惠玲 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S859600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修臨床心理病理學</TD>
+<TD>需先修以下科目:《臨床心理病理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6038</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >S858400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S858400">神經心理治療</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭乃文 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='307   ' >醫學院                        307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S858400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修復健心理學、臨床神經心理學</TD>
+<TD>需先修以下科目:《復健心理學                              /選修/3.0學分/70分以上》《臨床神經心理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >S861800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S861800">神經心理衡鑑</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭乃文 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='601   ' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S861800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修臨床神經心理學</TD>
+<TD>需先修以下科目:《臨床神經心理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6032</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >S864700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S864700">神經心理治療走向之團體治療</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭乃文 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[3]N~5</TD>
+<TD><a class='room' href='#' name='501   ' >醫學院                        501</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S864700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6055</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >S85A740</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S85A740">心理健康雲端經營專題（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭乃文 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='501   ' >醫學院                        501</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S85A740&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《臨床心理病理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6051</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >S85A300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S85A300">團體心理諮商與治療：理論與實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>柯慧貞 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='205D  ' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S85A300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6045</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >S859900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S859900">心智功能缺損之心理衡鑑</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>余睿羚 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='205D  ' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S859900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所甲組，先修臨床心理病理學、臨床神經心理學</TD>
+<TD>需先修以下科目:《臨床心理病理學                          /選修/3.0學分/70分以上》《臨床神經心理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6041</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >S858500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S858500">臨床心理實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>余睿羚 <BR />郭乃文*<BR />黃惠玲 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S858500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>黃惠玲w [ 1 ] 2 -4；郭乃文w [ 2 ] N - 5；余睿羚w  [ 3 ] 5 - 7 ；邱郁雯w[4]2-4；其餘督導時間另行通知</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >S860320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S860320">臨床心理實習（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >8</TD><TD>余睿羚*<BR />郭乃文 <BR />黃惠玲 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >1</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S860320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫院全時間實習</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >S861200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S861200">行為神經藥物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭雅心 <BR />游一龍*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S861200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >S853420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S853420">物質濫用專題（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>蕭雅心 <BR />游一龍*</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S853420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6291</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >S852400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S852400">行為神經科學及研究法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭雅心 <BR />游一龍*</TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S852400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >行醫所           BM</TD>
+<TD style='text-align: center;' >S8</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >S85A600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S8&cono=S85A600">失智與老化研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>簡伯武 <BR />蕭雅心*<BR />張雅雯 <BR />朱俊憲 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='0824  ' >醫學院                        0824</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S85A600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BM6048</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

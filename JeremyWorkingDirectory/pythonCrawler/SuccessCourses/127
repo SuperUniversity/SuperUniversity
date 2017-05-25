@@ -1,0 +1,3021 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E211120</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211120&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D212621</TD>
+<TD style='text-align: center;' >Z8</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D212621&class_code=Z8"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉珈銘 </TD>
+<TD style='text-align: center;' >70</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='92171 ' >電機系館                      92171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>劉珈銘 </TD>
+<TD style='text-align: center;' >70</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='92271 ' >電機系館                      92271</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>蕭仁傑 </TD>
+<TD style='text-align: center;' >70</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >E215720</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215720">普通物理學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張書銓 </TD>
+<TD style='text-align: center;' >165</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]5~6<BR>[4]1</TD>
+<TD><a class='room' href='#' name='92127 ' >電機系館                      繁城講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215720&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>(甲乙丙合班)繁城講堂</TD>
+<TD>需先修以下科目:《普通物理學（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1072</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >E215820</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215820">普通物理學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>羅光耀 </TD>
+<TD style='text-align: center;' >50</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215820&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓二樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1082</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >E216620</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216620">計算機概論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃仁暐 </TD>
+<TD style='text-align: center;' >61</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='92171 ' >電機系館                      92171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216620&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>電腦教室實習限制最多60人</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1520</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >E216401</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216401">邏輯系統</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >3</TD><TD>林輝堂 </TD>
+<TD style='text-align: center;' >69</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]8<BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='92171 ' >電機系館                      92171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216401&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1500</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >E223400</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E223400">線性代數</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王振興 </TD>
+<TD style='text-align: center;' >56</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[2]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='92171 ' >電機系館                      92171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E223400&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE41</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >E217920</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E217920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>焦惠津 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E217920&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E211120</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211120&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D212621</TD>
+<TD style='text-align: center;' >Z9</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D212621&class_code=Z9"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙丙                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林育竹 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='A1306 ' >共同教室                      A1306(資源後)</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>電一乙丙合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙丙                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>林育竹 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='A1303 ' >共同教室                      A1303</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙丙                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>粘珠鳳 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='A1304 ' >共同教室                      A1304</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E215621</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙丙                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>黃世昌 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='A1305 ' >共同教室                      A1305</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215621&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >E215720</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215720">普通物理學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張書銓 </TD>
+<TD style='text-align: center;' >165</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6<BR>[4]1</TD>
+<TD><a class='room' href='#' name='92127 ' >電機系館                      繁城講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215720&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>(甲乙丙合班)繁城講堂</TD>
+<TD>需先修以下科目:《普通物理學（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1072</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >E215820</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215820">普通物理學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張書銓 </TD>
+<TD style='text-align: center;' >50</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215820&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓二樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1082</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >E216620</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216620">計算機概論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>斯國峰 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]3~4<BR>[2]1</TD>
+<TD><a class='room' href='#' name='92177 ' >電機系館                      92177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216620&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>電腦教室實習限制最多60人</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1520</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >E216401</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216401">邏輯系統</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >3</TD><TD>陳中和 </TD>
+<TD style='text-align: center;' >86</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[3]1<BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='92119 ' >電機系館                      靄雲廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216401&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1500</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >E223400</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E223400">線性代數</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝明得 </TD>
+<TD style='text-align: center;' >80</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='92177 ' >電機系館                      92177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E223400&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210020</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210020&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE41</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >027</TD>
+<TD style='text-align: center;' >E217920</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E217920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>邱瀝毅 </TD>
+<TD style='text-align: center;' >49</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E217920&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E211120</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211120&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E211321</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211321&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >E215720</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215720">普通物理學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張書銓 </TD>
+<TD style='text-align: center;' >165</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6<BR>[4]1</TD>
+<TD><a class='room' href='#' name='92127 ' >電機系館                      繁城講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215720&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>(甲乙丙合班)繁城講堂</TD>
+<TD>需先修以下科目:《普通物理學（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1072</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >E215820</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E215820">普通物理學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳則銘 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E215820&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓二樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1082</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >036</TD>
+<TD style='text-align: center;' >E216620</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216620">計算機概論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳盈如 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[2]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='92127 ' >電機系館                      繁城講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216620&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>電腦教室實習限制最多60人</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1520</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >037</TD>
+<TD style='text-align: center;' >E216401</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E216401">邏輯系統</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >3</TD><TD>周哲民 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[3]1<BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='92185 ' >電機系館                      92185</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E216401&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD>需先修以下科目:《計算機概論（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1500</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >038</TD>
+<TD style='text-align: center;' >E223400</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E223400">線性代數</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張名先 </TD>
+<TD style='text-align: center;' >80</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]6<BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='92185 ' >電機系館                      92185</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E223400&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210020</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210020&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE41</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >041</TD>
+<TD style='text-align: center;' >E217920</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E217920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>周哲民 </TD>
+<TD style='text-align: center;' >47</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E217920&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >043</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>林輝堂 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]N~6</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >044</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>林輝堂 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >045</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >2A</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>陳中和 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=2A"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >046</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >2B</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>陳中和 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]N~6</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=2B"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >047</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >3A</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>周哲民 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=3A"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >048</TD>
+<TD style='text-align: center;' >E211200</TD>
+<TD style='text-align: center;' >3B</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E211200">邏輯系統實習</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>周哲民 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]N~6</TD>
+<TD><a class='room' href='#' name='92433 ' >電機系館                      92433</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E211200&class_code=3B"><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >051</TD>
+<TD style='text-align: center;' >E235500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235500">量子物理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>高國興 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2160</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=87">奈米積體電路工程碩士班學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >052</TD>
+<TD style='text-align: center;' >E225800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E225800">通訊導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇賜麟 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >59</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92119 ' >電機系館                      靄雲廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E225800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>電二三選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2431</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZD</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZD"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >E220620</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E220620">工程數學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭銘揚 </TD>
+<TD style='text-align: center;' >49</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92271 ' >電機系館                      92271</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E220620&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《工程數學（一）                          /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >E221120</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E221120">電路學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>朱聖緣 </TD>
+<TD style='text-align: center;' >65</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='92271 ' >電機系館                      92271</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E221120&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《電路學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2320</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >058</TD>
+<TD style='text-align: center;' >E227020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E227020">電子學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>邱瀝毅 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='92377 ' >電機系館                      92377</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E227020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>電二學生必修</TD>
+<TD>需先修以下科目:《電子學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >E228000</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E228000">電機概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊宏澤 </TD>
+<TD style='text-align: center;' >79</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]2<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E228000&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《普通物理學（二）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3330</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >060</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>朱聖緣 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]9~B</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>朱聖緣 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210040</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210040&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZE</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZE"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >E220620</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E220620">工程數學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張志文 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E220620&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《工程數學（一）                          /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >067</TD>
+<TD style='text-align: center;' >E221120</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E221120">電路學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王　醴 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[2]2<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E221120&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《電路學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2320</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >068</TD>
+<TD style='text-align: center;' >E227020</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E227020">電子學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李順裕 </TD>
+<TD style='text-align: center;' >84</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E227020&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《電子學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >069</TD>
+<TD style='text-align: center;' >E228000</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E228000">電機概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林瑞禮 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E228000&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《普通物理學（二）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3330</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >070</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >2A</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>王　醴 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=2A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >071</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >2B</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>王　醴 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=2B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210040</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210040&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >076</TD>
+<TD style='text-align: center;' >E220620</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E220620">工程數學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉光浩 </TD>
+<TD style='text-align: center;' >42</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E220620&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>英文授課</TD>
+<TD>需先修以下科目:《工程數學（一）                          /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2062</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >077</TD>
+<TD style='text-align: center;' >E221120</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E221120">電路學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉濱達 </TD>
+<TD style='text-align: center;' >92</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E221120&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《電路學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2320</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >078</TD>
+<TD style='text-align: center;' >E227020</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E227020">電子學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>江孟學 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E227020&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>英文授課</TD>
+<TD>需先修以下科目:《電子學（一）                            /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >079</TD>
+<TD style='text-align: center;' >E228000</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E228000">電機概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張簡樂仁 </TD>
+<TD style='text-align: center;' >70</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]2<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E228000&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《普通物理學（二）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3330</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >080</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >3A</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>劉濱達 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=3A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >081</TD>
+<TD style='text-align: center;' >E226200</TD>
+<TD style='text-align: center;' >3B</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E226200">電路學實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>劉濱達 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='92331 ' >電機系館                      92331</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E226200&class_code=3B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E210040</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E210040&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZF</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZF"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z6</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z6"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >086</TD>
+<TD style='text-align: center;' >E231601</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲乙                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E231601">資料結構緒論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >3</TD><TD>陳立祥 </TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E231601&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選(甲乙合班)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2510</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >087</TD>
+<TD style='text-align: center;' >E231601</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E231601">資料結構緒論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >3</TD><TD>林家民 </TD>
+<TD style='text-align: center;' >57</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[2]7~8<BR>[5]5</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E231601&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2510</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >090</TD>
+<TD style='text-align: center;' >E240500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E240500">離散數學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>解巽評 </TD>
+<TD style='text-align: center;' >66</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='92383 ' >電機系館                      92383</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E240500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4600</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >091</TD>
+<TD style='text-align: center;' >E232000</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232000">超大型積體電路電腦輔助設計概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>雷曉方*<BR />邱瀝毅 </TD>
+<TD style='text-align: center;' >61</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92383 ' >電機系館                      92383</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232000&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>大二三選修(實驗儀器限制60人)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5600</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >092</TD>
+<TD style='text-align: center;' >E246800</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E246800">訊號與系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭文光 </TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E246800&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>大二三選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3450</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >093</TD>
+<TD style='text-align: center;' >E246800</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E246800">訊號與系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李國君 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >85</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E246800&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>大二三選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3450</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >095</TD>
+<TD style='text-align: center;' >E242400</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E242400">專題討論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡宗祐 </TD>
+<TD style='text-align: center;' >59</TD>
+<TD style='text-align: center;' >171</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='92X18 ' >電機系館                      迅慧講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E242400&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4900</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >096</TD>
+<TD style='text-align: center;' >E242400</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E242400">專題討論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>陳中和 </TD>
+<TD style='text-align: center;' >55</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='92377 ' >電機系館                      92377</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E242400&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4900</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >097</TD>
+<TD style='text-align: center;' >E242400</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E242400">專題討論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>王振興 </TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='92119 ' >電機系館                      靄雲廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E242400&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>本系必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4900</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >098</TD>
+<TD style='text-align: center;' >E236100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E236100">使用者介面設計與開發</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張天豪 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >45</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92X31 ' >電機系館                      令洋廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E236100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4770</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >E234700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E234700">創業與創新課程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>卜令楷 </TD>
+<TD style='text-align: center;' >74</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E234700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三大四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5320</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >E232200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232200">光電與半導體概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>彭洞清 </TD>
+<TD style='text-align: center;' >118</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92127 ' >電機系館                      繁城講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5150</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >E246700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E246700">影像處理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>詹寶珠 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >36</TD>
+<TD><BR>[5]7~9</TD>
+<TD><a class='room' href='#' name='92277 ' >電機系館                      92277</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E246700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5720</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >E241900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E241900">作業系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊竹星 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='92119 ' >電機系館                      靄雲廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E241900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5591</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >E238600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E238600">數位通訊</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張志文 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='92271 ' >電機系館                      92271</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E238600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5400</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >E231120</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E231120">電磁學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李炳鈞 </TD>
+<TD style='text-align: center;' >58</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92383 ' >電機系館                      92383</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E231120&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3440</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>莊智清 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]N~6</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>莊智清 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>邱瀝毅 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[3]1~3</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >116</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李清庭 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z7</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z7"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >118</TD>
+<TD style='text-align: center;' >E234600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E234600">軟體無線電導論與實作</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭光偉 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='92177 ' >電機系館                      92177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E234600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三大四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5470</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E234600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E234600">軟體無線電導論與實作</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>鄭光偉 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='92219 ' >電機系館                      92219</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E234600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5470</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >119</TD>
+<TD style='text-align: center;' >E244300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E244300">電力系統導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張簡樂仁 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]2~3<BR>[3]2</TD>
+<TD><a class='room' href='#' name='92720 ' >電機系館                      92720</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E244300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三大四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4380</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >120</TD>
+<TD style='text-align: center;' >E231120</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E231120">電磁學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡智明 </TD>
+<TD style='text-align: center;' >83</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92177 ' >電機系館                      92177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E231120&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3440</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >121</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >2A</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>鄭銘揚 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]N~6</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=2A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >122</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >2B</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>鄭銘揚 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=2B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >123</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >2A</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>劉文超 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=2A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >2B</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李順裕 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]N~6</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=2B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z8</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z8"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >128</TD>
+<TD style='text-align: center;' >E231120</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E231120">電磁學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃尊禧 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >45</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E231120&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3440</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >129</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >3A</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李嘉猷 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=3A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >130</TD>
+<TD style='text-align: center;' >E235700</TD>
+<TD style='text-align: center;' >3B</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235700">控制工程實驗</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李嘉猷 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[3]1~3</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235700&class_code=3B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >131</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >3A</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>江孟學 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]N~6</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=3A"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >132</TD>
+<TD style='text-align: center;' >E232120</TD>
+<TD style='text-align: center;' >3B</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E232120">電子學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張守進 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1~3</TD>
+<TD><a class='room' href='#' name='92231 ' >電機系館                      92231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E232120&class_code=3B"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE2140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >Z9</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=Z9"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >137</TD>
+<TD style='text-align: center;' >E233000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E233000">電機機械</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳建富 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >49</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92383 ' >電機系館                      92383</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E233000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三大四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE4330</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >139</TD>
+<TD style='text-align: center;' >E246400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E246400">計算機演算法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李昆忠 </TD>
+<TD style='text-align: center;' >55</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='92383 ' >電機系館                      92383</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E246400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三大四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5530</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >144</TD>
+<TD style='text-align: center;' >E235310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235310">電子與材料學群畢業專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡宗祐 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>微電子所與材料組(自選老師)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3111</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >145</TD>
+<TD style='text-align: center;' >E235210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235210">電路與系統學群畢業專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>謝明得 </TD>
+<TD style='text-align: center;' >94</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>電機所其他各組 (自選老師)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3211</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >146</TD>
+<TD style='text-align: center;' >E235410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E235410">電腦與通訊學群畢業專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳中和 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E235410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>電腦與通訊網路組 (自選老師)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3251</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >150</TD>
+<TD style='text-align: center;' >E243900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E243900">電源轉換器設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>梁從主 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='92283 ' >電機系館                      92283</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E243900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三四合班英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5310</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >E230900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E230900">單晶片系統設計與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>戴政祺*<BR />林志隆 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E230900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大三四合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3660</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E230900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E230900">單晶片系統設計與應用</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>戴政祺 <BR />林志隆 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]3~N</TD>
+<TD><a class='room' href='#' name='92325 ' >電機系館                      92325</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E230900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE3660</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >153</TD>
+<TD style='text-align: center;' >E236600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E236600">系統程式</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳　敬 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92523 ' >電機系館                      92523</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E236600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大四與碩士班合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5740</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >156</TD>
+<TD style='text-align: center;' >E246900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E246900">半導體元件數值模擬</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>盧達生 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92417 ' >電機系館                      92417</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E246900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大四碩班合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5230</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' >178</TD>
+<TD style='text-align: center;' >E241700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>甲乙丙                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=E2&cono=E241700">資料庫</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>解巽評 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='92225 ' >電機系館                      92225</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E241700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE5560</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZA</TD>
+<TD>甲                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZA"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZB</TD>
+<TD>乙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZB"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >電機系           EE</TD>
+<TD style='text-align: center;' >E2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E200000</TD>
+<TD style='text-align: center;' >ZC</TD>
+<TD>丙                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E200000&class_code=ZC"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EE10</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,477 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >PA70200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA70200">質性研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林蕙玟 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='5152  ' >耐震大樓(建築研究大樓旁)      5152</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA70200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7010E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >PA70700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA70700">產業設計實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>楊佳翰 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA70700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>DB核心課程 ，僅提供已參加過《創意產業研究行動方案》之學生</TD>
+<TD>需先修以下科目:《創意產業研究行動方案                    /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7000E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >PA61200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA61200">專題討論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >0</TD><TD>劉世南 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='5152  ' >耐震大樓(建築研究大樓旁)      5152</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA61200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7009E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >PA61400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA61400">創意產業調查研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林蕙玟*<BR />楊佳翰 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='5152  ' >耐震大樓(建築研究大樓旁)      5152</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA61400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>丙組核心</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7300E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >PA90500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA90500">內容行銷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>卓彥廷 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA90500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《展覽行銷                                /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7025E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >PA61500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA61500">消費者行為</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉世南 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA61500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>甲組選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7103E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >PA50500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA50500">創意數位設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>卓彥廷 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[3]6</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA50500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>乙組核心</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7200E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >PA50500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA50500">創意數位設計</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>卓彥廷 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA50500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>乙組核心</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7200E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >PA80600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA80600">產業研究規劃與方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>仲曉玲 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA80600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>C組選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7307E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >PA80200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA80200">當代展覽策劃：理論與實踐</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳明惠 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='5117  ' >耐震大樓(建築研究大樓旁)      5117</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA80200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7021E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >PA51400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA51400">創意設計管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>仲曉玲 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA51400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>丙組選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7305E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >PA60100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA60100">智財法規專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊佳翰 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5152  ' >耐震大樓(建築研究大樓旁)      5152</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA60100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7011E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >PA70600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA70600">品牌與行銷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝孟達 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5153  ' >耐震大樓(建築研究大樓旁)      5153</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA70600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>甲組核心</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7101E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >PA70102</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA70102">創意產業研析（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>仲曉玲 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='5154  ' >耐震大樓(建築研究大樓旁)      5154</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA70102&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>博班必修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PA9061E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >PA50102</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA50102">創意產業體驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>仲曉玲 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[5]6</TD>
+<TD><a class='room' href='#' name='5154  ' >耐震大樓(建築研究大樓旁)      5154</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA50102&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩班必修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PA6062E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >創意所           ICID</TD>
+<TD style='text-align: center;' >PA</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >PA50320</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=PA&cono=PA50320">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>仲曉玲 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='5154  ' >耐震大樓(建築研究大樓旁)      5154</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=PA50320&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博必修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ICID7091E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

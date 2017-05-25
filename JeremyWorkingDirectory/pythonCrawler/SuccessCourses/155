@@ -1,0 +1,1029 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F213220</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F213220&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E711521</TD>
+<TD style='text-align: center;' >Z6</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E711521&class_code=Z6"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH1002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F225000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F225000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F210020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F210020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >F217920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F217920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳志宏 </TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]2</TD>
+<TD><a class='room' href='#' name='50303 ' >都計系館                      50303</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F217920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP0012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >F212300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F212300">經濟學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝文真 </TD>
+<TD style='text-align: center;' >57</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F212300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP1002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >F222100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F222100">統計學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>石豐宇 </TD>
+<TD style='text-align: center;' >75</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F222100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP1003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >F210200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F210200">都市社會學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>謝宏昌 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F210200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP1501</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >F212700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F212700">基本設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾憲嫻 <BR />蔡振芳 <BR />陳志宏*<BR />黃泰霖 </TD>
+<TD style='text-align: center;' >55</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='50303 ' >都計系館                      50303</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F212700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「基本設計(一)」</TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP1372</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F212700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F212700">基本設計（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>曾憲嫻 <BR />蔡振芳 <BR />陳志宏*<BR />黃泰霖 </TD>
+<TD style='text-align: center;' >55</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='50303 ' >都計系館                      50303</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F212700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP1372</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >F212500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F212500">計算機概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳日昇 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='75209 ' >資訊大樓                      75209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F212500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP1701</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F225000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F225000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F225000</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1~2</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F225000&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F210040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F210040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >F211020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F211020">都市規劃與設計實習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李子璋*<BR />黃偉茹 <BR />胡太山 </TD>
+<TD style='text-align: center;' >41</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='50221 ' >都計系館                      50221</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F211020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「都市規劃與設計實習(一)」</TD>
+<TD>需先修以下科目:《都市規劃與設計實習（一）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP2072</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F211020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F211020">都市規劃與設計實習（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>李子璋*<BR />黃偉茹 <BR />胡太山 </TD>
+<TD style='text-align: center;' >41</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='50221 ' >都計系館                      50221</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F211020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《都市規劃與設計實習（一）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP2072</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >F232500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F232500">都市經濟學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳彥仲 </TD>
+<TD style='text-align: center;' >42</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='50202 ' >都計系館                      50202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F232500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「經濟學」</TD>
+<TD>需先修以下科目:《經濟學                                  /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2501</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >F226200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F226200">都市交通計劃</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李子璋 </TD>
+<TD style='text-align: center;' >44</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F226200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2601</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >058</TD>
+<TD style='text-align: center;' >F233400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F233400">地理資訊系統概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林漢良 </TD>
+<TD style='text-align: center;' >43</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5102  ' >建築系館                      5102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F233400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2701</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >F223300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F223300">都市發展史</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>孔憲法 </TD>
+<TD style='text-align: center;' >89</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F223300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >060</TD>
+<TD style='text-align: center;' >F221800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F221800">社區計劃</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>竇國昌 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='50202 ' >都計系館                      50202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F221800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP2201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >F223600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F223600">地形學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳銘志 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F223600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2621</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >062</TD>
+<TD style='text-align: center;' >F237401</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F237401">電腦繪圖</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳香綾 </TD>
+<TD style='text-align: center;' >51</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='5102  ' >建築系館                      5102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F237401&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP2751</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F225000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F225000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >F211030</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F211030">都市規劃與設計實習（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉如萍*<BR />蘇勤惠 <BR />孔憲法 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='50305 ' >都計系館                      50305</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F211030&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「都市規劃與設計實習(二)」</TD>
+<TD>需先修以下科目:《都市規劃與設計實習（二）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP3071</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F211030</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F211030">都市規劃與設計實習（三）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>葉如萍*<BR />蘇勤惠 <BR />孔憲法 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='50305 ' >都計系館                      50305</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F211030&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《都市規劃與設計實習（二）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP3071</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >F242000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F242000">都市財政學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>葉如萍 <BR />鄒克萬*</TD>
+<TD style='text-align: center;' >51</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='50308 ' >都計系館                      50308</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F242000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「經濟學」</TD>
+<TD>需先修以下科目:《經濟學                                  /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP3002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >F226700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F226700">都市及區域計劃法規</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>趙子元 </TD>
+<TD style='text-align: center;' >50</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='50202 ' >都計系館                      50202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F226700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP3003</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >F240400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F240400">都市美學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王煦中 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='50202 ' >都計系館                      50202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F240400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP3402</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >F248101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F248101">都市防災</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃泰霖 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='50204 ' >都計系館                      50204</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F248101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>具服務學習內涵課程，實際上課時間與社區服務時間詳見課程大綱。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP3623</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >F232600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F232600">運輸系統經營管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>石豐宇 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='50202 ' >都計系館                      50202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F232600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP3627</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F225000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F225000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >F241800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F241800">都市規劃與設計實習（五）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝宏昌 <BR />趙子元*<BR />林漢良 </TD>
+<TD style='text-align: center;' >40</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='50219 ' >都計系館                      50219</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F241800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過都市規劃與設計實習(四)</TD>
+<TD>需先修以下科目:《都市規劃與設計實習（四）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP4071</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F241800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F241800">都市規劃與設計實習（五）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>謝宏昌 <BR />趙子元*<BR />林漢良 </TD>
+<TD style='text-align: center;' >40</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='50219 ' >都計系館                      50219</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F241800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《都市規劃與設計實習（四）                /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP4071</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >153</TD>
+<TD style='text-align: center;' >F202500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F202500">校外實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙子元 </TD>
+<TD style='text-align: center;' >44</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]9</TD>
+<TD><a class='room' href='#' name='50219 ' >都計系館                      50219</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F202500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須已完成本系同意之校外實習30天以上</TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >UP4073</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >154</TD>
+<TD style='text-align: center;' >F241320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F241320">論文（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張學聖 </TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >49</TD>
+<TD><BR>[3]1</TD>
+<TD><a class='room' href='#' name='50219 ' >都計系館                      50219</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F241320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須修過「論文(一)」</TD>
+<TD>需先修以下科目:《論文（一）                              /選修/1.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP4092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >155</TD>
+<TD style='text-align: center;' >C420500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=C420500">衛星遙測概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉正千 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[5]3~4<BR>[2]2</TD>
+<TD><a class='room' href='#' name='75209 ' >資訊大樓                      75209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C420500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>都計系與地科系合班，於地科系教室上課。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS2205</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=103">太空科學與工程學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >156</TD>
+<TD style='text-align: center;' >F242500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F242500">空間政治經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃偉茹 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='50308 ' >都計系館                      50308</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F242500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >UP1202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >都計系           UP</TD>
+<TD style='text-align: center;' >F2</TD>
+<TD style='text-align: center;' >157</TD>
+<TD style='text-align: center;' >F040800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F2&cono=F040800">能源策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳彥仲 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='5897  ' >航太系館                      5897</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F040800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程與都計系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE4101E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

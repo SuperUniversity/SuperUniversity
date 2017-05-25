@@ -1,0 +1,1173 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C311120</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C311120&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B113721</TD>
+<TD style='text-align: center;' >Z6</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113721&class_code=Z6"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >C315621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>江孟蓉 </TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]2~3<BR>[3]6</TD>
+<TD><a class='room' href='#' name='92X18 ' >電機系館                      迅慧講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1516</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C315621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>江孟蓉 </TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='3031  ' >地科系館                      3031</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1516</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C315621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>陳旻宏 </TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='C401  ' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1516</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C315621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>黃世昌 </TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='3175  ' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1516</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C315621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >D</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>舒宇宸 </TD>
+<TD style='text-align: center;' >124</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='3268  ' >化學系館                      3268</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1516</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >C315720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315720">普通物理學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>許瑞榮 </TD>
+<TD style='text-align: center;' >56</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='3275  ' >化學系館                      3275</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >C315820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C315820">普通物理學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>許瑞榮 </TD>
+<TD style='text-align: center;' >50</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~7</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C315820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓二樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >C215921</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C215921">普通化學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃福永*<BR />林弘萍 <BR />吳欣倫 </TD>
+<TD style='text-align: center;' >214</TD>
+<TD style='text-align: center;' >122</TD>
+<TD><BR>[2]1~2<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='75X01 ' >理化大樓                      格致廳大講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C215921&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >C316020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C316020">普通化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林弘萍 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='35102 ' >理化大樓                      35102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C316020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓一樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >C316020</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C316020">普通化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇世剛 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='35122 ' >理化大樓                      35122</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C316020&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>理化大樓一樓</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C310020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C310020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C325000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C325000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >C321500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C321500">化學數學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇世剛 </TD>
+<TD style='text-align: center;' >79</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='3275  ' >化學系館                      3275</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C321500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >C317920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C317920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃守仁 </TD>
+<TD style='text-align: center;' >56</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[4]N</TD>
+<TD><a class='room' href='#' name='3275  ' >化學系館                      3275</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C317920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM0002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >052</TD>
+<TD style='text-align: center;' >C331520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C331520">物理化學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭沐政 </TD>
+<TD style='text-align: center;' >88</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C331520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2205</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >053</TD>
+<TD style='text-align: center;' >C321120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C321120">有機化學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳耀庭 </TD>
+<TD style='text-align: center;' >88</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]2~3<BR>[3]2</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C321120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >054</TD>
+<TD style='text-align: center;' >C321220</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C321220">有機化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>吳耀庭 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='3205  ' >化學系館                      有機實驗室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C321220&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a>有機實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2271</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >C321220</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C321220">有機化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>宋光生 <BR />周鶴軒*</TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='3205  ' >化學系館                      有機實驗室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C321220&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a>有機實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2271</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >C321220</TD>
+<TD style='text-align: center;' >1C</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C321220">有機化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>莊治平 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='3205  ' >化學系館                      有機實驗室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C321220&class_code=1C"><img src="image/moodle.gif" alt="Moodle"></img></a>有機實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2271</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >C332620</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C332620">應用化學（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳曾化 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='3275  ' >化學系館                      3275</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C332620&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3326</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C310040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C310040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C325000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C325000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >064</TD>
+<TD style='text-align: center;' >C320600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C320600">化學生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>邱顯泰 </TD>
+<TD style='text-align: center;' >58</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='3274  ' >化學系館                      3274</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C320600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3031</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >C320220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C320220">有機化學技術（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>吳耀庭 </TD>
+<TD style='text-align: center;' >69</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]5</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C320220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >067</TD>
+<TD style='text-align: center;' >C337600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C337600">電化學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳曾化 </TD>
+<TD style='text-align: center;' >64</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[2]2<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C337600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3321</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >C326320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C326320">分析化學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳淑慧 <BR />李介仁 <BR />陳巧貞*</TD>
+<TD style='text-align: center;' >66</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[2]1<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C326320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >C331720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C331720">無機化學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡惠蓮 </TD>
+<TD style='text-align: center;' >63</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C331720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2303</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >C347010</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C347010">書報討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林榮良 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[1]5</TD>
+<TD><a class='room' href='#' name='3274  ' >化學系館                      3274</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C347010&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1311</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >C347010</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C347010">書報討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>周鶴軒 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]5</TD>
+<TD><a class='room' href='#' name='3274  ' >化學系館                      3274</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C347010&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1311</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C325000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C325000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >C331620</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C331620">物理化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>施良垣 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='3211A ' >化學系館                      綜合實驗室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C331620&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2273</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >C331620</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C331620">物理化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>葉晨聖 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='3211A ' >化學系館                      綜合實驗室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C331620&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2273</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >C331620</TD>
+<TD style='text-align: center;' >1C</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C331620">物理化學實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>施良垣 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='3211A ' >化學系館                      綜合實驗室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C331620&class_code=1C"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2273</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >C340020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C340020">專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃守仁 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >28</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C340020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM1313</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >119</TD>
+<TD style='text-align: center;' >C326410</TD>
+<TD style='text-align: center;' >1A</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C326410">分析化學實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳淑慧 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='3211B ' >化學系館                      綜合實驗室二</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C326410&class_code=1A"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2370</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >120</TD>
+<TD style='text-align: center;' >C326410</TD>
+<TD style='text-align: center;' >1B</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C326410">分析化學實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳巧貞 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='3211B ' >化學系館                      綜合實驗室二</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C326410&class_code=1B"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2370</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >121</TD>
+<TD style='text-align: center;' >C326410</TD>
+<TD style='text-align: center;' >1C</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C326410">分析化學實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳淑慧 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='3211B ' >化學系館                      綜合實驗室二</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C326410&class_code=1C"><img src="image/moodle.gif" alt="Moodle"></img></a>綜合實驗室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM2370</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >122</TD>
+<TD style='text-align: center;' >C341720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C341720">生物化學（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃福永 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >45</TD>
+<TD><BR>[1]2~3<BR>[3]2</TD>
+<TD><a class='room' href='#' name='3275  ' >化學系館                      3275</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C341720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3302</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >123</TD>
+<TD style='text-align: center;' >C332100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C332100">有機光譜</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周鶴軒 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]3~4<BR>[4]2</TD>
+<TD><a class='room' href='#' name='3268  ' >化學系館                      3268</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C332100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3305</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >126</TD>
+<TD style='text-align: center;' >C343600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C343600">奈米科學導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉晨聖 </TD>
+<TD style='text-align: center;' >71</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C343600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3310</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >C325000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C325000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >159</TD>
+<TD style='text-align: center;' >C343000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C343000">物理有機化學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>宋光生 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >66</TD>
+<TD><BR>[5]5~6<BR>[3]1</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C343000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3312</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >化學系           CHEM</TD>
+<TD style='text-align: center;' >C3</TD>
+<TD style='text-align: center;' >161</TD>
+<TD style='text-align: center;' >C330400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=C3&cono=C330400">表面科學概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林榮良 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]2~3<BR>[3]2</TD>
+<TD><a class='room' href='#' name='3268  ' >化學系館                      3268</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=C330400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM3313</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

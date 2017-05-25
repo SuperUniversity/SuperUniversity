@@ -1,0 +1,501 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >P111900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P111900">船舶推進理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳政宏 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='56441 ' >系統系館                      56441</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P111900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7505</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >P160300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P160300">金屬產業科技導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林秋豐 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >46</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='56111 ' >系統系館                      56111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P160300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>系統所主開，機械所合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS5001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >P112000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P112000">結構穩定學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳長鈕 </TD>
+<TD style='text-align: center;' >46</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='56226 ' >系統系館                      56226</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P112000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7607</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >P113000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P113000">船舶振動學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳重雄 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='56661 ' >系統系館                      56661</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P113000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7606</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >P151500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P151500">非線性系統分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃正能 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='56441 ' >系統系館                      56441</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P151500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7401</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >P170700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P170700">海洋工程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林宇銜 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='56441 ' >系統系館                      56441</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P170700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7506</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >P150500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P150500">噪音控制</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>涂季平 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[4]1~3</TD>
+<TD><a class='room' href='#' name='56441 ' >系統系館                      56441</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P150500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7402</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >P113200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P113200">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >177</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='107   ' >系統系館                      視廳教室1F</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P113200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7095</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >P110120</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P110120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >135</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='107   ' >系統系館                      視廳教室1F</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P110120&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >P110140</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P110140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >44</TD>
+<TD style='text-align: center;' >136</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='107   ' >系統系館                      視廳教室1F</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P110140&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >P110120</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P110120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >177</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='107   ' >系統系館                      視廳教室1F</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P110120&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>供博一二選修合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >P110140</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P110140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >177</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='107   ' >系統系館                      視廳教室1F</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P110140&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>供博一二選修合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >P180200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P180200">類神經及模糊系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳永裕 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='56226 ' >系統系館                      56226</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P180200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7408</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >P111700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P111700">船舶操縱與控制</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>方銘川 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='56441 ' >系統系館                      56441</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P111700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7507</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >P180900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P180900">船艦設計實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳政宏 <BR />沈聖智*</TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='56111 ' >系統系館                      56111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P180900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課請洽系辦並繳交主任簽核之修課同意書</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >SYS7011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >127</TD>
+<TD style='text-align: center;' >P171600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P171600">電動機設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝旻甫 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='56224 ' >系統系館                      56224</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P171600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >系統所           SYS</TD>
+<TD style='text-align: center;' >P1</TD>
+<TD style='text-align: center;' >134</TD>
+<TD style='text-align: center;' >P113700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P1&cono=P113700">內燃機燃燒學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳鴻文 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[4]3<BR>[3]2~3</TD>
+<TD><a class='room' href='#' name='56661 ' >系統系館                      56661</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P113700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >SYS7703</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

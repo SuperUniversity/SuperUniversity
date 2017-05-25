@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CoursesSearchService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CoursesSearchService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfDtoNtu">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DtoNtu" nillable="true" type="tns:DtoNtu" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDtoNtu" nillable="true" type="tns:ArrayOfDtoNtu" />
+  <xs:complexType name="DtoNtu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="課程名稱" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="班次" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="授課教師" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="時間教室" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="全半年" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="學分" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="必選修" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="總人數" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="授課對象" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="選課限制條件" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="課程網頁" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="備註" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DtoNtu" nillable="true" type="tns:DtoNtu" />
+  <xs:complexType name="ArrayOfDtoSuccess">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DtoSuccess" nillable="true" type="tns:DtoSuccess" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDtoSuccess" nillable="true" type="tns:ArrayOfDtoSuccess" />
+  <xs:complexType name="DtoSuccess">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="課程名稱" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="年級" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="班別" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="組別" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="已選課人數" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="餘額" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="教師姓名" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="時間" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="教室" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="學分" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="選必修" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="系所名稱" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="限選條件" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="英語授課" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="跨領域學分學程" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Moocs" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="業界專家參與" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="備註" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DtoSuccess" nillable="true" type="tns:DtoSuccess" />
+</xs:schema>

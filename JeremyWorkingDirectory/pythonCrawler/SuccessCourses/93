@@ -1,0 +1,3213 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >I512520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512520">習醫之道－醫師專業養成與體驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙曉秋 <BR />吳晉祥 <BR />林志勝*<BR />姚維仁 <BR />謝式洲 <BR />張俊彥 <BR />邱元佑 <BR />沈延盛 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >87</TD>
+<TD style='text-align: center;' >33</TD>
+<TD><BR>[1]A~B</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1125</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I511820</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I511820&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1702</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H511521</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H511521&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >I517920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I517920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>謝式洲*</TD>
+<TD style='text-align: center;' >87</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]N</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I517920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系學生選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I500000</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I500000&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >I513020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I513020">生物學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳文鑾 <BR />胥直利*<BR />蔣輯武 <BR />江美治 <BR />王仰高 </TD>
+<TD style='text-align: center;' >87</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I513020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525200</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525200&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525200</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525200&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525200</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1~2</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525200&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >I520201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I520201">有機化學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳毓宏*</TD>
+<TD style='text-align: center;' >87</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I520201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1216</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >A954600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>公民與歷史</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=A954600">公民素養與社會</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃于玲*</TD>
+<TD style='text-align: center;' >88</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A954600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GE1603</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >I510200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I510200">醫師科學家</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>許博翔 <BR />張俊彥 <BR />沈孟儒 <BR />陳立宗 <BR />沈延盛*<BR />謝奇璋 <BR />江伯敏 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >59</TD>
+<TD style='text-align: center;' >61</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I510200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>Ｂ模組課程，每週上２小時，前半學期上課（2/23~4/27）</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >I512820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512820">醫學科學研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>姚維仁 <BR />張俊彥 <BR />許桂森*</TD>
+<TD style='text-align: center;' >49</TD>
+<TD style='text-align: center;' >71</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學院學生選修，2月20日課程及評分說明；6月19日期末問卷(點名)</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1302</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >I512900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512900">全球視野與溝通</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張雋曦*</TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='307   ' >醫學院                        307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B模組課程</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1505E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >I513100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I513100">公共衛生危機準備與災難應變</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊永年 <BR />姚昭智 <BR />趙子元 <BR />馮瑞鶯 <BR />紀志賢 <BR />姚維仁 <BR />翁裕峯 <BR />張俊彥 <BR />林志豪 <BR />王秀雲 <BR />許以霖 <BR />施欣怡*<BR />李忠勳 <BR />莊佳璋 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I513100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>寒假2/13~2/17全日密集班上課；由系辦統 一登錄選課名單；Ｂ模組課程</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1506</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >I530900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530900">醫療專業與生死</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>趙可式 <BR />楊延光*<BR />吳晉祥 <BR />盧豐華 <BR />郭保麟 <BR />林其和 <BR />吳俊明 <BR />張俊彥 <BR />林鵬展 <BR />何宗憲 <BR />簡偉明 </TD>
+<TD style='text-align: center;' >93</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='0103  ' >醫學院                        第三講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>Ａ模組課程</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1402</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >I524800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I524800">全球衛生簡介</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張家銘 <BR />林志豪 <BR />許以霖 <BR />施欣怡 <BR />黃于玲 <BR />張雋曦 <BR />蔡美玲*<BR />林明彥 <BR />吳致杰 <BR />莊佳蓉 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='304D  ' >醫學院                        304D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I524800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>Ａ模組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2403</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >051</TD>
+<TD style='text-align: center;' >I512540</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512540">習醫之道－醫師專業養成與體驗（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙曉秋 <BR />吳晉祥 <BR />林志勝*<BR />姚維仁 <BR />謝式洲 <BR />張俊彥 <BR />邱元佑 <BR />沈延盛 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >73</TD>
+<TD style='text-align: center;' >47</TD>
+<TD><BR>[3]A~B</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512540&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系學生修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525200</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525200&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525200</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1~2</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525200&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >054</TD>
+<TD style='text-align: center;' >I524920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I524920">公共衛生學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林宙晴 <BR />王伯智 <BR />郭耀昌 <BR />郭浩然 <BR />蘇慧貞 <BR />李俊璋 <BR />蔡朋枝 <BR />林明彥*<BR />吳致杰 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~8</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I524920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>學期中有安排校外學習活動</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >I530100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530100">生物化學（含實驗）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李貽恒 <BR />郭保麟 <BR />王德華 <BR />歐弘毅 <BR />吳昭良 <BR />張文粲 <BR />張明熙 <BR />何月仁 <BR />賴明德 <BR />謝嘉興 <BR />黃柏憲*<BR />余建泓 </TD>
+<TD style='text-align: center;' >82</TD>
+<TD style='text-align: center;' >152</TD>
+<TD><BR>[2]3~4<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='0103  ' >醫學院                        第三講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I530100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530100">生物化學（含實驗）（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>黃柏憲*</TD>
+<TD style='text-align: center;' >82</TD>
+<TD style='text-align: center;' >152</TD>
+<TD><BR>[4]5~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院第二講堂及三樓實驗室上課，多位老師合授</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >I525300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I525300">分子基因體學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>曾大千 <BR />王憶卿 <BR />張惠華 <BR />廖寶琦 <BR />陳芃潔 <BR />孫孝芳*<BR />鄧景浩 <BR />橋本昌征 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='303D  ' >醫學院                        303D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2305</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I510040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I510040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >058</TD>
+<TD style='text-align: center;' >I525100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I525100">全球化與人文關懷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>翁裕峯 <BR />蔡美玲*</TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='304D  ' >醫學院                        304D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>Ａ模組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2405E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I525100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I525100">全球化與人文關懷</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>蔡美玲 <BR />陳麗光 <BR />翁慧卿 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >8</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2405E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >I525540</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I525540">醫學科學研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>姚維仁 <BR />張俊彥 <BR />許桂森*</TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >103</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I525540&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學院學生選修，2月20日課程及評分說明；6月19日期末問卷(點名)</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2306</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >060</TD>
+<TD style='text-align: center;' >I544800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I544800">醫學、科技與社會導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃于玲*</TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='307   ' >醫學院                        307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I544800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>Ｂ模組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1226</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >I524200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I524200">科技溝通：觀念與參與</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊倍昌*</TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='208   ' >醫學院                        208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I524200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED1221</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >I512560</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512560">習醫之道－醫師專業養成與體驗（六）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙曉秋 <BR />吳晉祥 <BR />林志勝*<BR />姚維仁 <BR />謝式洲 <BR />張俊彥 <BR />邱元佑 <BR />沈延盛 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >80</TD>
+<TD style='text-align: center;' >154</TD>
+<TD><BR>[5]A~B</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512560&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系學生修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >I532501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532501">微生物學及免疫學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >6</TD><TD>陳炯瑜 <BR />劉清泉 <BR />何宗憲 <BR />王世敏 <BR />陳柏齡 <BR />劉校生 <BR />楊倍昌 <BR />余俊強 <BR />陳舜華 <BR />蕭璦莉*<BR />凌　斌 <BR />王淑鶯 <BR />黃一修 <BR />陳振暐 <BR />謝奇璋 <BR />鄧景浩 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[1]5~6<BR>[3]1~2<BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 限醫學系/其他系所選修需經協調老師同意</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2318</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I532501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532501">微生物學及免疫學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>蕭璦莉*</TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院第一講堂及四樓實驗室上課，多位教師合授</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2318</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >I531100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I531100">生理學(含實驗)</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >6</TD><TD>洪彰 <BR />湯銘哲*<BR />黃阿敏 <BR />吳勝男 <BR />楊尚訓 <BR />顏賢章 <BR />游一龍 </TD>
+<TD style='text-align: center;' >76</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[2]1~2<BR>[3]5<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I531100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系/其他系所選修需經協調老師同意</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I531100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I531100">生理學(含實驗)</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>湯銘哲*</TD>
+<TD style='text-align: center;' >76</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I531100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院三樓實驗室及第一講堂上課，多位教師合授</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >I532600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532600">寄生蟲學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>辛致煒 <BR />胥直利*<BR />林威辰 </TD>
+<TD style='text-align: center;' >90</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 限醫學系/其他系所選修需經協調老師同意</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I532600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532600">寄生蟲學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>辛致煒 <BR />胥直利*<BR />林威辰 </TD>
+<TD style='text-align: center;' >90</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='0102  ' >醫學院                        第一講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院四樓實驗室及第一講堂上課，多位教師合授</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >I532800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532800">神經解剖學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊岱樺 <BR />蔡子同 <BR />郭余民 <BR />黃步敏*<BR />吳佳慶 <BR />司君一 <BR />許鍾瑜 <BR />蘇翔 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >156</TD>
+<TD><BR>[1]1</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 限醫學系/其他系所選修需經協調老師同意</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3206</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I532800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I532800">神經解剖學（含實驗）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>郭余民 <BR />黃步敏 <BR />吳佳慶 <BR />司君一 <BR />許鍾瑜 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >156</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I532800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院第四講堂及五樓實驗室上課，多位教師合授</TD>
+<TD>限醫學院</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3206</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >I530300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530300">心血管生理病理學概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳勝男*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='3267  ' >化學系館                      3267</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課地點：化學系館 3267教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3302</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >I531500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I531500">醫學科學研究（六）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>姚維仁 <BR />張俊彥 <BR />許桂森*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >108</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I531500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學院學生選修，2月20日課程及評分說明；6月19日期末問卷(點名)</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3304</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >151</TD>
+<TD style='text-align: center;' >I512580</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I512580">習醫之道－醫師專業養成與體驗（八）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙曉秋 <BR />吳晉祥 <BR />林志勝*<BR />姚維仁 <BR />謝式洲 <BR />張俊彥 <BR />邱元佑 <BR />沈延盛 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >76</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[4]A~B</TD>
+<TD><a class='room' href='#' name='0104  ' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I512580&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >I540121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540121">內科學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳彩雲 <BR />許博翔 <BR />陳炯瑜 <BR />張定宗 <BR />蔡子同 <BR />劉明煇*<BR />鄭斌男 <BR />歐弘毅 <BR />顏家瑞 <BR />吳毅晉 <BR />呂佩融 <BR />黃步敏 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（ｂｌｏｃｋ），每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >153</TD>
+<TD style='text-align: center;' >I540220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540220">外科學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李經維*<BR />李宜堅 <BR />李政昌 <BR />陳肇真 <BR />曾堯麟 <BR />洪裕昌 <BR />洪崇傑 <BR />林毅志 <BR />戴世煌 <BR />沈延盛 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（ｂｌｏｃｋ），每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >154</TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>胥直利 <BR />紀志賢*<BR />劉嚴文 <BR />蔡弘文 <BR />許志新 <BR />阮俊能 <BR />陳毓宏 <BR />蔡佩穎 <BR />何月仁 <BR />顏賢章 <BR />江伯敏 <BR />陳芃潔 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>李碧芳 <BR />陳毓宏 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>莊喬雄 <BR />何月仁 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >D</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>陳芃潔 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >E</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>顏賢章 <BR />陳芃潔 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >F</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>蔡弘文 <BR />蔡佩穎 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >G</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>許志新 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I540521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >H</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540521">病態生理學討論（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>胥直利 <BR />陳儒逸 <BR />阮俊能 <BR />蔡昆霖 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第二講堂、５至８樓教室、醫院４Ａ及８Ｃ、醫圖２１０、２１１、２１９上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >155</TD>
+<TD style='text-align: center;' >I540421</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540421">臨床診斷學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇五洲 <BR />黃欽威 <BR />吳至行 <BR />楊燿榮 <BR />歐弘毅 <BR />林鵬展 <BR />黃涵薇 <BR />顏家瑞 <BR />徐慧萍 <BR />陳雅萍 <BR />洪彰 <BR />王明誠*<BR />蘇文彬 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540421&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學(block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4205</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >156</TD>
+<TD style='text-align: center;' >I545400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I545400">臨床診斷學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>王明誠*</TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I545400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4206</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >157</TD>
+<TD style='text-align: center;' >I540621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540621">實驗診斷學及實驗（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張孔昭 <BR />呂政展*<BR />何中良 <BR />蔡弘文 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學(block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4207</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >158</TD>
+<TD style='text-align: center;' >I522021</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I522021">藥理學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳炳焜 <BR />蘇五洲 <BR />蔡玉娟 <BR />張智仁 <BR />劉彥青 <BR />方詩元 <BR />呂增宏 <BR />簡偉明 <BR />許桂森 <BR />沈孟儒*<BR />簡伯武 <BR />張雋曦 <BR />陳韻雯 <BR />姜學誠 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I522021&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學(block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >159</TD>
+<TD style='text-align: center;' >I522121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I522121">病理學（含實驗）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>彭淑玲 <BR />蘇益仁 <BR />張孔昭 <BR />何中良*<BR />楊曉白 <BR />蔡弘文 <BR />李忠達 <BR />陳文宗 <BR />張珍 <BR />司君一 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I522121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4209</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >I522121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I522121">病理學（含實驗）（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>顏經洲 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I522121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學院第二講堂及四樓實驗室，多位老師合授，採整合課程方式上課</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4209</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >160</TD>
+<TD style='text-align: center;' >I540700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540700">影像診斷學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡宏名 <BR />邱南津 <BR />姚維仁 <BR />王建國*<BR />莊明宗 <BR />劉益勝 <BR />呂佳興 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4210</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >161</TD>
+<TD style='text-align: center;' >I541100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I541100">放射治療學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳海雯*<BR />吳沅樺 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I541100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4211</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >162</TD>
+<TD style='text-align: center;' >I541600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I541600">醫學心理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李怡慧*<BR />陳高欽 <BR />紀美宏 <BR />王姿云 <BR />張維紘 <BR />曾懷萱 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I541600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4212</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >163</TD>
+<TD style='text-align: center;' >I543700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543700">小兒科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳俐文 <BR />陳建旭 <BR />林其和 <BR />劉清泉 <BR />楊燿榮*<BR />林毓志 <BR />杜伊芳 <BR />王世敏 <BR />蔡孟哲 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4213</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >164</TD>
+<TD style='text-align: center;' >I550900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550900">婦產科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張烱心 <BR />郭保麟 <BR />周振陽 <BR />吳孟興*<BR />鄭雅敏 <BR />游振祥 <BR />許耿福 <BR />蔡佩穎 <BR />蘇美慈 <BR />康琳 <BR />黃于芳 <BR />沈孟儒 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4214</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >165</TD>
+<TD style='text-align: center;' >I540800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540800">口腔學概論</a></TD>
+<TD>必選</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀*<BR />謝達斌 <BR />莊淑芬 <BR />王東堯 <BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[1]1~3<BR>[1]9<BR>[2]1~3<BR>[3]1~3<BR>[3]5~7<BR>[3]9<BR>[4]1~2<BR>[5]1~4<BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分週區段教學（block )，每週各課程上課時間不一樣，分佈在不同時段。</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2431</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >166</TD>
+<TD style='text-align: center;' >I545300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I545300">醫用台語（中階）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡美慧*</TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='204D  ' >醫學院                        204D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I545300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B模組課程；具初階台語說聽能力；只接受第二階段網路選課（其餘採人工加簽方式）</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2443</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >167</TD>
+<TD style='text-align: center;' >I542800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I542800">臨床營養</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭素娥 <BR />楊宜青 <BR />吳至行 <BR />高愛文 <BR />沈延盛*</TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >96</TD>
+<TD><BR>[3]4</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I542800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 限醫學系選修，其他系所選修需經協調老師同意</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2439</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >168</TD>
+<TD style='text-align: center;' >I541200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I541200">心電圖判讀</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>李貽恒 <BR />蔡惟全 <BR />吳俊明 <BR />李政翰 <BR />陳儒逸 <BR />劉嚴文 <BR />詹世鴻 <BR />許志新 <BR />趙庭興*<BR />林志展 <BR />陳柏升 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >86</TD>
+<TD><BR>[2]4</TD>
+<TD><a class='room' href='#' name='0101  ' >醫學院                        第二講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I541200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 限醫學系選修，其他系所選修需經協調老師同意</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2432</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >169</TD>
+<TD style='text-align: center;' >I545200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I545200">中醫概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳俞沛*</TD>
+<TD style='text-align: center;' >69</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='501   ' >醫學院                        501</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I545200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED2444</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >170</TD>
+<TD style='text-align: center;' >I562900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I562900">臨床思路</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>何月仁*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='302D  ' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I562900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系選修，其他系所選修需經協調老師同意</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4313</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >171</TD>
+<TD style='text-align: center;' >I545500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I545500">醫療與文化</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳俞沛 <BR />許以霖 <BR />黃于玲*</TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I545500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B模組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4503</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >172</TD>
+<TD style='text-align: center;' >I546200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I546200">醫學遺傳學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃美智 <BR />郭保麟*<BR />林秀娟 <BR />顏家瑞 <BR />周言穎 <BR />蘇美慈 <BR />蔡孟哲 <BR />吳致杰*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='303D  ' >醫學院                        303D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I546200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>一次上2小時，前9週上課（2/20~4/24）</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED4316</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >201</TD>
+<TD style='text-align: center;' >I554400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I554400">精神醫學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳高欽*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I554400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5808</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >202</TD>
+<TD style='text-align: center;' >I542201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I542201">精神科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳高欽*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I542201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5809</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >203</TD>
+<TD style='text-align: center;' >I550701</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550701">小兒科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >5</TD><TD>楊燿榮*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550701&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5810</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >204</TD>
+<TD style='text-align: center;' >I551001</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I551001">婦產科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >5</TD><TD>吳孟興*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I551001&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5811</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >205</TD>
+<TD style='text-align: center;' >I540131</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540131">內科學（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>劉明煇*</TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >64</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540131&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5801</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >206</TD>
+<TD style='text-align: center;' >I543511</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543511">內科實習（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >5</TD><TD>劉明煇*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543511&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5802</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >207</TD>
+<TD style='text-align: center;' >I554700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I554700">家庭醫學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>吳晉祥*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I554700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5803</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >208</TD>
+<TD style='text-align: center;' >I550202</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550202">家庭醫學科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳晉祥*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550202&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5804</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >209</TD>
+<TD style='text-align: center;' >I543901</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543901">放射線科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>王建國*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543901&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5807</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >210</TD>
+<TD style='text-align: center;' >I543611</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543611">外科實習（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >5</TD><TD>李經維*</TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543611&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5805</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >211</TD>
+<TD style='text-align: center;' >I551200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I551200">職業環境醫學科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭耀昌*</TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >65</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I551200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床實習課程，限醫學系五年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5806</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >212</TD>
+<TD style='text-align: center;' >I530500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530500">臨床病理討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>彭淑玲 <BR />張珍琦 <BR />張孔昭*<BR />何中良 <BR />周楠華 <BR />司君一 <BR />蔡弘文 <BR />李忠達 <BR />陳文宗 </TD>
+<TD style='text-align: center;' >75</TD>
+<TD style='text-align: center;' >159</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='0103  ' >醫學院                        第三講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系五年級或更高年級修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >213</TD>
+<TD style='text-align: center;' >I560701</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I560701">醫學倫理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭保麟*<BR />劉明煇 <BR />林鵬展 <BR />林毓志 <BR />邱威鑫 </TD>
+<TD style='text-align: center;' >69</TD>
+<TD style='text-align: center;' >165</TD>
+<TD><BR>[5]8~9</TD>
+<TD><a class='room' href='#' name='0103  ' >醫學院                        第三講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I560701&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系五年級或更高年級修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5202</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >214</TD>
+<TD style='text-align: center;' >I551400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I551400">國際臨床案例研討</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張雋曦*</TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]8</TD>
+<TD><a class='room' href='#' name='303D  ' >醫學院                        303D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I551400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限醫學系海外交換學生面試通過者選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED5303E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >216</TD>
+<TD style='text-align: center;' >I561800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I561800">骨外科特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>楊岱樺 <BR />林啟禎 <BR />楊俊佑 <BR />賴國安 <BR />謝式洲 <BR />蘇維仁*<BR />張志偉 <BR />黃國淵 <BR />戴大為 <BR />林政立 <BR />吳柏廷 <BR />蔡一如 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='302D  ' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I561800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>一次上2小時，於4/27~6/22上課（後9週）</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3530</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >217</TD>
+<TD style='text-align: center;' >I543600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543600">小兒科學特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳建旭 <BR />王志堯 <BR />吳俊明 <BR />王玠能 <BR />楊燿榮*<BR />沈靜芬 <BR />蔡孟哲 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>一次上2小時，於4/27~6/22上課（後9週）</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3526</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y5'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >218</TD>
+<TD style='text-align: center;' >I550600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('5 ');">5 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550600">外科腫瘤學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>賴吾為 <BR />李經維*<BR />李宜堅 <BR />李政昌 <BR />周楠華 <BR />陳肇真 <BR />曾堯麟 <BR />顏亦廷 <BR />林毅志 <BR />黃士銘 <BR />徐慧萍 <BR />郭耀隆 <BR />凌　斌 <BR />沈延盛 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[4]7</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系五年級或更高年級修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3527</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >251</TD>
+<TD style='text-align: center;' >I539700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I539700">麻醉學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>曾稼志*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I539700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6821</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >252</TD>
+<TD style='text-align: center;' >I560101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I560101">麻醉科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>曾稼志*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I560101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6822</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >253</TD>
+<TD style='text-align: center;' >I540000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540000">泌尿科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林永明*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6813</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >254</TD>
+<TD style='text-align: center;' >I562301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I562301">泌尿科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林永明*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I562301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6814</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >255</TD>
+<TD style='text-align: center;' >I540230</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540230">外科學（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李經維*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540230&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6819</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >256</TD>
+<TD style='text-align: center;' >I550221</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550221">外科實習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >4</TD><TD>李經維 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550221&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6820</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >257</TD>
+<TD style='text-align: center;' >I539800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I539800">皮膚科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>趙曉秋*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I539800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6811</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >258</TD>
+<TD style='text-align: center;' >I560301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I560301">皮膚科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>趙曉秋*</TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >62</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I560301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6812</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >259</TD>
+<TD style='text-align: center;' >I554500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I554500">眼科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>許聖民*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I554500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6817</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >260</TD>
+<TD style='text-align: center;' >I542301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I542301">眼科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>許聖民*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I542301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6818</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >261</TD>
+<TD style='text-align: center;' >I540900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540900">耳鼻喉科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蕭振仁*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6815</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >262</TD>
+<TD style='text-align: center;' >I544201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I544201">耳鼻喉科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蕭振仁*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I544201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>A組臨床醫療課程，限醫學系六 年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6816</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >263</TD>
+<TD style='text-align: center;' >I540141</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I540141">內科學（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>劉明煇*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I540141&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系該開課年級或以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6801</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >264</TD>
+<TD style='text-align: center;' >I543521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543521">內科實習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >5</TD><TD>劉明煇*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6802</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >265</TD>
+<TD style='text-align: center;' >I542400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I542400">急診醫學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>莊佳璋*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I542400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6809</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >266</TD>
+<TD style='text-align: center;' >I550301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550301">急診醫學科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>莊佳璋*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6810</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >267</TD>
+<TD style='text-align: center;' >I562200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I562200">骨科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇維仁*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I562200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6807</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >268</TD>
+<TD style='text-align: center;' >I550401</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I550401">骨科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇維仁*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I550401&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6808</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >269</TD>
+<TD style='text-align: center;' >I543200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543200">神經科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林宙晴 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6805</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >270</TD>
+<TD style='text-align: center;' >I560501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I560501">神經科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林宙晴 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I560501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6806</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >271</TD>
+<TD style='text-align: center;' >I530700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I530700">復健醫學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>官大紳*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I530700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6803</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >272</TD>
+<TD style='text-align: center;' >I560201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I560201">復健科實習一</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>官大紳*</TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >61</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I560201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>B組臨床醫療課程，限醫學系六年級以上學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6804</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y6'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >273</TD>
+<TD style='text-align: center;' >I563000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('6 ');">6 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I563000">臨床推理特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳柏齡 <BR />李健明 <BR />何月仁*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='302D  ' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I563000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系六年級或更高年級修讀</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED6309</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >I571000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571000">內科實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >12</TD><TD>劉明煇 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >66</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3712</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >I571100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571100">外科實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >12</TD><TD>李經維*</TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >65</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3713</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >I571300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571300">婦產科實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >6</TD><TD>吳孟興*</TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >65</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3715</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >I571200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571200">小兒科實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >6</TD><TD>楊燿榮*</TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >65</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3711</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >I571800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571800">麻醉科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>曾稼志*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >89</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3727</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >I572600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572600">皮膚科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>趙曉秋*</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >99</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3731</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >I572200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572200">神經科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>林宙晴 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >98</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3721</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >I571600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571600">骨科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>蘇維仁*</TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >94</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3724</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >I572400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572400">眼科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>許聖民*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >97</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3726</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >I571900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571900">耳鼻喉科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>蕭振仁*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >96</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3716</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >I572300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572300">精神科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>陳柏熹*<BR />張維紘 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >98</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3729</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >313</TD>
+<TD style='text-align: center;' >I572000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572000">病理科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>張孔昭*</TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >95</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3720</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >314</TD>
+<TD style='text-align: center;' >I571700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I571700">放射科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>王建國*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >88</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I571700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3717</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >315</TD>
+<TD style='text-align: center;' >I572500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I572500">家庭醫學科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>吳晉祥*</TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >91</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I572500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3719</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >317</TD>
+<TD style='text-align: center;' >I573600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I573600">急診科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>莊佳璋*</TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >93</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I573600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3718</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >318</TD>
+<TD style='text-align: center;' >I573511</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I573511">院外實習（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>姚維仁*</TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >68</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I573511&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學系七年級學生第一次至院外實習選修課程</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3722</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >319</TD>
+<TD style='text-align: center;' >I573521</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I573521">院外實習（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>姚維仁*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >96</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I573521&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫學系七年級學生第二次至院外實習選修課程</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3723</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >322</TD>
+<TD style='text-align: center;' >I574700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I574700">泌尿科實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>林永明 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >97</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I574700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床醫療課程，限醫學系七年級學生選修</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3732</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫學系           MED</TD>
+<TD style='text-align: center;' >I5</TD>
+<TD style='text-align: center;' >523</TD>
+<TD style='text-align: center;' >I543400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=I5&cono=I543400">神經學專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>林宙晴*<BR />白明奇 <BR />蔡子同 <BR />陳志弘 <BR />黃涵薇 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >38</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='307   ' >醫學院                        307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=I543400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>一次上２小時，上課時間須配合各位老師的工作行程，所以不一定在前９週</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MED3529</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

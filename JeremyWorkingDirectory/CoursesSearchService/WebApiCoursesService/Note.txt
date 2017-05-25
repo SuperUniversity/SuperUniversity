@@ -1,0 +1,87 @@
+{ 學分: { $type: 'int'} }
+{ 餘額: { $type: 'int'} }
+{ 序號: { $type: 'int'} }
+{ 年級: { $type: 'int'} }
+{ 分班碼: { $type: 'int'} }
+{ 已選課人數: { $type: 'int'} }
+{ 課程識別碼: { $type: 'int'} }
+
+
+{ '課程名稱': '會計' }
+
+
+{
+    "_id" : ObjectId("59244b0399eff60c24ae7b36"),
+    "Moocs" : "否",
+    "課程名稱" : "動物實驗研究法",
+    "餘額" : 9,
+    "教師姓名" : "余俊強*",
+    "英語授課" : "N",
+    "屬性碼" : "MI7002",
+    "業界專家參與" : "否",
+    "備註" : null,
+    "系所名稱" : "微免所 MI",
+    "組別" : null,
+    "系號" : "S4",
+    "時間" : "一3~4",
+    "跨領域學分學程" : null,
+
+    "序號" : 11,
+    "年級" : null,
+    "分班碼" : null,
+    "限選條件" : null,
+    "課程碼" : "S450900",
+    "選必修" : "選修",
+    "已選課人數" : 21,
+    "類別" : "講義",
+    "教室" : "醫學院 1124",
+    "班別" : "碩一二"
+}
+
+
+
+{
+    "_id" : ObjectId("59253ad699eff6165cead2ba"),
+    "備註" : "[備註] 法學組任必修課程之一。",
+    "學期" : "2",
+    "必選修別" : "選 必 選",
+    "學年" : "105",
+    "課程流水號" : "U4031",
+    "已選總計人數" : "12",
+    "授課語別" : "中文",
+    "已核准人數" : "12",
+    "類別" : "全",
+    "待分發人數" : "0",
+    "應修系級" : "法律學系財經法組4 法律學系法學組4 法律學系司法組4",
+    "加簽人數上限" : null,
+    "開課系所" : "法律學系法學組",
+    "限修總計人數" : "54",
+    "繳費時數" : "2",
+    "是否開放加簽" : "否",
+    "授課教師" : "陳愛娥",
+    "科目名稱" : "法理學jurisprudence",
+    "學分" : "2",
+    "上課時間教室" : "每週四1~2,法2F15"
+}
+
+http://localhost:57268/api/Ntpu
+http://localhost:57268/api/Ntpu?query=稅
+http://localhost:57268/api/Ntpu?coursename=稅
+http://localhost:57268/api/Ntpu?teachername=益
+http://localhost:57268/api/Ntpu?department=稅
+http://localhost:57268/api/Ntpu?weekday=一
+
+
+http://localhost:57268/api/Ntu
+http://localhost:57268/api/Ntu?query=稅
+http://localhost:57268/api/Ntu?coursename=稅
+http://localhost:57268/api/Ntu?teachername=益
+http://localhost:57268/api/Ntu?department=稅
+http://localhost:57268/api/Ntu?weekday=一
+
+http://localhost:57268/api/Success
+http://localhost:57268/api/Success?query=稅
+http://localhost:57268/api/Success?coursename=稅
+http://localhost:57268/api/Success?teachername=益
+http://localhost:57268/api/Success?department=會計
+http://localhost:57268/api/Success?weekday=一

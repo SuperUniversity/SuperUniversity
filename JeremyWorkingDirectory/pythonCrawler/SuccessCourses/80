@@ -1,0 +1,837 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >R580120</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李威勳 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >51</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580120&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>登記審核</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >R580120</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>沈宗緯 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580120&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >R580120</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>胡守任 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580120&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >R580140</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李威勳 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580140&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >R580140</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>沈宗緯 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580140&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >R580140</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>胡守任 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580140&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >R561200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R561200">運輸工程與科技</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡守任 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R561200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>運輸科技領域必修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >R550540</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R550540">交通專題研討（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>胡大瀛 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >6</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R550540&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM9094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >R580100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R580100">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>胡大瀛 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='62107 ' >交管系館                      62107</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R580100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>延畢生修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >R951301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R951301">電信政策與法規</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃郁雯 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='62205 ' >交管系館                      62205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R951301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>交管所與電信所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TM7407</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >116</TD>
+<TD style='text-align: center;' >R571500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R571500">國際經濟與財務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張瀞之 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R571500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>物流管理領域必修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >117</TD>
+<TD style='text-align: center;' >R555200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R555200">運輸需求分析與預測</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡守任 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >46</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R555200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修:統計學</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7107</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >135</TD>
+<TD style='text-align: center;' >R551400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R551400">民航法規</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>戴佐敏 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R551400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課經須本系登記審核通過</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7103</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >151</TD>
+<TD style='text-align: center;' >R576200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R576200">運輸網路均衡模式</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林東盈 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >39</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='62205 ' >交管系館                      62205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R576200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7209</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >170</TD>
+<TD style='text-align: center;' >R550300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R550300">運輸經濟</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳勁甫 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R550300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>旅客運輸領域必修,跨學門民航學分學程及鐵道運輸學程,選課須經本系登記審核通過.</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7102</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a>，<a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=100">鐵道運輸 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >171</TD>
+<TD style='text-align: center;' >R571100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R571100">供應鏈最佳化</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林珮珺 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R571100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7206</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >172</TD>
+<TD style='text-align: center;' >R571700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R571700">區域經濟發展評估</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>孫雅彥 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R571700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7113</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >174</TD>
+<TD style='text-align: center;' >R551500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R551500">飛航安全管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張有恒 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R551500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課須經本系登記審核通過</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7104</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >175</TD>
+<TD style='text-align: center;' >R572000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R572000">教學實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>林珮珺 <BR />戴佐敏 <BR />胡守任 <BR />廖俊雄*<BR />鄭永祥 <BR />陳勁甫 <BR />胡大瀛 <BR />張有恒 <BR />黃國平 <BR />張瀞之 <BR />黃光渠 <BR />林東盈 <BR />李威勳 <BR />孫雅彥 <BR />黃郁雯 <BR />沈宗緯 <BR />林佐鼎 <BR />蔡東峻 </TD>
+<TD style='text-align: center;' >61</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='62107 ' >交管系館                      62107</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R572000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>交管所及電管所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7050</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >176</TD>
+<TD style='text-align: center;' >R572100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R572100">民航經濟與財務管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>戴佐敏*<BR />韓梁中 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[6]5~7</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R572100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課須經本系登記審核通過(部分週數上課至第9節)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7115</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >178</TD>
+<TD style='text-align: center;' >R571000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R571000">軌道運輸業經營與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭永祥 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R571000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7112</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >180</TD>
+<TD style='text-align: center;' >R571400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R571400">高等交通管理與控制</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡大瀛 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R571400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7306</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >181</TD>
+<TD style='text-align: center;' >R960600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R960600">服務業行銷策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡東峻 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R960600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TM7410</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >182</TD>
+<TD style='text-align: center;' >R572400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R572400">物聯網應用與安全</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃光渠 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >38</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R572400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>部分週數需配合專家演講時間為星期五第6-8節上課.</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7411</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >R561400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R561400">交通管理實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭永祥 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R561400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩專選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6812</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >R562200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R562200">運輸規劃實務與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡大瀛 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >33</TD>
+<TD><BR>[5]B~D</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R562200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩專選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6807</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >R561900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R561900">運輸業風險與危機管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃國平 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[3]B~D</TD>
+<TD><a class='room' href='#' name='62207 ' >交管系館                      62207</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R561900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩專選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6810</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >R551500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R551500">飛航安全管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張有恒 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R551500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課須經本系登記審核通過</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7104</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >R572100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R572100">民航經濟與財務管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>戴佐敏*<BR />韓梁中 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[6]5~7</TD>
+<TD><a class='room' href='#' name='62X02 ' >管理學院                      62X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R572100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課須經本系登記審核通過(部分週數上課至第9節)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM7115</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=99">跨學門民航學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >R558020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R558020">獨立研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>廖俊雄*<BR />鄭永祥 <BR />張瀞之 <BR />孫雅彥 <BR />黃郁雯 <BR />林佐鼎 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >4</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R558020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩專班已修畢學分者選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6892</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >交管所           TCM</TD>
+<TD style='text-align: center;' >R5</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >R558030</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R5&cono=R558030">獨立研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>廖俊雄*<BR />鄭永祥 <BR />張瀞之 <BR />孫雅彥 <BR />黃郁雯 <BR />林佐鼎 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >12</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R558030&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TCM6893</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

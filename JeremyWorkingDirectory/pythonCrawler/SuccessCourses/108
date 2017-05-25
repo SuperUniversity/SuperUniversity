@@ -1,0 +1,981 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >S970320</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970320">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡曜聲*<BR />沈延盛 <BR />許育祥 <BR />修臥龍 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >51</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970320&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>含英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7194</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >S970340</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970340">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡曜聲*<BR />沈延盛 <BR />許育祥 <BR />修臥龍 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970340&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>含英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7196</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >S970320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970320">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張孔昭 <BR />顏家瑞 <BR />蔡坤哲 <BR />蘇文彬*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7194</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >S970340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970340">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張孔昭 <BR />顏家瑞 <BR />蔡坤哲 <BR />蘇文彬*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7196</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >S950101</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>博三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S950101">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>張孔昭 <BR />顏家瑞 <BR />蔡坤哲 <BR />蘇文彬*</TD>
+<TD style='text-align: center;' >43</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S950101&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7192</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >S950101</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S950101">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>蔡曜聲*<BR />沈延盛 <BR />許育祥 <BR />修臥龍 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >57</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S950101&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>含英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7192</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >S953401</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953401">轉譯醫學與臨床試驗特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃美智 <BR />楊延光 <BR />李碧芳 <BR />張俊彥 <BR />莊偉哲 <BR />張明熙 <BR />彭貴春 <BR />陳立宗 <BR />呂佩融*<BR />張南山 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953401&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>5:30p.m上課/全英文/碩班與碩專班必選/再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >CM7139</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >S950220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S950220">分子細胞學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡曜聲 <BR />洪澤民 <BR />蔡坤哲*<BR />謝奇璋 <BR />江伯敏 <BR />陳芃潔 <BR />劉秉彥 <BR />修臥龍 <BR />蘇文彬 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[2]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S950220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>再生醫學科技學分學程(碩班必選)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM6103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >S954800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S954800">再生醫學技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃玲惠 <BR />蔡坤哲*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[6]1~8</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S954800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與高等儀器分析(二)合開，再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7148</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >S760700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S760700">實用流行病學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭浩然*<BR />張志欽 <BR />簡玉雯 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S760700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7303</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >S550420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S550420">細胞生物學特論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>鄭宏祺 <BR />姜學誠 <BR />顏賢章 <BR />凌　斌 <BR />張志鵬 <BR />郭余民*</TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >38</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='602   ' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S550420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限博士生選課；再生醫學科技學分學程</TD>
+<TD>需先修以下科目:《細胞生物學特論（一）                    /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BMS9005</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >S951700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S951700">細胞訊息傳遞與新藥開發</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>呂佩融*<BR />修臥龍 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S951700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文/再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7112</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >S960240</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S960240">生物技術特論（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>江伯敏 <BR />陳芃潔*</TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >59</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S960240&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7150</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >S953800</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953800">細胞免疫</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>謝奇璋*<BR />許育祥 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953800&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >S960300</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S960300">心血管疾病機轉及治療趨勢概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>李貽恒 <BR />蔡惟全 <BR />李政翰 <BR />王玠能 <BR />陳儒逸 <BR />劉嚴文 <BR />許志新 <BR />趙庭興 <BR />林志展 <BR />林寶彥 <BR />劉秉彥*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S960300&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7141</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >S955400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S955400">臨床研究方法(二)：研究設計與臨床應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>龔俊嘉 <BR />張志欽 <BR />林聖翔*</TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S955400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩專必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7157</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >S953900</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953900">腫瘤生物學特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳彩雲 <BR />張孔昭 <BR />陳海雯 <BR />周振陽 <BR />蘇五洲 <BR />曾堯麟 <BR />許耿福 <BR />顏家瑞 <BR />林毅志 <BR />洪澤民*<BR />沈延盛 <BR />蘇文彬 <BR />陳玉玲 <BR />黃則達 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953900&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7141</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >S952900</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S952900">神經退化致病機轉</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡坤哲*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S952900&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >S954101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S954101">臨床研究資料分析與軟體實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林聖翔*<BR />莊佳蓉 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S954101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7142</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >T452410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=T452410">分子腫瘤學書報討論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>洪澤民 <BR />陳玉玲*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T452410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與口醫所合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6114</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >S953220</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953220">高等儀器分析（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>洪澤民 <BR />蔡坤哲*</TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[6]1~9</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953220&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>再生醫學科技學分學程與再生醫學技術合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >CM7143</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >S960700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S960700">單株抗體的臨床運用－在癌症及免疫等疾病</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>許育祥*<BR />蘇文彬 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]8</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S960700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7152</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >S950220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S950220">分子細胞學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡曜聲 <BR />洪澤民 <BR />蔡坤哲*<BR />謝奇璋 <BR />江伯敏 <BR />陳芃潔 <BR />劉秉彥 <BR />修臥龍 <BR />蘇文彬 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[2]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S950220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>再生醫學科技學分學程(碩班必選)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM6103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >S953220</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953220">高等儀器分析（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>洪澤民 <BR />蔡坤哲*</TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[6]1~9</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953220&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>再生醫學科技學分學程與再生醫學技術合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >CM7143</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >S970320</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970320">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>許耿福 <BR />呂佩融*<BR />林聖翔 <BR />江伯敏 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970320&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7194</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >S970340</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S970340">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>許耿福 <BR />呂佩融*<BR />林聖翔 <BR />江伯敏 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S970340&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7196</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >S953401</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953401">轉譯醫學與臨床試驗特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃美智 <BR />楊延光 <BR />李碧芳 <BR />張俊彥 <BR />莊偉哲 <BR />張明熙 <BR />彭貴春 <BR />陳立宗 <BR />呂佩融*<BR />張南山 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953401&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>5:30p.m上課/全英文/碩班與碩專班必選/再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >CM7139</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >S953800</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953800">細胞免疫</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>謝奇璋*<BR />許育祥 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953800&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >S954800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S954800">再生醫學技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃玲惠 <BR />蔡坤哲*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[6]1~8</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S954800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與高等儀器分析(二)合開，再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7148</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >S955400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S955400">臨床研究方法(二)：研究設計與臨床應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>龔俊嘉 <BR />張志欽 <BR />林聖翔*</TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S955400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩專必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7157</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >S951700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S951700">細胞訊息傳遞與新藥開發</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>呂佩融*<BR />修臥龍 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S951700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全英文/再生醫學科技學分學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7112</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >S950101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專延三                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S950101">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>許耿福 <BR />呂佩融*<BR />林聖翔 <BR />江伯敏 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S950101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7192</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >S953900</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S953900">腫瘤生物學特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳彩雲 <BR />張孔昭 <BR />陳海雯 <BR />周振陽 <BR />蘇五洲 <BR />曾堯麟 <BR />許耿福 <BR />顏家瑞 <BR />林毅志 <BR />洪澤民*<BR />沈延盛 <BR />蘇文彬 <BR />陳玉玲 <BR />黃則達 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S953900&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7141</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >S952900</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S952900">神經退化致病機轉</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡坤哲*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S952900&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >315</TD>
+<TD style='text-align: center;' >S954101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S954101">臨床研究資料分析與軟體實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林聖翔*<BR />莊佳蓉 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S954101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7142</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >316</TD>
+<TD style='text-align: center;' >S960300</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S960300">心血管疾病機轉及治療趨勢概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>李貽恒 <BR />蔡惟全 <BR />李政翰 <BR />王玠能 <BR />陳儒逸 <BR />劉嚴文 <BR />許志新 <BR />趙庭興 <BR />林志展 <BR />林寶彥 <BR />劉秉彥*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S960300&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7141</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >臨醫所           CM</TD>
+<TD style='text-align: center;' >S9</TD>
+<TD style='text-align: center;' >318</TD>
+<TD style='text-align: center;' >S960700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S9&cono=S960700">單株抗體的臨床運用－在癌症及免疫等疾病</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>許育祥*<BR />蘇文彬 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]8</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S960700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CM7152</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,429 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >R061301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專延三                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R061301">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王泰裕 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[4]A</TD>
+<TD><a class='room' href='#' name='61X02 ' >管理學院                      61X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R061301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限修畢45學分以上選修</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6904</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >R051000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R051000">人力資源管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>史習安 </TD>
+<TD style='text-align: center;' >70</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='62401 ' >管理學院                      哈佛教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R051000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6811</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >R050500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R050500">行銷管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡東峻 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='62401 ' >管理學院                      哈佛教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R050500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6807</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >R058100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R058100">質性研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>周信輝 </TD>
+<TD style='text-align: center;' >42</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]A~B</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R058100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6884</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >R057800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R057800">經營品質個案研討</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>呂執中 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[7]5~6</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R057800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6896</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >R063900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R063900">運動減壓與健康體適能管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林麗娟*<BR />鄭匡佑 <BR />周學雯 <BR />馬上鈞 </TD>
+<TD style='text-align: center;' >43</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[6]3~4</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R063900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6871</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >R053900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R053900">企業經營與診斷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周信輝 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[7]3~5</TD>
+<TD><a class='room' href='#' name='62401 ' >管理學院                      哈佛教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R053900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6822</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >R064601</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R064601">醫務管理專題(二)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>邱仲慶 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]C</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R064601&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6876</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >R064300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R064300">企業研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳萬益 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[6]5~6</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R064300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6874</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >R054300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R054300">行銷策略規劃</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡惠婷 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R054300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6823</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >R064600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R064600">醫務管理專題(一)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張有恒*<BR />方深毅 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]A~B</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R064600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6875</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >R062901</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R062901">財經法律與企業經營</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳長文*<BR />李念祖 </TD>
+<TD style='text-align: center;' >71</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[7]3~4</TD>
+<TD><a class='room' href='#' name='61X02 ' >管理學院                      61X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R062901&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6865</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >313</TD>
+<TD style='text-align: center;' >R058800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R058800">創業基礎與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊朝旭 <BR />顏盟峯*<BR />王泰裕 <BR />林正章 <BR />蔡東峻 <BR />張紹基 <BR />史習安 <BR />曾瓊慧 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R058800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>不開放網路選課，由所辦人工加選</TD>
+<TD>限本系</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6905</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >ＥＭＢＡ         EMBA</TD>
+<TD style='text-align: center;' >R0</TD>
+<TD style='text-align: center;' >314</TD>
+<TD style='text-align: center;' >R059200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R0&cono=R059200">財務與會計專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李宏志 <BR />劉裕宏 <BR />周庭楷 <BR />楊朝旭 <BR />顏盟峯 <BR />林軒竹 <BR />黃華瑋*</TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='62X01 ' >管理學院                      62X01</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R059200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本所</TD>
+<TD>限本系第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EMBA6907</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

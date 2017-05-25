@@ -1,0 +1,549 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >T450120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳玉玲*<BR />莊淑芬 <BR />吳尚蓉 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >T451420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T451420">臨床牙醫學（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳*<BR />袁　國 <BR />許修銘 <BR />劉佳觀 <BR />謝達斌 <BR />莊淑芬 <BR />王東堯 <BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >59</TD>
+<TD><BR>[3]1</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T451420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6212</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >T450420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450420">臨床病例討論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀 <BR />莊淑芬 <BR />王東堯*<BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6222</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >T450520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450520">臨床文獻討論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國*<BR />許修銘 <BR />劉佳觀 <BR />莊淑芬 <BR />王東堯 <BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[1]5</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6232</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >T450220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450220">臨床牙科實習（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀 <BR />莊淑芬*<BR />王東堯 <BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]2~4<BR>[4]2~4<BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6272</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >S151001</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=S151001">腫瘤生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>賴明德*<BR />鄭宏祺 <BR />黃柏憲 <BR />張雋曦 <BR />張志鵬 <BR />吳梨華 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='601   ' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S151001&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>生化所，基醫所，口醫所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BIMB6402</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >T450140</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>謝達斌 <BR />莊淑芬 <BR />吳尚蓉*</TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450140&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >T450440</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450440">臨床病例討論（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀*<BR />莊淑芬 <BR />王東堯 <BR />黃則達 <BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450440&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6224</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >T450540</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450540">臨床文獻討論（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀 <BR />莊淑芬 <BR />王東堯 <BR />黃則達 <BR />陳永崇*</TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[1]5</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450540&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6234</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >T450240</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T450240">臨床牙科實習（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃振勳 <BR />袁　國 <BR />許修銘 <BR />劉佳觀 <BR />莊淑芬*<BR />王東堯 <BR />黃則達 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]6~8<BR>[4]2~4<BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T450240&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>次專科各自帶開，臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6274</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >T452410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T452410">分子腫瘤學書報討論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>洪澤民 <BR />陳玉玲*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='7023  ' >門診大樓                      7023</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T452410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與口醫所合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6114</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >T451440</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T451440">臨床牙醫學（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃振勳 <BR />袁　國 <BR />劉佳觀 <BR />謝達斌 <BR />莊淑芬 <BR />王東堯 <BR />黃則達*<BR />陳永崇 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >59</TD>
+<TD><BR>[3]1</TD>
+<TD><a class='room' href='#' name='7027  ' >門診大樓                      7027</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T451440&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>臨床組必選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6214</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >T461200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T461200">生醫金屬書報討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>李澤民 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[2]5</TD>
+<TD><a class='room' href='#' name='301D  ' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T461200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >P850200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=P850200">生物材料力學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭志坤 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫工所．口醫所合上</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7100</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >T480100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T480100">蛋白質結構與影像分析之實作</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳尚蓉 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='201D  ' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T480100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6132</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >T453220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T453220">轉譯生醫奈米導論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳炳慶*<BR />謝達斌 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T453220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教室06057，口醫所與醫工所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6132</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >P881502</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=P881502">醫療器材創新設計（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家進 <BR />葉明龍 <BR />吳炳慶 <BR />陳芃婷*<BR />林哲偉 <BR />楊岱樺 <BR />李澤民 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >46</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P881502&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7600</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >036</TD>
+<TD style='text-align: center;' >P75H500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=P75H500">生物程式設計與巨量轉譯醫學資料分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊士德 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='65203 ' >資訊新館                      65203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75H500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所口醫所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >口醫所           IOM</TD>
+<TD style='text-align: center;' >T4</TD>
+<TD style='text-align: center;' >038</TD>
+<TD style='text-align: center;' >T160200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T4&cono=T160200">血管新生學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>周楠華 <BR />張俊彥 <BR />羅傳堯 <BR />鄭宏祺 <BR />張雅雯 <BR />沈延盛 <BR />吳梨華*<BR />吳佳慶 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >37</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='601   ' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T160200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>分醫所、基醫所、口醫所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMM7201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

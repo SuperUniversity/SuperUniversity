@@ -1,0 +1,573 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >P555020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P555020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王鴻博 <BR />黃良銘*<BR />侯文哲 <BR />劉守恒 </TD>
+<TD style='text-align: center;' >42</TD>
+<TD style='text-align: center;' >68</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='47118 ' >環工系館                      47118</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P555020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一與碩二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV6092E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >P555040</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P555040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王鴻博 <BR />黃良銘*<BR />侯文哲 <BR />劉守恒 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >72</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='47118 ' >環工系館                      47118</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P555040&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一與碩二合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV6094E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >P555200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P555200">專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳必晟 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P555200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩三與博合班（英語授課）</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7092E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >P570300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P570300">大氣污染化學與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳義林 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]5<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='47207 ' >環工系館                      會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P570300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>2樓會議室，英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7015E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >027</TD>
+<TD style='text-align: center;' >P560200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P560200">環工化學原理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>侯文哲 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]6<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P560200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV8003E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >P556600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P556600">水處理技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃良銘 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]3~4<BR>[4]7</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P556600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課，限國際生選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7028E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >S780100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=S780100">環境保護法規</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>顏秀慧 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='302D  ' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S780100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>環醫所與環工所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7112</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >044</TD>
+<TD style='text-align: center;' >P570800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P570800">環境有機化學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>邱成財 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]1~3</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P570800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD>需先修以下科目:《環境化學                                /必修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7018E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >P555020</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P555020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳必晟 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P555020&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>博一二合班（英語授課）</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV6092E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >P555040</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P555040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳必晟 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P555040&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>博一二合班（英語授課）</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV6094E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >P510200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P510200">微量化學分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林達昌 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[2]6<BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='47110 ' >環工系館                      47110</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P510200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7000E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >P570600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P570600">燃燒原理與控制</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>朱　信 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]4<BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P570600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7016E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >P560300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P560300">廢水高級處理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭幸雄 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[4]9<BR>[1]1~2</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P560300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >P580300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P580300">水處理工程特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉宣顯 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]8<BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P580300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >P553800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P553800">能源與環境特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林素貞 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='47102 ' >環工系館                      47102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P553800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >P580500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P580500">土壤化學與分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳如 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[1]8<BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P580500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7021E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >P556700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P556700">污染預防與永續物料管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉守恒 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[2]1<BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P556700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7022E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >P552800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P552800">水質管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張智華 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='47112 ' >環工系館                      47112</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P552800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7029E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >116</TD>
+<TD style='text-align: center;' >P556800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P556800">綠色能源技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王鴻博*<BR />劉守恒 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[2]2<BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P556800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環工所           EV</TD>
+<TD style='text-align: center;' >P5</TD>
+<TD style='text-align: center;' >118</TD>
+<TD style='text-align: center;' >P553700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P5&cono=P553700">環境系統分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳必晟 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[1]7<BR>[3]1~2</TD>
+<TD><a class='room' href='#' name='47111 ' >環工系館                      47111</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P553700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EV7030G</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

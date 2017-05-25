@@ -1,0 +1,765 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >F010121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F010121">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>夏　杼 </TD>
+<TD style='text-align: center;' >65</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='5825  ' >航太系館                      5825</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F010121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1012E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F010121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F010121">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>夏　杼 </TD>
+<TD style='text-align: center;' >65</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1</TD>
+<TD><a class='room' href='#' name='5824  ' >航太系館                      5824</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F010121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1012E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >F011900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F011900">電腦輔助設計</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>夏育群 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5898  ' >航太系館                      5898</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE1182E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >F012000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F012000">工程材料科學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳維新 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='5825  ' >航太系館                      5825</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F012000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2108E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >F010800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F010800">應用力學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>崔兆棠 </TD>
+<TD style='text-align: center;' >57</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]5~6<BR>[3]8</TD>
+<TD><a class='room' href='#' name='5825  ' >航太系館                      5825</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F010800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE1106E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011720</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011720&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E711521</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E711521&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH1002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011420</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011420&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011300</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011300&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011300</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011300&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >F011820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F011820">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>夏育群 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]9</TD>
+<TD><a class='room' href='#' name='5834  ' >航太系館                      5834</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE0102E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011300</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]1~2</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011300&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011440</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011440&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F011300</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F011300&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >F020320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F020320">工程數學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王偉成 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7<BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='5825  ' >航太系館                      5825</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F020320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2107E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >F030300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F030300">儀器量測與訊號處理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>彭兆仲 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6<BR>[5]8</TD>
+<TD><a class='room' href='#' name='5898  ' >航太系館                      5898</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F030300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2110E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >064</TD>
+<TD style='text-align: center;' >F031400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F031400">生質能源</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳維新 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='5825  ' >航太系館                      5825</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F031400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程與航太系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2109E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >065</TD>
+<TD style='text-align: center;' >F021000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F021000">熱機學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭金祥 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6<BR>[3]7</TD>
+<TD><a class='room' href='#' name='5834  ' >航太系館                      5834</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F021000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2111E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >F030800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F030800">燃料電池</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭金祥 </TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5829  ' >航太系館                      5829</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F030800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程與航太系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2112E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >067</TD>
+<TD style='text-align: center;' >F020900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F020900">材料力學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>崔兆棠 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='5830  ' >航太系館                      5830</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F020900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE2103E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >F020800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F020800">電力系統</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林清一 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5897  ' >航太系館                      5897</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F020800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3101E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >F030510</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F030510">能源實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳維新*<BR />王偉成 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5814  ' >航太系館                      實驗室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F030510&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3172E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >F030200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F030200">能源系統設計規劃</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>賴維祥 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='5821  ' >航太系館                      5821</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F030200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3107E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >F031500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F031500">風力發電</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳毓庭 <BR />李約亨*</TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='5897  ' >航太系館                      5897</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F031500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程、航太系、工科系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3106E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >F040400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F040400">太陽熱能</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張克勤 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='5828  ' >航太系館                      5828</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F040400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程與航太系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3109E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >F040110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F040110">專題論文（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>鄭金祥 <BR />張克勤 <BR />林清一 <BR />楊世銘 <BR />夏育群 <BR />陳維新 <BR />李約亨*<BR />賴維祥 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F040110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE3191E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >F448100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F448100">振動學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊世銘 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[3]N~6</TD>
+<TD><a class='room' href='#' name='5822  ' >航太系館                      5822</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F448100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>航太系與能源學程合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >AA4211</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >能源學程         IBPE</TD>
+<TD style='text-align: center;' >F0</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >F040800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F0&cono=F040800">能源策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳彥仲 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='5897  ' >航太系館                      5897</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F040800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>能源學程與都計系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IBPE4101E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

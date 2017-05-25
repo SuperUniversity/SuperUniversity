@@ -1,0 +1,1101 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >RA70350</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA70350">專題討論（五）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳正忠*<BR />楊曉瑩 <BR />王鈿 <BR />謝惠璟 <BR />高如妃 <BR />張巍勳 <BR />許介文 </TD>
+<TD style='text-align: center;' >84</TD>
+<TD style='text-align: center;' >16</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA70350&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>For NCKU Distinguished Scholarship Recipients</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA9095E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >RA53400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA53400">投資學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊曉瑩 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA53400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA6202E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >RA63100</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA63100">國際行銷管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王鈿 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA63100&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7111E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >RA74300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74300">品牌文創策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>高如妃 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7117E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >RA52900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA52900">財金理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊曉瑩 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA52900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7203E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >RA74900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74900">數位行銷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王鈿 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7118E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >RA73800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA73800">公司理財</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝惠璟 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA73800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7207E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >RA75200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA75200">供應鏈風險管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA75200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7320T</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >RA60400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA60400">企業電子化與供應鏈管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA60400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7312E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >RA70320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA70320">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >37</TD>
+<TD><BR>[4]N</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA70320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>PhD Fundamental Course</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA9092E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >RA70340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA70340">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >37</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA70340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>PhD Fundamental Course</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA9094E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >RA74100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74100">不動產財務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝惠璟 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7209E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >RA62900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA62900">電子商務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA62900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7315E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >RA61900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA61900">衍生性金融商品</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA61900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7206E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >RA62400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA62400">質性研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慕容 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA62400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>方法學課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7402E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >RA60300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA60300">組織理論與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳萬益 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[7]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA60300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7107E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >RA52000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA52000">企業倫理與法律</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳俊仁 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA52000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7304E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >RA50202</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA50202">研究方法（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[3]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA50202&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限修滿18學分以上並修完一門方法論課程學生選修</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA6690E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >RA53700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA53700">策略資訊系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA53700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7308E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >RA75300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA75300">健康產業人力資源管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許介文 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA75300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課請洽系所辦公室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7120T</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >RA53400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA53400">投資學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊曉瑩 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA53400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA6202E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >RA63100</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA63100">國際行銷管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王鈿 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA63100&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7111E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >RA74300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74300">品牌文創策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>高如妃 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7117E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >RA52900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA52900">財金理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊曉瑩 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA52900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7203E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >RA74900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74900">數位行銷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王鈿 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7118E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >RA73800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA73800">公司理財</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝惠璟 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA73800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7207E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >RA75200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA75200">供應鏈風險管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA75200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7320T</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >RA60400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA60400">企業電子化與供應鏈管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA60400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7312E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >RA74100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA74100">不動產財務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝惠璟 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA74100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7209E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >RA62900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA62900">電子商務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA62900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7315E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >313</TD>
+<TD style='text-align: center;' >RA61900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA61900">衍生性金融商品</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA61900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7206E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >314</TD>
+<TD style='text-align: center;' >RA62400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA62400">質性研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慕容 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA62400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>方法學課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7402E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >315</TD>
+<TD style='text-align: center;' >RA60300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA60300">組織理論與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳萬益 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[7]2~4</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA60300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7107E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >316</TD>
+<TD style='text-align: center;' >RA52000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA52000">企業倫理與法律</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳俊仁 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA52000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7304E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >317</TD>
+<TD style='text-align: center;' >RA50202</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA50202">研究方法（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[3]A~C</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA50202&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限修滿18學分以上並修完一門方法論課程學生選修</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA6690E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >318</TD>
+<TD style='text-align: center;' >RA53700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA53700">策略資訊系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='62203 ' >管理學院                      62203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA53700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選修課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7308E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >319</TD>
+<TD style='text-align: center;' >RA75300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA75300">健康產業人力資源管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許介文 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='62201 ' >管理學院                      62201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA75300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>選課請洽系所辦公室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7120T</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >331</TD>
+<TD style='text-align: center;' >RA62900</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA62900">電子商務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA62900&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>台北班課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7315E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >332</TD>
+<TD style='text-align: center;' >RA53400</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA53400">投資學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳俊男 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[7]6~8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA53400&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>台北班課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA6202E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >333</TD>
+<TD style='text-align: center;' >RA75200</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA75200">供應鏈風險管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[7]2~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA75200&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>台北班課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7320T</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >334</TD>
+<TD style='text-align: center;' >RA60500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA60500">企業研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳正忠 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[6]6~8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA60500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>台北班課程</TD>
+<TD>第一階段不受理選課限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7401E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >IIMBA            IMBA</TD>
+<TD style='text-align: center;' >RA</TD>
+<TD style='text-align: center;' >335</TD>
+<TD style='text-align: center;' >RA61200</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=RA&cono=RA61200">管理經濟</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張巍勳 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RA61200&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>台北班課程，寒假密集上課，上課時間詳如課程大綱</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMBA7702E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

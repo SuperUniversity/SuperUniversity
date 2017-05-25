@@ -1,0 +1,909 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >U260400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U260400">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳俊仁 </TD>
+<TD style='text-align: center;' >67</TD>
+<TD style='text-align: center;' >33</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U260400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本學期有註冊，但未選修其他課程者必修。無上課時段，請與指導教授保持聯繫。</TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >U25G400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U25G400">大法官解釋案例解析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡維音 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U25G400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士班丁組、原科法所、學士班之大三以上選修（專題及實例研討）。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW6228</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >U25H800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U25H800">智慧財產權與案例研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳思廷 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U25H800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士班丁組、原科法所、學士班之大三以上選修（專題及實例研討）。尤其歡迎外系所選修。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW6249</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >U25H310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U25H310">法律文件寫作（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許登科 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='80109 ' >社科院大樓                    80109</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U25H310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士班丁組、原科法所、學士班之大三以上選修（基礎法學）。</TD>
+<TD>限3年級以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW6240</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >U250631</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U250631">德國法學名著選讀（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許育典 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U250631&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7020</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >U258340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U258340">美國法學名著選讀（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳俊仁 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='80109 ' >社科院大樓                    80109</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U258340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7145</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >U272520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U272520">日本司法權獨立重要案例選讀（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳運財 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U272520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7728</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >U271720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U271720">法學法文（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳思廷 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U271720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7645</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >U270340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U270340">刑事法法學德文（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王士帆 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U270340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7549</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >U250720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U250720">日本法學名著選讀（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳俊郎 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U250720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法學外文課程開放大三以上修課，所有選修生應符合語文能力要求與授課老師規定，請注意開學考試公告。</TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7023</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >U251720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U251720">憲法專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許育典 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U251720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>開放碩士班選修</TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7057</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >U250221</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U250221">法學方法論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡志方 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U250221&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>開放碩士班選修</TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >NA51500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=NA51500">魚類養殖與捕魚之法律問題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡志方 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=NA51500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>法律系與海事所合開，法律系比照「研討」課程。</TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >OTMA9500</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >U280610</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U280610">證券交易法專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳俊仁 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[1]8~9</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U280610&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7448E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >U260420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U260420">社會福利法專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡維音 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U260420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >U263140</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U263140">智慧財產權法律與實務專題研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許忠信 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U263140&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7238</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >U256040</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U256040">國際金融法專題研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許忠信 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U256040&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7108E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >U264620</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U264620">醫事民法專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>侯英泠 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U264620&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7258</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >U283320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U283320">刑事證據法專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳運財 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U283320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7722</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >U263330</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U263330">刑事訴訟法專題研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>李佳玟 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U263330&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7245</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >U250840</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U250840">刑法專題研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王效文 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U250840&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7031</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >U260530</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U260530">民事訴訟法專題研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭書琴 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U260530&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7369</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >U260240</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U260240">環境法專題研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王毓正 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U260240&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >U25F340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U25F340">身分法專題研究（四）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林易典 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[1]1~2</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U25F340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩甲乙丙組選修</TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7417</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >U258110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U258110">刑事法基礎理論專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許澤天 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U258110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7134</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >027</TD>
+<TD style='text-align: center;' >U271410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U271410">刑事法與刑事政策專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>古承宗 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U271410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7532</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >U270710</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U270710">國家、科技社會與行政法專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許登科 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U270710&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7540</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >U282610</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U282610">國際人權法專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳怡凱 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U282610&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7518</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >U274610</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U274610">電影產業與法律專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳思廷 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='D20A  ' >社科院大樓                    七樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U274610&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7269</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >U272310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U272310">法律經濟分析專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>邵靖惠 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U272310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7707</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >U273620</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U273620">比較競爭法專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>顏雅倫 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='D20B  ' >社科院大樓                    七樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U273620&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7066</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >U283130</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U283130">民事責任法專題研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>葉婉如 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U283130&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7715</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >U274810</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U274810">德國聯邦最高法院刑事裁判專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王士帆 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='D202  ' >社科院大樓                    七樓會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U274810&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7365</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >法律所           LAW</TD>
+<TD style='text-align: center;' >U2</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >U263800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U2&cono=U263800">稅法專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳汶津 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='D20C  ' >社科院大樓                    七樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U263800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩一以上選課第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW7252</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,1149 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >N75C100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75C100">設計整合研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >6</TD><TD>王毓正 <BR />杜怡萱 <BR />薛丞倫 <BR />陳世明 <BR />陳震宇 <BR />蔡耀賢 <BR />劉舜仁*<BR />林子平 <BR />柳川肯 <BR />謝宏昌 <BR />劉立凡 <BR />陳柏宗 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75C100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為甲組課程。上課教室：建築系綠色教室</TD>
+<TD>需先修以下科目:《前瞻建築設計                            /必修/6.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6703</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N75C100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75C100">設計整合研究</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>王毓正 <BR />杜怡萱 <BR />薛丞倫 <BR />陳世明 <BR />陳震宇 <BR />蔡耀賢 <BR />劉舜仁*<BR />林子平 <BR />柳川肯 <BR />謝宏昌 <BR />劉立凡 <BR />陳柏宗 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]1~8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75C100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為甲組課程。上課教室：建築系綠色教室</TD>
+<TD>需先修以下科目:《前瞻建築設計                            /必修/6.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6703</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >N75C200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75C200">國際工作營</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>薛丞倫 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75C200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課教室：建築系綠色教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6702</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N75C200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75C200">國際工作營</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>薛丞倫 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75C200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課教室：建築系綠色教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6702</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >N751720</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N751720">建築與環境設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >4</TD><TD>洪傳祥*<BR />吳玉成*</TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]5~8<BR>[2]1~8</TD>
+<TD><a class='room' href='#' name='5104  ' >建築系館                      5104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N751720&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>乙、丙組課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >N751720</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N751720">建築與環境設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >4</TD><TD>蔡元良 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[1]5~8<BR>[2]1~8</TD>
+<TD><a class='room' href='#' name='5127  ' >耐震大樓(建築研究大樓旁)      5127</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N751720&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>乙、丙組課程</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >ARCH6052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >N790500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N790500">專題研究（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>薛丞倫*<BR />鄭泰昇*<BR />顏茂倉*<BR />吳光庭*<BR />王維潔*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]N~5</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N790500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為乙組課程；於各研究室上課，並須修畢研究所設計課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >N791400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791400">影像與建築</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>薛丞倫 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='5104  ' >建築系館                      5104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >N767501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N767501">歷史建築特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王維潔 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5101  ' >建築系館                      5101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N767501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與碩專班合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >N75B900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75B900">1945年後台灣當代建築專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳光庭 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[4]2~3</TD>
+<TD><a class='room' href='#' name='5108  ' >耐震大樓(建築研究大樓旁)      5108</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75B900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N75B900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75B900">1945年後台灣當代建築專題討論</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>吳光庭 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[4]4</TD>
+<TD><a class='room' href='#' name='5108  ' >耐震大樓(建築研究大樓旁)      5108</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75B900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >N772400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N772400">環境美學－理論與規劃實踐</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳玉成 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='5126  ' >建築系館                      5126</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N772400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為丙組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7215</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >N76C100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N76C100">台灣都市的空間構成</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>洪傳祥 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5105  ' >建築系館                      5105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N76C100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >N772300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N772300">社區營造的理論與實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳世明 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5105  ' >建築系館                      5105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N772300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >040</TD>
+<TD style='text-align: center;' >N75B000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N75B000">歷史建築保存與再利用設計</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >4</TD><TD>吳秉聲*<BR />恩宇*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]9~C<BR>[3]9~C<BR>[1]9~C</TD>
+<TD><a class='room' href='#' name='5126  ' >建築系館                      5126</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N75B000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為乙組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6351</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >041</TD>
+<TD style='text-align: center;' >N791500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791500">文化遺產保存維護理論與實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>傅朝卿 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='5105  ' >建築系館                      5105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >042</TD>
+<TD style='text-align: center;' >N773300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N773300">建築史之研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳秉聲 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5126  ' >建築系館                      5126</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N773300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7303</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >043</TD>
+<TD style='text-align: center;' >N792300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N792300">神聖空間專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>恩宇 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='5105  ' >建築系館                      5105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N792300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7310</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >N759800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N759800">地震工程學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>姚昭智 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='5139  ' >建築研究大樓                  5139</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N759800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《結構動力學                              /必修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7401</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=85">防災科技管理學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >N767100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N767100">房屋結構設計</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>杜怡萱 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='5139  ' >建築研究大樓                  5139</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N767100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7402</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >067</TD>
+<TD style='text-align: center;' >N753201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N753201">電腦輔助結構分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>鍾育霖 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N753201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7407</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >068</TD>
+<TD style='text-align: center;' >N773800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N773800">地震工程特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鍾育霖 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5139  ' >建築研究大樓                  5139</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N773800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7411</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >069</TD>
+<TD style='text-align: center;' >N792200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N792200">建築工程結構性事件之鑑識</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳純森 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[5]7</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N792200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限建築、土木與營建相關科系畢業</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7445</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N792200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N792200">建築工程結構性事件之鑑識</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>陳純森 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[5]8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N792200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限建築、土木與營建相關科系畢業</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7445</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >084</TD>
+<TD style='text-align: center;' >N781700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N781700">構法計畫特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳震宇 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N781700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為工程組課程，碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7518</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >085</TD>
+<TD style='text-align: center;' >N76C800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N76C800">建築改修特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳震宇 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N76C800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7509</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >086</TD>
+<TD style='text-align: center;' >N781901</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N781901">建築構造生命週期分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>葉玉祥 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N781901&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7519</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >088</TD>
+<TD style='text-align: center;' >N774200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N774200">工程契約管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳耀光 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[4]B~D</TD>
+<TD><a class='room' href='#' name='5172  ' >建築研究大樓                  5172</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N774200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >090</TD>
+<TD style='text-align: center;' >N791200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791200">室內環境品質模擬與解析（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡耀賢 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[1]6</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為環控組課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7621</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N791200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791200">室內環境品質模擬與解析（二）</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>蔡耀賢 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7621</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >091</TD>
+<TD style='text-align: center;' >N791300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791300">建築環境控制系統特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡耀賢 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7622</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N791300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791300">建築環境控制系統特論</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>蔡耀賢 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]6~7</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7622</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >092</TD>
+<TD style='text-align: center;' >N76C000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N76C000">環境行為研究方法(二)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張　珩 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N76C000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7607</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >093</TD>
+<TD style='text-align: center;' >N792100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N792100">東南亞生態地理與民居變貌</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林憲德 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[4]2~3</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N792100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>歡迎各組選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCHgggd</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >N792100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N792100">東南亞生態地理與民居變貌</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>林憲德 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[4]4</TD>
+<TD><a class='room' href='#' name='5171  ' >建築研究大樓                  5171</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N792100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>歡迎各組選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCHgggd</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >099</TD>
+<TD style='text-align: center;' >N782400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N782400">戶外環境效益模擬與解析（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林子平 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='5105  ' >建築系館                      5105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N782400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7618</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >N791600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N791600">服務學習專題討論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>鄭泰昇 </TD>
+<TD style='text-align: center;' >66</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[4]9</TD>
+<TD><a class='room' href='#' name='5101  ' >建築系館                      5101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N791600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第1節課將說明作業收集等，請務必準時參加</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7018</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >N770300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N770300">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>鄭泰昇 </TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >92</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N770300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>科目序號：N7105限碩博三以上同學選修；N7305限碩專三以上同學選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6000</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >N751320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N751320">建築研究專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳耀光 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[6]6</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N751320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6802</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >N770300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N770300">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>鄭泰昇 </TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >92</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N770300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>科目序號：N7105限碩博三以上同學選修；N7305限碩專三以上同學選修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH6000</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >N767501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N767501">歷史建築特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王維潔 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5101  ' >建築系館                      5101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N767501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與碩專班合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >N774200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N774200">工程契約管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳耀光 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[4]B~D</TD>
+<TD><a class='room' href='#' name='5172  ' >建築研究大樓                  5172</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N774200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >N781700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N781700">構法計畫特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳震宇 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N781700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>以下為工程組課程，碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7518</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >建築所           ARCH</TD>
+<TD style='text-align: center;' >N7</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >N76C800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N7&cono=N76C800">建築改修特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳震宇 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='E701  ' >建築研究大樓                  ２Ｆ會議室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N76C800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博及碩專合開。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH7509</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

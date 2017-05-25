@@ -1,0 +1,861 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y2'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >A430700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A430700&class_code=  ">教育哲學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>湯　堯 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A430700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教育基礎課程（4選2）。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >A413000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A413000&class_code=  ">教育概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊琬琳 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A413000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教育基礎課程（4選2）。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >201</TD>
+<TD style='text-align: center;' >A421000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A421000&class_code=  ">教學原理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>于富雲 </TD>
+<TD style='text-align: center;' >49</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A421000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教育方法課程（6選3）。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2100</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >202</TD>
+<TD style='text-align: center;' >A422000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A422000&class_code=  ">班級經營</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>饒夢霞 </TD>
+<TD style='text-align: center;' >40</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A422000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教育方法課程（6選3）。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >203</TD>
+<TD style='text-align: center;' >A422200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A422200&class_code=  ">輔導原理與實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭旭展 </TD>
+<TD style='text-align: center;' >19</TD>
+<TD style='text-align: center;' >46</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A422200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教育方法課程（6選3）。綜合活動領域必修。專門課程與教育專業課程學分不得重複採計。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >A413500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A413500&class_code=  ">國文／語文領域本國語文教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>仇小屏 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A413500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：國文/語文領域本國語文教材教法</TD>
+<TD>需先修以下科目:《國文／語文領域本國語文教材教法          /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3100</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >A413700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A413700&class_code=  ">英文／語文領域英語教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>鄒文莉 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='26401 ' >修齊大樓                      26401</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A413700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：英文/語文領域英語教材教法</TD>
+<TD>需先修以下科目:《英文／語文領域英語教材教法              /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >A413900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A413900&class_code=  ">數學／數學領域教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='3177  ' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A413900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：數學/數學領域教材教法</TD>
+<TD>需先修以下科目:《數學／數學領域教材教法                  /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >A414100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A414100&class_code=  ">歷史／社會領域歷史教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>許守泯 <BR />陳恒安*<BR />謝美娥 <BR />楊尹瑄 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='7112  ' >唯農大樓                      7112</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A414100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：歷史/社會領域歷史教材教法。</TD>
+<TD>需先修以下科目:《歷史／社會領域歷史教材教法              /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >A414300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A414300&class_code=  ">物理／自然與生活科技物理教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳宜君 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='49116 ' >物理二館                      49116</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A414300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：物理/自然與生活科技物理教材教法</TD>
+<TD>需先修以下科目:《物理／自然與生活科技物理教材教法        /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >A414500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A414500&class_code=  ">化學／自然與生活科技化學教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃守仁 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='3274  ' >化學系館                      3274</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A414500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：化學/自然與生活科技化學教材教法</TD>
+<TD>需先修以下科目:《化學／自然與生活科技化學教材教法        /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >A414900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A414900&class_code=  ">地球科學／自然與生活科技地球科學教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊懷仁 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='3031  ' >地科系館                      3031</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A414900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：地球科學/自然與生活科技地球科學教材教法</TD>
+<TD>需先修以下科目:《地球科學／自然與生活科技地球科學教材教法/必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3107</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >A445300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A445300&class_code=  ">公民與社會/社會領域公民教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>許澤天 <BR />王士帆*</TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A445300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：公民與社會/社會領域公民教材教法</TD>
+<TD>需先修以下科目:《公民與社會/社會領域公民教材教法         /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3116</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >A415200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A415200&class_code=  ">綜合活動領域輔導活動教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>洪素蘋 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A415200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：綜合活動領域輔導活動教材教法。</TD>
+<TD>需先修以下科目:《綜合活動領域輔導活動教材教法            /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3110</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >A414700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A414700&class_code=  ">生物／自然與生活科技生物教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳少燕 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >13</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='3414  ' >生科系館                      3414</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A414700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：生物科教材教法</TD>
+<TD>需先修以下科目:《生物／自然與生活科技生物教材教法        /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3106</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >A416001</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A416001&class_code=  ">藝術生活科-視覺應用藝術教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳奕芳 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='5452  ' >藝術所                        5452</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A416001&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：藝術生活科-視覺應用藝術教材教法</TD>
+<TD>需先修以下科目:《藝術生活科-視覺應用藝術教材教法         /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3115</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >A415600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A415600&class_code=  ">機械學群教學實習</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>施士塵 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='91C04 ' >機械系館                      91C04</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A415600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：機械學群教材教法</TD>
+<TD>需先修以下科目:《機械學群教材教法                        /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3112</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >A443900</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>國文／語文領域本國語文實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡玫姿 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A443900&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>修畢普通、專門及教育專業課程者始得修習，該課程由師培中心統一鍵入。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >332</TD>
+<TD style='text-align: center;' >A444000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A444000&class_code=  ">英文／語文領域英語實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>鍾淑玫 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A444000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>修畢普通、專門及教育專業課程者始得修習，該課程由師培中心統一鍵入。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >333</TD>
+<TD style='text-align: center;' >A444300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A444300&class_code=  ">物理／自然與生活科技物理實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳宜君 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A444300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>修畢普通、專門及教育專業課程者始得修習，該課程由師培中心統一鍵入。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >334</TD>
+<TD style='text-align: center;' >A444100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A444100&class_code=  ">數學／數學領域實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A444100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>修畢普通、專門及教育專業課程者始得修習，該課程由師培中心統一鍵入。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >335</TD>
+<TD style='text-align: center;' >A444200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A444200&class_code=  ">歷史／社會領域歷史實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>江達智 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A444200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>修畢普通、專門及教育專業課程者始得修習，該課程由師培中心統一鍵入。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y7'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >336</TD>
+<TD style='text-align: center;' >A444600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('7 ');">7 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A444600&class_code=  ">綜合活動領域輔導活動實習輔導</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>洪素蘋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A444600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE3210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >401</TD>
+<TD style='text-align: center;' >A420600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A420600&class_code=  ">青少年心理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>饒夢霞 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A420600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2219</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >402</TD>
+<TD style='text-align: center;' >A416301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A416301&class_code=  ">學習與教學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>彭淑玲 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A416301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>建議先選修先備課程「教育心理學」</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2259</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >403</TD>
+<TD style='text-align: center;' >A445900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A445900&class_code=  ">教學方法與策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>楊琬琳 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A445900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2253</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >404</TD>
+<TD style='text-align: center;' >A412200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A412200&class_code=  ">童軍教育</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>朱朝煌 </TD>
+<TD style='text-align: center;' >40</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]9~A</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A412200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>綜合活動學習領域-童軍選修之一。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2233</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >405</TD>
+<TD style='text-align: center;' >A417000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A417000&class_code=  ">教育議題專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>彭淑玲 </TD>
+<TD style='text-align: center;' >81</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='7308  ' >唯農大樓                      許文龍講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A417000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>必選。建議先修先備課程「課程發展與設計」、「教學原理」或「教學方法與策略」任一門。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2270</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >406</TD>
+<TD style='text-align: center;' >A417100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A417100&class_code=  ">綜合活動學習領域課程設計與實施</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>洪素蘋 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='27806 ' >雲平大樓                      e化創新教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A417100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>建議先修先備課程「綜合活動學習領域概論」。綜合活動學習領域必修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2265</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >407</TD>
+<TD style='text-align: center;' >A416700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A416700&class_code=  ">家庭發展</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>趙梅如 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A416700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>綜合活動學習領域-家政選修之一。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2267</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >408</TD>
+<TD style='text-align: center;' >A429600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A429600&class_code=  ">學校輔導工作</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>鄭淑惠 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A429600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>綜合活動學習領域必修。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2262</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >師培中心         CTE</TD>
+<TD style='text-align: center;' >A4</TD>
+<TD style='text-align: center;' >409</TD>
+<TD style='text-align: center;' >A417600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>學程                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0105&sem=2&co_no=A417600&class_code=  ">人際關係與溝通</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭旭展 </TD>
+<TD style='text-align: center;' >49</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='27808 ' >雲平大樓                      27808</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=A417600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CTE2272</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

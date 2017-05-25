@@ -1,0 +1,4971 @@
+<table border="1" bordercolor="#000000" cellspacing="0" style="border-collapse: collapse">
+<tr bgcolor="#8BA400" class="style1" style="Color:#ffffff">
+<th width="20">NO.</th>
+<th nowrap="">學年</th>
+<th nowrap="">學期</th>
+<th nowrap="">課程<br/>流水號</th>
+<th nowrap="">開課系所</th>
+<th nowrap="">應修系級</th>
+<th nowrap="">必選<br/>修別</th>
+<th nowrap="">科目名稱</th>
+<th nowrap="">授課教師</th>
+<th nowrap="">類別</th>
+<th nowrap="">學分</th>
+<th nowrap="">繳費<br/>時數</th>
+<th nowrap="">授課<br/>語別</th>
+<th nowrap="">上課時間、教室</th>
+<th width="30">是否<br/>開放<br/>加簽</th>
+<th width="30">加簽<br/>人數<br/>上限</th>
+<th width="30">限修<br/>總計<br/>人數</th>
+<th width="30">已選<br/>總計<br/>人數</th>
+<th width="40">已<br/>核准<br/>人數</th>
+<th width="40">待<br/>分發<br/>人數</th>
+</tr>
+<caption align="bottom"><pre>
+<p align="left" style="font-size: 9pt">
+ 1－8:10~9:00a.m.　 2－9:10~10:00a.m.　 3－10:10~11:00a.m.　 4－11:10~12:00a.m.
+ 5－1:10~2:00p.m.　 6－2:10~ 3:00p.m.　 7－ 3:10~ 4:00p.m.　 8－ 4:10~ 5:00p.m.　 9－5:10~6:00p.m.
+10－6:30~7:20p.m.　11－7:25~ 8:15p.m.　12－ 8:25~ 9:15p.m.　13－ 9:20~10:10p.m.
+</p></pre></caption>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">1.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5232</td>
+<td>電資博</td>
+<td nowrap=""><p align="left">
+電資博4  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5232&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文 </a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td> </td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 資工領域</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">2.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5233</td>
+<td>電資博</td>
+<td nowrap=""><p align="left">
+電資博4  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5233&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文 </a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td> </td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 通訊領域</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">3.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5234</td>
+<td>電資博</td>
+<td nowrap=""><p align="left">
+電資博4  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5234&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文 </a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td> </td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 電機領域</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">4.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6025</td>
+<td>多媒體與網路科技產碩專班</td>
+<td nowrap=""><p align="left">
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6025&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=M6025" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>100</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">5.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6028</td>
+<td>資通科技產碩專班</td>
+<td nowrap=""><p align="left">
+資通科技產碩專班2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6028&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文 </a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">6.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6102</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+通訊碩2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6102&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=M6102" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>13</td>
+<td>13</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">7.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6103</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電機碩2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6103&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=M6103" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>17</td>
+<td>17</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">8.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6105</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+資工碩2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6105&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">論文</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=M6105" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Thesis (Projects)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50000123&amp;oyear=105&amp;oterm=2" target="blank">******</a><br/>
+</td>
+<td>半</td>
+<td>0</td>
+<td>0</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>49</td>
+<td>49</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">9.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5067</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+資工碩1  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5067&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題研討 </a><br/>Seminar</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>1</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~6	社B01</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>110</td>
+<td>55</td>
+<td>55</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105/2/22依系所開課資訊異動申請表更改授課教師</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">10.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5083</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+通訊碩1  <br/>
+通訊碩2  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5083&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題研討 </a><br/>Seminar</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500913&amp;oyear=105&amp;oterm=2" target="blank">許裕彬</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>1</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~6	商2F06</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>110</td>
+<td>27</td>
+<td>27</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">11.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5099</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電機碩1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5099&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題研討 </a><br/>Seminar</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>1</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四6~7	法1F20</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">12.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1108</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1108&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500919&amp;oyear=105&amp;oterm=2" target="blank">李國仲</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五3~4	文3F09_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>42</td>
+<td>42</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">13.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1131</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1131&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=51133443&amp;oyear=105&amp;oterm=2" target="blank">彭麗銀</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五1~2	文3F09_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>30</td>
+<td>30</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">14.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1133</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1133&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50152352&amp;oyear=105&amp;oterm=2" target="blank">趙嚴忠</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五1~2	文3F10_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>46</td>
+<td>46</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">15.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1135</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1135&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500715&amp;oyear=105&amp;oterm=2" target="blank">詹琤琦</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~6	文3F09_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 企管AB、經濟AB、資工(語言教室)</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">16.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1136</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1136&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500920&amp;oyear=105&amp;oterm=2" target="blank">陳怡蒨</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五7~8	文5F07_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>49</td>
+<td>49</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動。
+企管AB、經濟AB、資工(語言教室)</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">17.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1138</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1138&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=52010703&amp;oyear=105&amp;oterm=2" target="blank">張敦業</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五7~8	文3F09_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>48</td>
+<td>48</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 企管AB、經濟AB、資工(語言教室)</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">18.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1140</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1140&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500924&amp;oyear=105&amp;oterm=2" target="blank">蕭婉珍</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五3~4	文5F07_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動為蕭婉珍。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">19.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1178</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1178&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物理實驗</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U1178" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Physics Laboratory</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500659&amp;oyear=105&amp;oterm=2" target="blank">江振宇</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	商5F25</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>49</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 商學院5F25實驗室上課
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">20.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1560</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1560&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物件導向程式設計實習 </a><br/>Object-oriented Programming Lab.</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500658&amp;oyear=105&amp;oterm=2" target="blank">戴志華</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~6	資B1F-01</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>64</td>
+<td>64</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">21.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1599</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1599&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文：英語聽講練習 </a><br/>College English: Listening and Speaking</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100209&amp;oyear=105&amp;oterm=2" target="blank">林怡利</a><br/>
+</td>
+<td>全</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五3~4	文3F10_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>37</td>
+<td>37</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">22.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1619</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+通訊系統實作學分學程  <br/>
+嵌入式系統學分學程  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1619&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位系統實驗 </a><br/>Digital System Laboratory</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500929&amp;oyear=105&amp;oterm=2" target="blank">蘇虹娜</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>45</td>
+<td>45</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.14 依開課資訊異動申請表更改授課教師及上課時間。上課地點：人文12F01-3電子電路暨數位系統實驗室</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">23.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2033</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2033&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電子電路實驗II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U2033" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Electronic Circuits Lab.II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>39</td>
+<td>39</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 人文大樓12F電子電路與數位系統實驗室。105.12.21依課程異動資訊申請，更改上課時間。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">24.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2079</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2079&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電子電路實驗II </a><br/>Electronic Circuits Lab.II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50072021&amp;oyear=105&amp;oterm=2" target="blank">黃弘一</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>37</td>
+<td>37</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課地點：人文12F01-3電子電路暨數位系統實驗室</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">25.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2352</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2352&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位電子電路實驗</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U2352" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Digital Electronics Lab.</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	文12F01-5</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>48</td>
+<td>47</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 教室文12F01-5</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">26.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2353</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2353&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">微算機實驗 </a><br/>Microprocessor Lab.</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二6~8	社113</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>61</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 商6F25教室</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">27.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2355</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系2  <br/>
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2355&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦網路實習</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U2355" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Computer Networks Lab.</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500419&amp;oyear=105&amp;oterm=2" target="blank">曾俊元</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一5~6	資B1F-06</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>97</td>
+<td>52</td>
+<td>52</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 資B1F-06</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">28.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1062</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1062&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50152352&amp;oyear=105&amp;oterm=2" target="blank">趙嚴忠</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五3~4	文4F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>33</td>
+<td>33</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">29.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1063</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1063&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=51133443&amp;oyear=105&amp;oterm=2" target="blank">彭麗銀</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五3~4	文2F10</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>34</td>
+<td>33</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> *1060223起上課教室異動至文2F10</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">30.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1107</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1107&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500924&amp;oyear=105&amp;oterm=2" target="blank">蕭婉珍</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五1~2	文2F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>42</td>
+<td>42</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動為蕭婉珍。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">31.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1109</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1109&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500715&amp;oyear=105&amp;oterm=2" target="blank">詹琤琦</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五7~8	文2F02</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 企管AB、經濟AB、資工
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">32.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1111</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1111&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=52010703&amp;oyear=105&amp;oterm=2" target="blank">張敦業</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~6	文2F10</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>49</td>
+<td>49</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 企管AB、經濟AB、資工</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">33.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1113</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+企管系1A  <br/>
+企管系1B  <br/>
+語文通識1  <br/>
+經濟系1A  <br/>
+經濟系1B  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1113&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500920&amp;oyear=105&amp;oterm=2" target="blank">陳怡蒨</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~6	文5F07_L</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>48</td>
+<td>47</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動。
+企管AB、經濟AB、資工</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">34.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1117</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1117&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100209&amp;oyear=105&amp;oterm=2" target="blank">林怡利</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五1~2	文4F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>37</td>
+<td>37</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">35.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1352</td>
+<td>語言</td>
+<td nowrap=""><p align="left">
+會計系1A  <br/>
+會計系1B  <br/>
+金融系1  <br/>
+語文通識1  <br/>
+財政系1  <br/>
+社學系1  <br/>
+社工系1  <br/>
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1352&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">大學英文 </a><br/>College English: Reading and Writing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500919&amp;oyear=105&amp;oterm=2" target="blank">李國仲</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五1~2	文2F01</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>35</td>
+<td>35</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.01.16通知授課教師異動。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">36.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3006</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3006&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500651&amp;oyear=105&amp;oterm=2" target="blank">林嘉洤</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>11</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">37.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3008</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3008&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500913&amp;oyear=105&amp;oterm=2" target="blank">許裕彬</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>22</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 新聘教師許裕彬助理教授</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">38.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3012</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3012&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+<a href="../faculty/tec_ohours.report?otno=50078104&amp;oyear=105&amp;oterm=2" target="blank">詹景裕</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>12</td>
+<td>11</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">39.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3108</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3108&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500461&amp;oyear=105&amp;oterm=2" target="blank">陳永源</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">40.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3146</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3146&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50072021&amp;oyear=105&amp;oterm=2" target="blank">黃弘一</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">41.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3177</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3177&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3177" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020002&amp;oyear=105&amp;oterm=2" target="blank">張仁俊</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500256&amp;oyear=105&amp;oterm=2" target="blank">吳信龍</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>14</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 張仁俊老師 四8-9節 社6F37 吳信龍老師四8-9節 社6F37
+ </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">42.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3179</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3179&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3179" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020035&amp;oyear=105&amp;oterm=2" target="blank">林道通</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500658&amp;oyear=105&amp;oterm=2" target="blank">戴志華</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59100360&amp;oyear=105&amp;oterm=2" target="blank">黃俊堯</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>14</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 林道通老師 三3-4節 社8F13 黃俊堯老師 一5-6節 社4F14 戴志華老師 四6-8節 社4F12</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">43.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3181</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3181&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3181" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500420&amp;oyear=105&amp;oterm=2" target="blank">林伯星</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500419&amp;oyear=105&amp;oterm=2" target="blank">曾俊元</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>14</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 林伯星老師 二8-9節 社4F11 曾俊元老師 四7-8節 社4F09 沈榮麟老師 五7-9節 社4F11</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">44.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3199</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3199&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100361&amp;oyear=105&amp;oterm=2" target="blank">王鵬華</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500728&amp;oyear=105&amp;oterm=2" target="blank">余帝榖</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>22</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">45.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3209</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3209&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500490&amp;oyear=105&amp;oterm=2" target="blank">謝欣霖</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500318&amp;oyear=105&amp;oterm=2" target="blank">魏存毅</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>22</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">46.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3211</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3211&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500659&amp;oyear=105&amp;oterm=2" target="blank">江振宇</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500822&amp;oyear=105&amp;oterm=2" target="blank">黃昱智</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>22</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">47.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3265</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3265&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3265" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50101226&amp;oyear=105&amp;oterm=2" target="blank">莊東穎</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+<a href="../faculty/tec_ohours.report?otno=50101529&amp;oyear=105&amp;oterm=2" target="blank">陳裕賢</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>14</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 莊東穎老師 一8~9節 社5F13 陳裕賢老師 三5-6節 社5F27 張玉山老師 一7-8節及五7-8節 社4F08 
+ </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">48.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3678</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3678&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II </a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500907&amp;oyear=105&amp;oterm=2" target="blank">姚書農</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500671&amp;oyear=105&amp;oterm=2" target="blank">薩馬尼乎曼</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">49.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3679</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3679&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">專題製作II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3679" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Senior Projects II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50102213&amp;oyear=105&amp;oterm=2" target="blank">呂嘉穀</a><br/>
+<a href="../faculty/tec_ohours.report?otno=50020001&amp;oyear=105&amp;oterm=2" target="blank">楊致芳</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>4</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週<font color="red">未維護0</font> </a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>14</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 呂嘉穀老師 一8~9節 社5F13 楊致芳老師 三5-6節 社5F27
+ </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">50.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1014</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1014&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">線性代數 </a><br/>Linear Algebra</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500822&amp;oyear=105&amp;oterm=2" target="blank">黃昱智</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	社114</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>55</td>
+<td>54</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">51.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1023</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1023&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">普通物理Ⅱ </a><br/>Physics Ⅱ</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500651&amp;oyear=105&amp;oterm=2" target="blank">林嘉洤</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	文2F01</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>44</td>
+<td>43</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">52.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1114</td>
+<td>統計系</td>
+<td nowrap=""><p align="left">
+通訊系1  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1114&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">微積分 II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U1114" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Calculus II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500908&amp;oyear=105&amp;oterm=2" target="blank">吳漢銘</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	商2F08</a><br/>
+</td>
+<td>是</td>
+<td>7</td>
+<td>89</td>
+<td>81</td>
+<td>80</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 請排除文學院教室.</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">53.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1127</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+智慧財產權學士學分學程  <br/>
+通訊系統實作學分學程  <br/>
+嵌入式系統學分學程  <br/>
+電機系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1127&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位系統設計 </a><br/>Digital Systems Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500929&amp;oyear=105&amp;oterm=2" target="blank">蘇虹娜</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二6~8	法2F15</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 依105.12.22開課資訊異動申請，更換授課教師及上課時間</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">54.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1130</td>
+<td>統計系</td>
+<td nowrap=""><p align="left">
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1130&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">微積分 II</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U1130" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Calculus II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100398&amp;oyear=105&amp;oterm=2" target="blank">白惠明</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	商2F05</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>99</td>
+<td>94</td>
+<td>91</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">55.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1194</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1194&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">線性代數 </a><br/>Linear Algebra</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500256&amp;oyear=105&amp;oterm=2" target="blank">吳信龍</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	社103</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>68</td>
+<td>68</td>
+<td>66</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">56.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1210</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1210&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物件導向程式設計 </a><br/>Object-oriented Programming</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500658&amp;oyear=105&amp;oterm=2" target="blank">戴志華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	資B1F-06</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>69</td>
+<td>69</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">57.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1211</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1211&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物理學 </a><br/>Physics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500420&amp;oyear=105&amp;oterm=2" target="blank">林伯星</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	文4F07</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>68</td>
+<td>67</td>
+<td>63</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">58.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1558</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+智慧財產權學士學分學程  <br/>
+通訊系統實作學分學程  <br/>
+嵌入式系統學分學程  <br/>
+資工系1  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1558&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位系統設計 </a><br/>Digital Systems Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500921&amp;oyear=105&amp;oterm=2" target="blank">李宜勳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	商1F16</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>69</td>
+<td>68</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">59.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1559</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系1  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1559&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物理學 </a><br/>Physics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500659&amp;oyear=105&amp;oterm=2" target="blank">江振宇</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	法2F15</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>47</td>
+<td>47</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">60.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2000</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2000&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程數學Ⅱ </a><br/>Engineering Mathematics Ⅱ</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500318&amp;oyear=105&amp;oterm=2" target="blank">魏存毅</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	社106</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>41</td>
+<td>41</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">61.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2014</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+通訊系統實作學分學程  <br/>
+電機系2  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2014&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">訊號與系統 </a><br/>Signals and Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500671&amp;oyear=105&amp;oterm=2" target="blank">薩馬尼乎曼</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	文4F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>42</td>
+<td>42</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">62.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2037</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2037&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電磁學 </a><br/>Electromagnetics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500937&amp;oyear=105&amp;oterm=2" target="blank">鄧聖明</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一6~8	社107</a><br/>
+</td>
+<td>是</td>
+<td>4</td>
+<td>55</td>
+<td>44</td>
+<td>43</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">63.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2039</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2039&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電子電路II </a><br/>Electronic Circuits II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500907&amp;oyear=105&amp;oterm=2" target="blank">姚書農</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社206</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>41</td>
+<td>41</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">64.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2040</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系統實作學分學程  <br/>
+資工系3  <br/>
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+選<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2040&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">訊號與系統 </a><br/>Signals and Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500490&amp;oyear=105&amp;oterm=2" target="blank">謝欣霖</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>第二教室資1F-14</a><br/>
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	社104</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>91</td>
+<td>45</td>
+<td>43</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.21依開課資訊異動申請，更改上課時間。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">65.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2071</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2071&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電子學Ⅱ </a><br/>Microelectronics II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50072021&amp;oyear=105&amp;oterm=2" target="blank">黃弘一</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	法2F15</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>46</td>
+<td>46</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">66.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2076</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2076&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電路學Ⅱ </a><br/>Electrical Circuits (II)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	法2F17</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>43</td>
+<td>43</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">67.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2137</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2137&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程數學Ⅱ </a><br/>Engineering Mathematics Ⅱ</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500318&amp;oyear=105&amp;oterm=2" target="blank">魏存毅</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社106</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>42</td>
+<td>40</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">68.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2356</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2356&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦網路</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U2356" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Computer Network</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50101529&amp;oyear=105&amp;oterm=2" target="blank">陳裕賢</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	社201</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>51</td>
+<td>51</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 取消與通訊系合班，請安排社科教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">69.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2577</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系2  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2577&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦網路 </a><br/>Computer Network</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500913&amp;oyear=105&amp;oterm=2" target="blank">許裕彬</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	社102</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>47</td>
+<td>46</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">70.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3064</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3064&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電磁學Ⅱ </a><br/>Electromagnetic II</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500929&amp;oyear=105&amp;oterm=2" target="blank">蘇虹娜</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	文4F09</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>38</td>
+<td>38</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 請安排人文學院2F10教室或人文學院(50人以上教室)105.12.14 依開課資訊異動申請表更改授課教師及上課時間。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">71.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3190</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+電子商務學程  <br/>
+行動裝置軟體學分學程  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+必<br/>
+必<br/>
+必<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3190&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">資料庫系統 </a><br/>Database Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500658&amp;oyear=105&amp;oterm=2" target="blank">戴志華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	社114</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>63</td>
+<td>62</td>
+<td>62</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">72.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3680</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+電機系3  <br/>
+</p></td>
+<td>
+必<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3680&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">作業系統 </a><br/>Operating Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100360&amp;oyear=105&amp;oterm=2" target="blank">黃俊堯</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	商2F05</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>77</td>
+<td>55</td>
+<td>52</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.21依課程資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">73.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5173</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+通訊碩1  <br/>
+通訊碩2  <br/>
+電機碩1  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5173&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程倫理</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=M5173" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Engineering Ethics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>1</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~7	社B02</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>240</td>
+<td>19</td>
+<td>19</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 資工系與資工碩及通訊所合班；授課老師：張玉山主任等16位教師;限收資工系(所)及通訊所學生
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">74.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4026</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系4  <br/>
+通訊系3  <br/>
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+必<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4026&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程倫理</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U4026" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Engineering Ethics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+</td>
+<td>半</td>
+<td>1</td>
+<td>1</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~7	社B02</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>132</td>
+<td>97</td>
+<td>97</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 邀請業界雙師授課，業師上課為隔週上課(每次2小時)。請安排大教室</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">75.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5179</td>
+<td>外語系</td>
+<td nowrap=""><p align="left">
+通訊碩1  <br/>
+資工碩1  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5179&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程/科技英文(二) </a><br/>Engineering/technology English (II)</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500500&amp;oyear=105&amp;oterm=2" target="blank">張淑彩</a><br/>
+</td>
+<td>半</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一5~6	文2F12</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>23</td>
+<td>21</td>
+<td>21</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與外語系及通訊碩，
+資工碩合班上課</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">76.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2045</td>
+<td>資訊中心</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2045&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦資訊與多媒體應用 </a><br/>Application of Computer and Multimedia</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500904&amp;oyear=105&amp;oterm=2" target="blank">曹偉駿</a><br/>
+</td>
+<td>全</td>
+<td>2</td>
+<td>2</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四3~4	資1F-09</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>82</td>
+<td>30</td>
+<td>30</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 教師：曹偉駿</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">77.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5007</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5007&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">進階圖形演算法及其應用 </a><br/>Advanced Graph Algorithms and Applications</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078104&amp;oyear=105&amp;oterm=2" target="blank">詹景裕</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四7~9	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>33</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> <font color="red"><b>[停開]</b></font>上課地點：人文大樓11F06-1會議室。
+依105.12.12開課資訊異動申請，本學期停開。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">78.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5034</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5034&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">超大型積體電路測試 </a><br/>VLSI Testing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>33</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">79.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5063</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+通訊碩1  <br/>
+通訊碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5063&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">消息理論 </a><br/>Information Theory </p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500822&amp;oyear=105&amp;oterm=2" target="blank">黃昱智</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社109</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 英語授課，與學士班4年級合班</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">80.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5069</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5069&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦視覺 </a><br/>Computer Vision</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020035&amp;oyear=105&amp;oterm=2" target="blank">林道通</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	社101</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>68</td>
+<td>7</td>
+<td>7</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 英語授課</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">81.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5071</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電子商務碩士學程  <br/>
+電資博1  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5071&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">資訊安全 </a><br/>Information Security</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020002&amp;oyear=105&amp;oterm=2" target="blank">張仁俊</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	社110</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>26</td>
+<td>26</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">82.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5108</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5108&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">混合訊號積體電路佈局與分析 </a><br/>Analysis and Layout of Mixed-Signal IC</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50072021&amp;oyear=105&amp;oterm=2" target="blank">黃弘一</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。上課教室：文11F06-1</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">83.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5111</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5111&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">模糊系統與應用 </a><br/>Fuzzy Systems and Applications</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~9	法2F13</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>16</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">84.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5112</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5112&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">線性系統 </a><br/>Linear Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	法2F03</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">85.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5120</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5120&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">固態電子學 </a><br/>Solid-State Electronics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500651&amp;oyear=105&amp;oterm=2" target="blank">林嘉洤</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一7~9	文4F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">86.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5140</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+通訊碩1  <br/>
+通訊碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5140&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">通訊積體電路設計 </a><br/>Communications IC Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500728&amp;oyear=105&amp;oterm=2" target="blank">余帝榖</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	法2F13</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>15</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與學士班3年級合班</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">87.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5149</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+通訊碩1  <br/>
+通訊碩2  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5149&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">排隊理論 </a><br/>Queueing Theory</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500913&amp;oyear=105&amp;oterm=2" target="blank">許裕彬</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	社201</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>28</td>
+<td>19</td>
+<td>17</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與學士班4年級合班
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">88.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5157</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5157&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">混合訊號積體電路設計 </a><br/>Mixed-Signal IC Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五6~8	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>33</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。106.04.26更改上課教室為人文501。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">89.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5183</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5183&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">嵌入式系統設計與應用 </a><br/>Embedded Systems Design and Applications</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500420&amp;oyear=105&amp;oterm=2" target="blank">林伯星</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	社102</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>68</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">90.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5184</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5184&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">圖形識別 </a><br/>Pattern Recognition</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020001&amp;oyear=105&amp;oterm=2" target="blank">楊致芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	社202</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>21</td>
+<td>21</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105/12/7 依照開課資訊異動申請單 更改授課語別為中文授課</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">91.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5207</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5207&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位訊號處理實作 </a><br/>Practices in Digital Signal Processing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500907&amp;oyear=105&amp;oterm=2" target="blank">姚書農</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>11</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課地點：文5F01。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">92.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5222</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+通訊碩1  <br/>
+通訊碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5222&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">通訊數學 </a><br/>Mathematics In Communication</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100361&amp;oyear=105&amp;oterm=2" target="blank">王鵬華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	資1F-10</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與學士班3年級合班。105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">93.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5226</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5226&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">進階機器人學 </a><br/>Advanced Robotics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500671&amp;oyear=105&amp;oterm=2" target="blank">薩馬尼乎曼</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	法2F17</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">94.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5227</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5227&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">智慧型控制 </a><br/>Intelligent Control</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一6~8	商1F04</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與大學部合班。106.03.13依開課資訊異動申請，更換上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">95.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5229</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+通訊碩1  <br/>
+通訊碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5229&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">可程式化邏輯匣陣列系統設計 </a><br/>FPGA System Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	商5F25</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.15依開課資訊異動申請，新增課程。與學士班合開</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">96.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5236</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電機碩1  <br/>
+電機碩2  <br/>
+資工碩1  <br/>
+資工碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5236&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">普適計算 </a><br/>Pervasive Computing
+</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100360&amp;oyear=105&amp;oterm=2" target="blank">黃俊堯</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	社205</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>10</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.19依課程資訊異動申請，新開課程。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">97.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5276</td>
+<td>資訊碩</td>
+<td nowrap=""><p align="left">
+資訊碩1  <br/>
+電子商務碩士學程  <br/>
+電機碩1  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide2?g_serial=M5276&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">軟體工程 </a><br/>Software Engineering</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50780001&amp;oyear=105&amp;oterm=2" target="blank">陳宗天</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~9	商2F03</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>21</td>
+<td>21</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 資訊系統管理領域-主領域必選。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">98.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5290</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+電資博2  <br/>
+通訊碩1  <br/>
+通訊碩2  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5290&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">偵測與評估 </a><br/>Detection &amp; Estimation</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100361&amp;oyear=105&amp;oterm=2" target="blank">王鵬華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	社104</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與學士班4年級合班
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">99.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M5535</td>
+<td>資工碩</td>
+<td nowrap=""><p align="left">
+電資博1  <br/>
+資工碩1  <br/>
+多媒體與網路科技產碩專班1  <br/>
+多媒體與網路科技產碩專班2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M5535&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">無線和行動網路 </a><br/>Wireless and Mobile Networks</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50101529&amp;oyear=105&amp;oterm=2" target="blank">陳裕賢</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社208</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>7</td>
+<td>7</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">100.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6012</td>
+<td>電機碩</td>
+<td nowrap=""><p align="left">
+電機碩2  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6012&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">機器人學專論 </a><br/>Special Topics of Robotics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078104&amp;oyear=105&amp;oterm=2" target="blank">詹景裕</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一5~7	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>11</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 依105.12.12開課資訊異動申請，新增課程。授課教室：文11F07-1。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">101.</p></td>
+<td>105</td>
+<td>2</td>
+<td>M6063</td>
+<td>通訊碩</td>
+<td nowrap=""><p align="left">
+通訊碩1  <br/>
+通訊碩2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=M6063&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">現代編碼技術 </a><br/>Modem Coding Technologie</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500490&amp;oyear=105&amp;oterm=2" target="blank">謝欣霖</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一5~7	社202</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>6</td>
+<td>5</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">102.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1001</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+電機系1  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1001&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">線性代數 </a><br/>Linear Algebra</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020001&amp;oyear=105&amp;oterm=2" target="blank">楊致芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	公1F11</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>44</td>
+<td>42</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">103.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U1018</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系1  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U1018&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">進階計算機程式設計 </a><br/>Advanced Computer Programming</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>第二教室資1F-08</a><br/>
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	社106</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>43</td>
+<td>41</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">104.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2081</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系2  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2081&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物件導向程式設計 </a><br/>Object-oriented Programming</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50001202&amp;oyear=105&amp;oterm=2" target="blank">方鄒昭聰</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	資B1F-04</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>31</td>
+<td>29</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">105.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2110</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+通訊系統實作學分學程  <br/>
+電機系2  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2110&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">系統工程學 </a><br/>System Engineering</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500671&amp;oyear=105&amp;oterm=2" target="blank">薩馬尼乎曼</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~9	文4F06</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 全英語授課</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">106.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2120</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系2  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2120&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">進階資料結構 </a><br/>Advance Data Structures</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50101226&amp;oyear=105&amp;oterm=2" target="blank">莊東穎</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	資B1F-01</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>47</td>
+<td>45</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">107.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U2357</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系2  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U2357&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">多媒體技術與應用 </a><br/>Multimedia Techniques &amp; Applications</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020035&amp;oyear=105&amp;oterm=2" target="blank">林道通</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	資B1F-04</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>83</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> <font color="red"><b>[停開]</b></font>與資工系3合班。依105.12.19課程資訊異動申請，停開課程。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">108.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3027</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3027&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">可程式化邏輯匣陣列系統設計</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3027" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>FPGA System Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50078103&amp;oyear=105&amp;oterm=2" target="blank">白宏達</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	商5F25</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>12</td>
+<td>11</td>
+<td>9</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合開。105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">109.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3065</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3065&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">模糊系統與應用 </a><br/>Fuzzy Systems and Applications</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~9	法2F13</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>88</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">110.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3072</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系4  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3072&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">資訊工程專論 </a><br/>Specail Topics in Computer Science and Information Engineering</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500884&amp;oyear=105&amp;oterm=2" target="blank">張宏慶</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三10~12	商1F16</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>61</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">111.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3104</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3104&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">生醫電子導論 </a><br/>Introduction to Biomedical Electronics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500929&amp;oyear=105&amp;oterm=2" target="blank">蘇虹娜</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	文4F09</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>33</td>
+<td>29</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 105.12.14 依開課資訊異動申請表，新開課程。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">112.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3135</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3135&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">線性系統 </a><br/>Linear Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500853&amp;oyear=105&amp;oterm=2" target="blank">鄭穎仁</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	文1F09</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>38</td>
+<td>37</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課教室自4/25起由法2F03異動至文1F09。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">113.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3149</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3149&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">正規語言 </a><br/>Formal Languages</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500256&amp;oyear=105&amp;oterm=2" target="blank">吳信龍</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社107</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>63</td>
+<td>28</td>
+<td>27</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">114.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3152</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系3  <br/>
+通訊系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3152&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">網路程式設計 </a><br/>Network Programming</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500419&amp;oyear=105&amp;oterm=2" target="blank">曾俊元</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一7~9	資B1F-06</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>30</td>
+<td>30</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 資B1F-06</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">115.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3157</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3157&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">物聯網 </a><br/>Internet of Things</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500922&amp;oyear=105&amp;oterm=2" target="blank">張嘉文</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>40</td>
+<td>14</td>
+<td>13</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課教室:人文大樓5F01實驗室。依106.01.17開課資訊異動申請，新開課程。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">116.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3165</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+嵌入式系統學分學程  <br/>
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3165&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">嵌入式應用軟體開發 </a><br/>Embedded Software</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500907&amp;oyear=105&amp;oterm=2" target="blank">姚書農</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二6~8	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>32</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課地點：人文大樓5F01嵌入式系統實驗室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">117.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3170</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3170&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電力電子學 </a><br/>Power Electronics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500923&amp;oyear=105&amp;oterm=2" target="blank">張瑞豐</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二6~8	文1F11</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>14</td>
+<td>14</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 依106.01.17開課資訊異動申請，新開課程。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">118.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3171</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+巨量資料探勘學士學程  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3171&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">雲端運算導論 </a><br/>Introduction to Cloud Computing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100214&amp;oyear=105&amp;oterm=2" target="blank">張玉山</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	資1F-14</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>20</td>
+<td>18</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">119.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3191</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+電子商務學程  <br/>
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3191&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">資訊安全導論 </a><br/>Introduction to Information Security</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020002&amp;oyear=105&amp;oterm=2" target="blank">張仁俊</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	社105</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>72</td>
+<td>42</td>
+<td>42</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">120.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3192</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系3  <br/>
+通訊系3  <br/>
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3192&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">影像處理導論 </a><br/>Introduction to Image Processing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50102213&amp;oyear=105&amp;oterm=2" target="blank">呂嘉穀</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一5~7	社106</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>55</td>
+<td>53</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">121.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3196</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3196&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">電腦視覺 </a><br/>Computer Vision</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50020035&amp;oyear=105&amp;oterm=2" target="blank">林道通</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	社101</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>68</td>
+<td>14</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與資工碩合班
+英語授課</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">122.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3260</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3260&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位通訊系統模擬 </a><br/>Simulation and Emulation of Digital Communication Systems</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500803&amp;oyear=105&amp;oterm=2" target="blank">黃志堯</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>第二教室商5F25</a><br/>
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社108</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>20</td>
+<td>16</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 第二教室商5F25</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">123.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3270</td>
+<td>經濟系</td>
+<td nowrap=""><p align="left">
+電機系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3270&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">工程經濟學</a><a href="../faculty/common.OPMS_lm.bylimit_checkshow?yearterm=1052&amp;serial=U3270" target="_blank"><img alt="有課程限制" border="0" src="../../admin_files/images/btn_lm.gif"/></a><br/>Engineering Economics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50042312&amp;oyear=105&amp;oterm=2" target="blank">王健合</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~7	社112</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>70</td>
+<td>47</td>
+<td>45</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 限修70人.限非經濟系學生選修.
+敬請安排社科大樓教室.</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">124.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3544</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3544&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">通訊數學 </a><br/>Mathematics In Communication</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100361&amp;oyear=105&amp;oterm=2" target="blank">王鵬華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	資1F-10</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>44</td>
+<td>44</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。105.12.15依開課資訊異動申請，更改上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">125.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3546</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系統實作學分學程  <br/>
+通訊系3  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3546&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">通訊積體電路設計 </a><br/>Communications IC Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500728&amp;oyear=105&amp;oterm=2" target="blank">余帝榖</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二5~7	法2F13</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>50</td>
+<td>40</td>
+<td>37</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合開</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">126.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U3566</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U3566&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">網路安全導論 </a><br/>Introduction to Network Security</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500885&amp;oyear=105&amp;oterm=2" target="blank">鄭婷方</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二1~3	公1F13</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>16</td>
+<td>16</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">127.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4003</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4003&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">超大型積體電路測試 </a><br/>VLSI Testing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>66</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 上課地點：人文大樓5F01嵌入式系統實驗室授課。
+與碩士班合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">128.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4086</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+行動裝置軟體學分學程  <br/>
+資工系4  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4086&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">編譯器 </a><br/>Compiler</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500258&amp;oyear=105&amp;oterm=2" target="blank">許智舜</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五5~7	社201</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">129.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4160</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4160&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">智慧型控制 </a><br/>Intelligent Control</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500657&amp;oyear=105&amp;oterm=2" target="blank">楊棧雲</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一6~8	商1F04</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。106.03.13依開課資訊異動申請，更換上課時間及教室。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">130.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4173</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4173&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">進階機器人學 </a><br/>Advanced Robotics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500671&amp;oyear=105&amp;oterm=2" target="blank">薩馬尼乎曼</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四2~4	法2F17</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>25</td>
+<td>25</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">131.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4183</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4183&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">混合訊號積體電路設計 </a><br/>Mixed-Signal IC Design</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500841&amp;oyear=105&amp;oterm=2" target="blank">郭岳芳</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週五6~8	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。106.04.26更改上課教室為人文501。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">132.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4234</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4234&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">軟體工程 </a><br/>Software Engineering</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50780001&amp;oyear=105&amp;oterm=2" target="blank">陳宗天</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三7~9	商2F03</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與資訊碩、電機碩合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">133.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4272</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4272&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">偵測與評估 </a><br/>Detection &amp; Estimation</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59100361&amp;oyear=105&amp;oterm=2" target="blank">王鵬華</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一2~4	社104</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>49</td>
+<td>45</td>
+<td>45</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合開。105.12.21依課程異動資訊申請，更改為中文授課。
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">134.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4336</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4336&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">固態電子學 </a><br/>Solid-State Electronics</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500651&amp;oyear=105&amp;oterm=2" target="blank">林嘉洤</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週一7~9	文4F08</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">135.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4355</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4355&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">排隊理論 </a><br/>Queueing Theory</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500913&amp;oyear=105&amp;oterm=2" target="blank">許裕彬</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週四5~7	社201</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>19</td>
+<td>17</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">136.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4356</td>
+<td>通訊系</td>
+<td nowrap=""><p align="left">
+通訊系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4356&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">消息理論 </a><br/>Information Theory </p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=59500822&amp;oyear=105&amp;oterm=2" target="blank">黃昱智</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	社109</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>44</td>
+<td>27</td>
+<td>22</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合開
+</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">137.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4523</td>
+<td>電機系</td>
+<td nowrap=""><p align="left">
+電機系4  <br/>
+</p></td>
+<td>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4523&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">混合訊號積體電路佈局與分析 </a><br/>Analysis and Layout of Mixed-Signal IC</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50072021&amp;oyear=105&amp;oterm=2" target="blank">黃弘一</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>英語<br/>English</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週二2~4	</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>55</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> 與碩士班合班。上課教室：文11F06-1</td>
+</tr>
+<tr bgcolor="#E3EFC1">
+<td rowspan="2"><p align="right">138.</p></td>
+<td>105</td>
+<td>2</td>
+<td>U4567</td>
+<td>資工系</td>
+<td nowrap=""><p align="left">
+資工系3  <br/>
+資工系4  <br/>
+</p></td>
+<td>
+選<br/>
+選<br/>
+</td>
+<td><p align="left"><a href="course_query.queryGuide?g_serial=U4567&amp;g_year=105&amp;g_term=2&amp;show_info=part" target="blank">數位音訊處理 </a><br/>Digital Audio Processing</p></td>
+<td nowrap="">
+<a href="../faculty/tec_ohours.report?otno=50102213&amp;oyear=105&amp;oterm=2" target="blank">呂嘉穀</a><br/>
+</td>
+<td>半</td>
+<td>3</td>
+<td>3</td>
+<td>中文</td>
+<td nowrap="" style="text-align: left">
+<a href="#" onclick='window.open("course_query_all.time_memo", "" , "top=50,left=50,toolbar=no,location=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=630,height=600")'>每週三2~4	社108</a><br/>
+</td>
+<td>否</td>
+<td>-</td>
+<td>60</td>
+<td>17</td>
+<td>16</td>
+<td>0</td>
+</tr><tr>
+<td colspan="16" style="text-align: left"><span style="color: #006633">[備註]</span> </td>
+</tr>
+</table>

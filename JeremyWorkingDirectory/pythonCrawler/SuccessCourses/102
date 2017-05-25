@@ -1,0 +1,429 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >S351700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S351700">分子生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃阿敏 <BR />楊尚訓*<BR />陳珮君 <BR />張雅雯 <BR />林世杰 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >39</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='602   ' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S351700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a> 中英文教學</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >S310120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S310120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>湯銘哲 <BR />莊季瑛 <BR />黃阿敏 <BR />楊尚訓*<BR />顏賢章 <BR />陳珮君 <BR />張雅雯 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >49</TD>
+<TD><BR>[4]6</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S310120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >S310500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S310500">細胞生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃阿敏 <BR />顏賢章*<BR />陳珮君 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >54</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S310500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >S354520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S354520">分子老年學特論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>顏賢章*</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='0711  ' >醫學院                        0711</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S354520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文上課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6039</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >S361400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S361400">標靶器官毒理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳炳慶 <BR />許釗凱 <BR />蕭雅心 <BR />張雅雯*<BR />張志鵬 <BR />張惠華 <BR />王應然 <BR />李俊璋 <BR />王仰高 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S361400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文上課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6040</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >S360200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S360200">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>楊尚訓*</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >59</TD>
+<TD><BR>[4]6~7</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S360200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩三以上研究生修習</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6099</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >S351200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S351200">神經訊息傳遞特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳柏熹 <BR />莊季瑛*<BR />游一龍 <BR />凌　斌 <BR />郭余民 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S351200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6012</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >S353920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S353920">表觀遺傳學特論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡少正 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S353920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文上課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >S310140</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S310140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>湯銘哲 <BR />莊季瑛 <BR />黃阿敏 <BR />楊尚訓*<BR />顏賢章 <BR />陳珮君 <BR />張雅雯 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[4]7</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S310140&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>同專題討論（二）之教師</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >S361020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S361020">細胞及分子生理學書報討論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>湯銘哲 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]1</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S361020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6030</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >S350321</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S350321">神經生理學書報討論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>莊季瑛 <BR />黃阿敏 <BR />楊尚訓 <BR />陳珮君 <BR />張雅雯*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S350321&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6096</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >S354700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S354700">循環系統藥理毒理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳彩雲 <BR />吳俊明 <BR />許志新 <BR />張育誌 <BR />蕭雅心 <BR />張雅雯*<BR />蔡曜聲 <BR />劉秉彥 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='0724  ' >醫學院                        0724</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S354700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6042</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >S354920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S354920">以問題為導向學習循環系統恆定（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張雅雯*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[1]9</TD>
+<TD><a class='room' href='#' name='0711  ' >醫學院                        0711</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S354920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>中英文授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6046</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >生理所           PHSL</TD>
+<TD style='text-align: center;' >S3</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >S361500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S3&cono=S361500">教學實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>莊季瑛 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='604   ' >醫學院                        604</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=S361500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHSL6001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

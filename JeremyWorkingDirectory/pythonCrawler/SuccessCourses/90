@@ -1,0 +1,501 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >T251100</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T251100">護理研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張瑩如 <BR />柯乃熒*<BR />馮瑞鶯 <BR />方素瓔 <BR />戴大為 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[4]5~7</TD>
+<TD><a class='room' href='#' name='85309 ' >護理系館                      85309</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T251100&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a>限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6211E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >T253000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T253000">進階成人護理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>柯乃熒 <BR />方素瓔*<BR />陳幸眉 <BR />賴維淑 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='202D  ' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T253000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6216</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >T252800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T252800">進階產兒科護理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王瑤華 <BR />張瑩如 <BR />黃美智 <BR />許玉雲 <BR />馮瑞鶯*<BR />高綺吟 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='85101 ' >護理系館                      85101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T252800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6214</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >T252900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T252900">進階精神衛生護理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林梅鳳 <BR />徐畢卿*<BR />林靜蘭 <BR />陳柏熹 <BR />黃阿敏 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T252900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>85X07小型討論室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6215</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >T253720</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T253720">進階護理學實習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳世明 <BR />王琪珍 <BR />張瑩如 <BR />顏妙芬 <BR />黃美智 <BR />柯乃熒 <BR />許玉雲 <BR />馮瑞鶯 <BR />王靜枝*<BR />林靜蘭 <BR />方素瓔 <BR />陳幸眉 <BR />高綺吟 <BR />賴維淑 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >14</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T253720&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a>醫院實習，限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6277E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >T250520</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T250520">護理文獻評論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>許玉雲 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[4]8~9</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T250520&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a>隔週上課，限本系學生</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6220</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >T250520</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T250520">護理文獻評論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>方素瓔 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]8~9</TD>
+<TD><a class='room' href='#' name='85101 ' >護理系館                      85101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T250520&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a>隔週上課，限本系學生</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6220</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >T251700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T251700">泛文化護理研討</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>高綺吟*<BR />張雋曦 <BR />黃一修 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T251700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>另加海外實習，英語授課，限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS5222E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >T252400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T252400">進階社區護理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王琪珍 <BR />王靜枝*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='85X09 ' >護理系館                      85X09</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T252400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6215</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >T252700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T252700">具文化適切性之健康照護</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王瑤華 <BR />黃美智*<BR />柯乃熒 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='85101 ' >護理系館                      85101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T252700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS5223</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >T260200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T260200">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王瑤華 <BR />王琪珍 <BR />林梅鳳 <BR />張瑩如 <BR />顏妙芬 <BR />黃美智 <BR />柯乃熒 <BR />許玉雲 <BR />馮瑞鶯 <BR />王靜枝*<BR />林靜蘭 <BR />方素瓔 <BR />陳幸眉 <BR />高綺吟 <BR />陳彰惠 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >5</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T260200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>全體教師授課．限延畢生修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7113</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >T254400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T254400">實證健康照護</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>張瑩如*<BR />柯乃熒 <BR />許玉雲 <BR />李歡芳 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[1]2~4<BR>[1]9~B</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T254400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>國際班課程，限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7050E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >T254300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T254300">健康資料管理及分析</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳幸眉*<BR />王新台 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='010C  ' >醫學院                        醫圖電腦教室</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T254300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>國際班課程，限本系學生（醫圖電腦室）</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7051E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >T250202</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T250202">護理教育研討</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>張瑩如 <BR />黃美智 <BR />陳幸眉 <BR />陳彰惠*<BR />陳麗光 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T250202&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>國際班課程，限本系學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7054E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >T254700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T254700">科學研究寫作</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>顏妙芬*<BR />胡芳文 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T254700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>國際班課程，限本系國際碩士班學生</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7154E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >T254900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T254900">教學實習</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳幸眉 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T254900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS6090</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >護理所           NURS</TD>
+<TD style='text-align: center;' >T2</TD>
+<TD style='text-align: center;' >116</TD>
+<TD style='text-align: center;' >T253800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T2&cono=T253800">婦幼衛生照護議題研討</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王瑤華 <BR />張瑩如 <BR />黃美智 <BR />許玉雲*<BR />馮瑞鶯 <BR />高綺吟 <BR />吳孟興 <BR />鄭雅敏 <BR />陳彰惠 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='85102 ' >護理系館                      85102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T253800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NURS7150E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

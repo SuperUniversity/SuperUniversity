@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:62592/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:62592/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:62592/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CoursesSearchService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetNtuCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCourses" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesBySearchAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesBySearchAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesBySearchAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesBySearchAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByCourseName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByCourseName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByCourseName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByCourseNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByTeacher_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByTeacher" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByTeacher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByTeacherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByWeekday_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByWeekday" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesByWeekday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesByWeekdayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesBySearchDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesBySearchDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNtuCoursesBySearchDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNtuCoursesBySearchDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCourses" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesBySearchAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesBySearchAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesBySearchAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesBySearchAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByCourseName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByCourseName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByCourseName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByCourseNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByTeacher_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByTeacher" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByTeacher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByTeacherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByWeekday_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByWeekday" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesByWeekday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesByWeekdayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesBySearchDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesBySearchDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSuccessCoursesBySearchDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuccessCoursesBySearchDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetNtuCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCourses" message="tns:IService1_GetNtuCourses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesResponse" message="tns:IService1_GetNtuCourses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesBySearchAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesBySearchAll" message="tns:IService1_GetNtuCoursesBySearchAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesBySearchAllResponse" message="tns:IService1_GetNtuCoursesBySearchAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByCourseName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByCourseName" message="tns:IService1_GetNtuCoursesByCourseName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByCourseNameResponse" message="tns:IService1_GetNtuCoursesByCourseName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByTeacher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByTeacher" message="tns:IService1_GetNtuCoursesByTeacher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByTeacherResponse" message="tns:IService1_GetNtuCoursesByTeacher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByWeekday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByWeekday" message="tns:IService1_GetNtuCoursesByWeekday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesByWeekdayResponse" message="tns:IService1_GetNtuCoursesByWeekday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesBySearchDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesBySearchDepartment" message="tns:IService1_GetNtuCoursesBySearchDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNtuCoursesBySearchDepartmentResponse" message="tns:IService1_GetNtuCoursesBySearchDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCourses" message="tns:IService1_GetSuccessCourses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesResponse" message="tns:IService1_GetSuccessCourses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesBySearchAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesBySearchAll" message="tns:IService1_GetSuccessCoursesBySearchAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesBySearchAllResponse" message="tns:IService1_GetSuccessCoursesBySearchAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByCourseName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByCourseName" message="tns:IService1_GetSuccessCoursesByCourseName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByCourseNameResponse" message="tns:IService1_GetSuccessCoursesByCourseName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByTeacher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByTeacher" message="tns:IService1_GetSuccessCoursesByTeacher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByTeacherResponse" message="tns:IService1_GetSuccessCoursesByTeacher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByWeekday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByWeekday" message="tns:IService1_GetSuccessCoursesByWeekday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesByWeekdayResponse" message="tns:IService1_GetSuccessCoursesByWeekday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesBySearchDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesBySearchDepartment" message="tns:IService1_GetSuccessCoursesBySearchDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSuccessCoursesBySearchDepartmentResponse" message="tns:IService1_GetSuccessCoursesBySearchDepartment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNtuCourses">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesBySearchAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCoursesBySearchAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByCourseName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCoursesByCourseName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByTeacher">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCoursesByTeacher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesByWeekday">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCoursesByWeekday" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNtuCoursesBySearchDepartment">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNtuCoursesBySearchDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCourses">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesBySearchAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCoursesBySearchAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByCourseName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCoursesByCourseName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByTeacher">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCoursesByTeacher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesByWeekday">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCoursesByWeekday" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuccessCoursesBySearchDepartment">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSuccessCoursesBySearchDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:62592/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

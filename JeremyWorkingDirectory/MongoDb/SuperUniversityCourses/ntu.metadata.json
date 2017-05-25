@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"SuperUniversityCourses.ntu"},{"v":2,"key":{"_fts":"text","_ftsx":1},"name":"必選修_text_全半年_text_授課教師_text_授課對象_text_課程名稱_text","ns":"SuperUniversityCourses.ntu","weights":{"全半年":1,"必選修":1,"授課對象":1,"授課教師":1,"課程名稱":1},"default_language":"english","language_override":"language","textIndexVersion":3}]}

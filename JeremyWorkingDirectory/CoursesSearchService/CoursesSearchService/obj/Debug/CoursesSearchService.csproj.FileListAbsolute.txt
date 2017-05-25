@@ -1,0 +1,13 @@
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\CoursesSearchService.dll.config
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\CoursesSearchService.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\CoursesSearchService.pdb
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Bson.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Driver.Core.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Driver.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Bson.xml
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Driver.xml
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\bin\MongoDB.Driver.Core.xml
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\obj\Debug\CoursesSearchService.dll
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\obj\Debug\CoursesSearchService.pdb
+C:\Users\Jeremy\OneDrive\MSIT\MIST114\SpecialProject\CoursesSearchService\CoursesSearchService\obj\Debug\CoursesSearchService.csprojResolveAssemblyReference.cache

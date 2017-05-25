@@ -1,0 +1,765 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >P850200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850200">生物材料力學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭志坤 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫工所．口醫所合上</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7100</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >P861100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P861100">生醫感測器</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張憲彰 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P861100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>須先修完生物電化學，微機電與醫工所合班</TD>
+<TD>需先修以下科目:《生物電化學                              /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7300</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a>，<a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >P810820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P810820">醫用數學（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳天送 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >62</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P810820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7000</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >P811700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P811700">醫學工程概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家進*<BR />陳天送 <BR />張憲彰 <BR />張志涵 <BR />葉明龍 <BR />胡晉嘉 <BR />鄭國順 <BR />莊漢聲 <BR />邱文泰 <BR />黃執中 <BR />郭榮富 <BR />方佑華 <BR />吳炳慶 <BR />陳芃婷 <BR />林哲偉 <BR />楊岱樺 <BR />涂庭源 </TD>
+<TD style='text-align: center;' >73</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P811700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>工科所醫工所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7600</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >P865500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P865500">醫療管理與法規</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡明世 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[3]B~D</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P865500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>先修課程：醫學工程概論或臨床醫療概論</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7600</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >P881700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P881700">工程生理學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊岱樺 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P881700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7012</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >P850020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5730  ' >醫技醫工館                    5730</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>生物力學組／全英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >P850020</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850020&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>醫電組／全英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >P850040</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5730  ' >醫技醫工館                    5730</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850040&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>生物力學組／全英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >P850040</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850040&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>醫電組／全英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >P850000</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850000">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>方佑華*<BR />涂庭源 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >89</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850000&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>生物力學組</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >P850000</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850000">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>方佑華*<BR />涂庭源 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >54</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850000&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>醫電組</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >027</TD>
+<TD style='text-align: center;' >P864300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P864300">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳家進 </TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >99</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P864300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>供碩三博三以上選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >P850020</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>方佑華*<BR />涂庭源 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850020&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>生物力學組</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >P850020</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>方佑華*<BR />涂庭源 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850020&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>醫電組</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >P858100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P858100">人體動態分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇芳慶 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >62</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P858100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7100</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >P851200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P851200">有限元素法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭榮富 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P851200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7100</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >P864400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P864400">醫學影像分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭國順 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P864400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7400</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a>，<a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >P852700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P852700">血管力學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡晉嘉 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P852700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7100</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >P881400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P881400">牙科臨床工程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張志涵 <BR />葉明龍*<BR />黃振勳 <BR />李澤民 <BR />許修銘 <BR />劉佳觀 <BR />謝達斌 <BR />莊淑芬 <BR />王東堯 <BR />張川陽 <BR />陳永崇 <BR />曾春祺 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='5725  ' >醫技醫工館                    5725</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P881400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7013</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >P850020</TD>
+<TD style='text-align: center;' >5 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5730  ' >醫技醫工館                    5730</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850020&class_code=5 "><img src="image/moodle.gif" alt="Moodle"></img></a>全英語授課。供生物力學組外籍碩一生修課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME9690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >038</TD>
+<TD style='text-align: center;' >P850000</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P850000">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>陳家進 <BR />張憲彰 <BR />葉明龍*</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P850000&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>全英語授課。供醫電組外籍碩二生修課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7690</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >044</TD>
+<TD style='text-align: center;' >P852800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P852800">軟組織組織工程特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡晉嘉 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='5756  ' >醫技醫工館                    5756</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P852800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >045</TD>
+<TD style='text-align: center;' >P810600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P810600">生物醫學信號處理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家進 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='5756  ' >醫技醫工館                    5756</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P810600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7400</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >047</TD>
+<TD style='text-align: center;' >P880900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P880900">生醫流體光學量測技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>莊漢聲 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='5731  ' >醫技醫工館                    5731</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P880900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7300</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >050</TD>
+<TD style='text-align: center;' >P881900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P881900">科技創業與投資管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳芃婷 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P881900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫工所與國企所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7600</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >P881502</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=P881502">醫療器材創新設計（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家進 <BR />葉明龍 <BR />吳炳慶 <BR />陳芃婷*<BR />林哲偉 <BR />楊岱樺 <BR />李澤民 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >46</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='5734  ' >醫技醫工館                    5734</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P881502&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BME7600</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫工所           BME</TD>
+<TD style='text-align: center;' >P8</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >T453220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P8&cono=T453220">轉譯生醫奈米導論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳炳慶*<BR />謝達斌 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='7050  ' >門診大樓                      7050</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=T453220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>教室06057，口醫所與醫工所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IOM6132</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

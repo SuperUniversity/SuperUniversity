@@ -1,0 +1,669 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >R851300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R851300">財務報告分析與研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林軒竹 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='63404 ' >會計系館                      63404</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R851300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >R850700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850700">國際財務管理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李宏志 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >39</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>非財金所同學欲修此課者，大學需修過國際財務管理。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >R856900</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R856900">企業社會責任與社會責任投資</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>顏盟峯 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R856900&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6033</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >R160900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R160900">大陸稅法研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳清在 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='63404 ' >會計系館                      63404</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R160900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ACC6023</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >R858200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R858200">金融投資與創新商品交易策略實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王明隆*<BR />林志隆*</TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='63211 ' >會計系館                      63211</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R858200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6045</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >R850120</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>許育綝 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >82</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='63209 ' >會計系館                      63209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850120&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >R850140</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>梁少懷 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >73</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='63404 ' >會計系館                      63404</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850140&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >R850200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850200">計量經濟學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>許育綝 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >39</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='63404 ' >會計系館                      63404</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >R851602</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R851602">會計及財務研究方法</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周庭楷 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='63205 ' >會計系館                      63205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R851602&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >R860900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R860900">財務經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>梁少懷 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='63415 ' >會計系館                      63415</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R860900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >R851700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R851700">財務個案研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>薛明賢 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='63415 ' >會計系館                      63415</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R851700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6011E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >201</TD>
+<TD style='text-align: center;' >R850120</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >99</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='63415 ' >會計系館                      63415</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850120&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >202</TD>
+<TD style='text-align: center;' >R850140</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>博三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='63415 ' >會計系館                      63415</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850140&class_code=25"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >R851400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R851400">投資學理論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃炳勳 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R851400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>若需使用電腦將改至電腦教室63205</TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >R854501</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R854501">高級管理會計學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊朝旭 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >39</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R854501&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6026</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >R857700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R857700">中級會計學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>周庭楷 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='63101 ' >會計系館                      63101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R857700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6046</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='text-align: center;' >R855900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R855900">財務會計原理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝喻婷 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >53</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R855900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6027</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >R850200</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850200">計量經濟學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >36</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='63101 ' >會計系館                      63101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850200&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >R858600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R858600">金融資產證券化</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉裕宏 </TD>
+<TD style='text-align: center;' >47</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[3]A~C</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R858600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6056</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >R861200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R861200">資訊科技與創新及競爭優勢</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>徐立群 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >49</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='63205 ' >會計系館                      63205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R861200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>非使用電腦教室時將改至63404上課</TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6044</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >R856900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R856900">企業社會責任與社會責任投資</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>顏盟峯 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >47</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R856900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6033</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >R851800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R851800">公司治理研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃華瑋 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[6]6~8</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R851800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN6012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >314</TD>
+<TD style='text-align: center;' >R850120</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850120">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >94</TD>
+<TD><BR>[6]7~8</TD>
+<TD><a class='room' href='#' name='63102 ' >會計系館                      63102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850120&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >財金所           FIN</TD>
+<TD style='text-align: center;' >R8</TD>
+<TD style='text-align: center;' >315</TD>
+<TD style='text-align: center;' >R850140</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩專延三                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=R8&cono=R850140">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王澤世 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >92</TD>
+<TD><BR>[6]7~8</TD>
+<TD><a class='room' href='#' name='63104 ' >會計系館                      63104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=R850140&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限碩專選修</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >FIN7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

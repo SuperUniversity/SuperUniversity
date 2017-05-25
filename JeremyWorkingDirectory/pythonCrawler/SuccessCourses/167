@@ -1,0 +1,357 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >Z390100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z390100">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>張文綺*<BR />蔡文杰 <BR />李瑞花 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[2]4~N</TD>
+<TD><a class='room' href='#' name='709   ' >雲平大樓                      709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z390100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6895</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >Z350121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z350121">書報討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張文綺*<BR />蔡文杰 <BR />李瑞花 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[2]7</TD>
+<TD><a class='room' href='#' name='709   ' >雲平大樓                      709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z350121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6897</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >Z350141</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z350141">書報討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張文綺*<BR />蔡文杰 <BR />李瑞花 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[2]8</TD>
+<TD><a class='room' href='#' name='709   ' >雲平大樓                      709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z350141&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6899</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >Z352320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z352320">植物科學講座(二)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張文綺*<BR />蔡文杰 <BR />李瑞花 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]5</TD>
+<TD><a class='room' href='#' name='709   ' >雲平大樓                      709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z352320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >TPS6996</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >Z352340</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z352340">植物科學講座(四)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張文綺*<BR />蔡文杰 <BR />李瑞花 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[2]6</TD>
+<TD><a class='room' href='#' name='709   ' >雲平大樓                      709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z352340&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >TPS6998</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >Z382100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z382100">植物跳躍基因體學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡文杰 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='712   ' >雲平大樓                      712</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z382100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6821</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >Z382200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z382200">植物分子與細胞生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張文綺*<BR />蔡文杰 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='712   ' >雲平大樓                      712</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z382200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6822</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >Z382000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z382000">實驗資料分析與統計專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張文綺*<BR />蔡文杰 <BR />邱啟洲 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='712   ' >雲平大樓                      712</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z382000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限選修過植物學講座系列課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6820</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >Z261000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z261000">高等細胞生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>何盧勳 <BR />張松彬 <BR />洪健睿 <BR />黃玲惠 <BR />張純純 <BR />洪建中 <BR />林鼎晏 <BR />洪良宜*<BR />李瑞花 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='3415  ' >生科系館                      3415</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z261000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>生科院核心課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BIOI7102</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >Z351600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z351600">作物育種與生物技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳文輝 <BR />張松彬*</TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='3414  ' >生科系館                      3414</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z351600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>生命所、與熱植所合班上課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >TPS6808</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >熱植所           TPS</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >Z261000</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=Z3&cono=Z261000">高等細胞生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>何盧勳 <BR />張松彬 <BR />洪健睿 <BR />黃玲惠 <BR />張純純 <BR />洪建中 <BR />林鼎晏 <BR />洪良宜*<BR />李瑞花 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='95A09 ' >照坤精密儀器大樓              95A09</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Z261000&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>與中文班分班上課、全英語授課。生命科學系、生科所、生訊所與熱植所合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BIOI7102</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=69">再生醫學科技學分學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

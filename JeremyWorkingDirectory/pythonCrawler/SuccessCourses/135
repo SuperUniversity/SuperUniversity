@@ -1,0 +1,1101 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >P750321</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P750321">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>謝孫源 </TD>
+<TD style='text-align: center;' >144</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='4263  ' >資訊系館                      4263</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P750321&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學位學程合班,大學部勿選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >P756100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P756100">電腦視覺專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>孫永年 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='4217  ' >資訊系館                      4217</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P756100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7611</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >P75H600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75H600">智慧感測與行動計算</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭憲宗 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >54</TD>
+<TD><BR>[4]6<BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='4202  ' >資訊系館                      4202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75H600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學程製造所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >P75G500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75G500">數位家庭與數位電視科技專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭憲宗 </TD>
+<TD style='text-align: center;' >6</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='4215  ' >資訊系館                      4215</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75G500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7055</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >P757400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P757400">高等資料庫專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李　強 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='65805 ' >資訊新館                      65805</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P757400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >P758900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P758900">高等密碼學專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃宗立 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='4260  ' >資訊系館                      4260</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P758900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7015</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >P760201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P760201">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>謝孫源 </TD>
+<TD style='text-align: center;' >190</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='4263  ' >資訊系館                      4263</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P760201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博二以上選修</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7096</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >P759900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P759900">電腦語音處理專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王駿發 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]B~D</TD>
+<TD><a class='room' href='#' name='92453 ' >電機系館                      92453</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P759900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>電機資訊合班電機系四樓會議室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7017</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >P76B000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P76B000">資訊擷取專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔣榮先 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='65104 ' >資訊新館                      65104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P76B000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >053</TD>
+<TD style='text-align: center;' >P764200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P764200">排隊理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許靜芳 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='4202  ' >資訊系館                      4202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P764200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所製造所合班</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7110</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >P75I300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75I300">物聯網核心網路技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇銓清 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >37</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='65104 ' >資訊新館                      65104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75I300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所製造所多媒體學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7556</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >P75G800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75G800">進階數位電路設計專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳培殷 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='65104 ' >資訊新館                      65104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75G800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所多媒體學程合班</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7057</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >064</TD>
+<TD style='text-align: center;' >RB51801</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=RB51801">最佳化設計：理論與運動產業及工程之應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭匡佑 </TD>
+<TD style='text-align: center;' >67</TD>
+<TD style='text-align: center;' >43</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='4263  ' >資訊系館                      4263</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=RB51801&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所製造所體健所合班(運動科技產業領域專業選修課程)</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PEHL6209E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >065</TD>
+<TD style='text-align: center;' >P76D600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P76D600">高效能路由器的架構與設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張燕光 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='65504 ' >資訊新館                      65504</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P76D600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7133</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >F741200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=F741200">分散式系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭宏章 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >51</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='65105 ' >資訊新館                      65105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F741200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本課程為大碩合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE5006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >067</TD>
+<TD style='text-align: center;' >P75C300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75C300">機率與算法專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭宏章 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >11</TD>
+<TD><BR>[4]5~7</TD>
+<TD><a class='room' href='#' name='65A13 ' >資訊新館                      65A13</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75C300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >068</TD>
+<TD style='text-align: center;' >P75D700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75D700">作業系統與虛擬機器專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張大緯 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='4260  ' >資訊系館                      4260</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75D700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7034</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >069</TD>
+<TD style='text-align: center;' >P75A100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75A100">機器學習及圖形識別專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>連震杰 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='65805 ' >資訊新館                      65805</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75A100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7018</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >070</TD>
+<TD style='text-align: center;' >P75E900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75E900">神經運算與腦機介面專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>梁勝富 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='4260  ' >資訊系館                      4260</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75E900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7042</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >072</TD>
+<TD style='text-align: center;' >P752600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P752600">多語暨跨語資訊系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>盧文祥 </TD>
+<TD style='text-align: center;' >43</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='4201  ' >資訊系館                      4201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P752600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所製造所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >075</TD>
+<TD style='text-align: center;' >P754700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P754700">輸出入裝置與驅動程式設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張大緯 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='65105 ' >資訊新館                      65105</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P754700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所製造所合班</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >077</TD>
+<TD style='text-align: center;' >P75H700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75H700">智慧感知雲端系統與應用設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭耀煌 </TD>
+<TD style='text-align: center;' >43</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='4261  ' >資訊系館                      4261</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75H700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >083</TD>
+<TD style='text-align: center;' >P76E200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P76E200">生醫超音波系統專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王士豪 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='65805 ' >資訊新館                      65805</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P76E200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE6401</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=84">醫療器材與系統學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >085</TD>
+<TD style='text-align: center;' >P754600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P754600">圖形理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝孫源 </TD>
+<TD style='text-align: center;' >99</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='4263  ' >資訊系館                      4263</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P754600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學程製造所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >086</TD>
+<TD style='text-align: center;' >F733100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=F733100">從自由軟體到物聯網的實踐</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>藍崑展 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >41</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='65104 ' >資訊新館                      65104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F733100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本課程為大碩合班,與醫資所及製造所合班</TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE5005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >087</TD>
+<TD style='text-align: center;' >P76E100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P76E100">VLSI設計自動化專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林英超 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='65A13 ' >資訊新館                      65A13</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P76E100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7137</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >088</TD>
+<TD style='text-align: center;' >P771500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P771500">巨量圖數據資料庫分析專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>莊坤達 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='4260  ' >資訊系館                      4260</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P771500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7152</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >089</TD>
+<TD style='text-align: center;' >P76F800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P76F800">磁共振影像重建與分析技術專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>趙梓程 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='65504 ' >資訊新館                      65504</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P76F800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7147</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >090</TD>
+<TD style='text-align: center;' >P75H500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75H500">生物程式設計與巨量轉譯醫學資料分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊士德 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='65203 ' >資訊新館                      65203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75H500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所口醫所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >091</TD>
+<TD style='text-align: center;' >Q560100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=Q560100">計算系統醫學專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊士德 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='65805 ' >資訊新館                      65805</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=Q560100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMI7660</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >094</TD>
+<TD style='text-align: center;' >P75I400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75I400">高階競技程式設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡孟勳 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]9~B</TD>
+<TD><a class='room' href='#' name='65304 ' >資訊新館                      65304</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75I400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7557</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >095</TD>
+<TD style='text-align: center;' >P75I500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75I500">人機互動技術之應用設計與系統開發</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡敏君 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='65104 ' >資訊新館                      65104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75I500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所多媒體學程合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7558</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >096</TD>
+<TD style='text-align: center;' >P75I600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P75I600">虛擬化與虛擬機器之概念與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>涂嘉恒 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >48</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='4201  ' >資訊系館                      4201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P75I600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7559</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >100</TD>
+<TD style='text-align: center;' >P750321</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P750321">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>謝孫源 </TD>
+<TD style='text-align: center;' >144</TD>
+<TD style='text-align: center;' >不限</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='4263  ' >資訊系館                      4263</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P750321&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>資訊所醫資所多媒體學位學程合班,大學部勿選</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CSIE7092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >P951900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P951900">電腦輔助製造</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳響亮 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='95519 ' >照坤精密儀器大樓              95519</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P951900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7211</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >P953100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P953100">C#程式設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳響亮 </TD>
+<TD style='text-align: center;' >46</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='75209 ' >資訊大樓                      75209</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P953100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7219</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >P961000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P961000">製造系統模擬</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊大和 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >23</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='95519 ' >照坤精密儀器大樓              95519</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P961000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7230</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >P953700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P953700">行動計算與無線資料管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳朝鈞 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >96</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='95405 ' >照坤精密儀器大樓              95405</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P953700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7225</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >P961800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P961800">網宇實體系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡佩璇 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >88</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='95405 ' >照坤精密儀器大樓              95405</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P961800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7242</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >P961700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P961700">企業參謀：思考的技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李家岩 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='95519 ' >照坤精密儀器大樓              95519</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P961700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7240</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >P961900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P961900">精實企業系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊大和 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >88</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='95405 ' >照坤精密儀器大樓              95405</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P961900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班Moocs課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7241</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >是</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資訊所           CSIE</TD>
+<TD style='text-align: center;' >P7</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >P953500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=P7&cono=P953500">即時系統</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡佩璇 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='95405 ' >照坤精密儀器大樓              95405</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=P953500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>製造所、資訊所合班</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IMIS7223</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

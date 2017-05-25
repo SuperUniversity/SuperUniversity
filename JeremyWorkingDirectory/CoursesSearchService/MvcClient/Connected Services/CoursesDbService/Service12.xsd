@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62592/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CoursesSearchService" />
+  <xs:element name="GetNtuCourses">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesResult" nillable="true" type="q1:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesBySearchAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesBySearchAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesBySearchAllResult" nillable="true" type="q2:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByCourseName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByCourseNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesByCourseNameResult" nillable="true" type="q3:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByTeacher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByTeacherResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesByTeacherResult" nillable="true" type="q4:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByWeekday">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Weekday" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesByWeekdayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesByWeekdayResult" nillable="true" type="q5:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesBySearchDepartment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNtuCoursesBySearchDepartmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetNtuCoursesBySearchDepartmentResult" nillable="true" type="q6:ArrayOfDtoNtu" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCourses">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesResult" nillable="true" type="q7:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesBySearchAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesBySearchAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesBySearchAllResult" nillable="true" type="q8:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByCourseName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByCourseNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesByCourseNameResult" nillable="true" type="q9:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByTeacher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByTeacherResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesByTeacherResult" nillable="true" type="q10:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByWeekday">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Weekday" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesByWeekdayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesByWeekdayResult" nillable="true" type="q11:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesBySearchDepartment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSuccessCoursesBySearchDepartmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/CoursesSearchService" minOccurs="0" name="GetSuccessCoursesBySearchDepartmentResult" nillable="true" type="q12:ArrayOfDtoSuccess" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

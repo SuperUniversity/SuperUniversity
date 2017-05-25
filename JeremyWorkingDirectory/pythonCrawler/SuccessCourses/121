@@ -1,0 +1,1197 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D510620</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D510620&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D212621</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D212621&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >LAW</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D500000</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D500000&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D517200</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517200&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >D511120</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511120">統計學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>溫敏杰 </TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511120&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >D511420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511420">會計學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>施坤宏 </TD>
+<TD style='text-align: center;' >71</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉育佑 </TD>
+<TD style='text-align: center;' >93</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[3]7~8<BR>[5]6</TD>
+<TD><a class='room' href='#' name='61200 ' >工管系館                      61200</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>劉育佑 </TD>
+<TD style='text-align: center;' >93</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='7211  ' >唯農大樓                      7211</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>方永富 </TD>
+<TD style='text-align: center;' >93</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='7213  ' >唯農大樓                      7213</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>王業凱 </TD>
+<TD style='text-align: center;' >93</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='7215  ' >唯農大樓                      7215</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林敏雄 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]7~8<BR>[5]5</TD>
+<TD><a class='room' href='#' name='4001  ' >成功校區經緯廳                經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>林敏雄 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[5]6</TD>
+<TD><a class='room' href='#' name='7307  ' >唯農大樓                      7307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>粘珠鳳 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[5]6</TD>
+<TD><a class='room' href='#' name='7311  ' >唯農大樓                      7311</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>章源慶 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[5]6</TD>
+<TD><a class='room' href='#' name='7313  ' >唯農大樓                      7313</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>侯世章 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[3]7~8<BR>[5]6</TD>
+<TD><a class='room' href='#' name='A1306 ' >共同教室                      A1306(資源後)</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>侯世章 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='A1303 ' >共同教室                      A1303</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>楊世偉 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='A1304 ' >共同教室                      A1304</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511221</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511221">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>蕭仁傑 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[5]5</TD>
+<TD><a class='room' href='#' name='A1305 ' >共同教室                      A1305</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511221&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH1052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >D511321</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511321">經濟學原理（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>區俊傑 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511321&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1002</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D511321</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D511321">經濟學原理（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>區俊傑 </TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]9</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D511321&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1002</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >D517920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D517920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>區俊傑 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >68</TD>
+<TD><BR>[3]N</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON0002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D517200</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517200&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D510040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D510040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D517200</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517200&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >D520121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D520121">總體經濟學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>許永河 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D520121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《總體經濟學（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D520121</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D520121">總體經濟學（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>許永河 </TD>
+<TD style='text-align: center;' >98</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]9</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D520121&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《總體經濟學（一）                        /必修/3.0學分/50分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >058</TD>
+<TD style='text-align: center;' >D520221</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D520221">個體經濟學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>翁明宏 </TD>
+<TD style='text-align: center;' >90</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D520221&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D520221</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D520221">個體經濟學（二）</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>翁明宏 </TD>
+<TD style='text-align: center;' >90</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]9</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D520221&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >D540200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D540200">社會科學方法論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉亞明 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='80205 ' >社科院大樓                    80205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D540200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上機教室: 社科院80305電腦教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON2003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >D530310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D530310">計量經濟學（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳奕奇 </TD>
+<TD style='text-align: center;' >53</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='80205 ' >社科院大樓                    80205</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D530310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上機地點：計網中心75301電腦教室</TD>
+<TD>需先修以下科目:《統計學（一）                            /必修/3.0學分/60分以上》《統計學（二）                            /必修/3.0學分/60分以上》《微積分（一）                            /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON2004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >064</TD>
+<TD style='text-align: center;' >D521900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D521900">台灣經濟發展史論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡仰虔 </TD>
+<TD style='text-align: center;' >73</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D521900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>新課程，隸屬於應用經濟領域。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON2010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D517200</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517200&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >D530200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D530200">貨幣銀行學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王富美 </TD>
+<TD style='text-align: center;' >58</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='D501  ' >社科院大樓                    階梯教室-經濟</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D530200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限大三以上</TD>
+<TD>需先修以下科目:《經濟學原理（二）                        /必修/3.0學分/60分以上》《總體經濟學（二）                        /必修/3.0學分/40分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >D540901</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D540901">國際金融</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡群立 </TD>
+<TD style='text-align: center;' >119</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D540901&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON1014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >116</TD>
+<TD style='text-align: center;' >D530900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D530900">資源與環境經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭彥廉 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >63</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='80103 ' >社科院大樓                    80103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D530900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON3006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >120</TD>
+<TD style='text-align: center;' >D532600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D532600">經濟思想史</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡仰虔 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='D501  ' >社科院大樓                    階梯教室-經濟</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D532600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON3011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >121</TD>
+<TD style='text-align: center;' >D532700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D532700">經濟成長</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>伍弘歷 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='D50A  ' >社科院大樓                    八樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D532700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>新課程，隸屬於經濟分析領域。</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON3012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >D517200</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D517200&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >D540100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D540100">數理經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡政成 </TD>
+<TD style='text-align: center;' >51</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='D501  ' >社科院大樓                    階梯教室-經濟</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D540100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON4001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >153</TD>
+<TD style='text-align: center;' >D520101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D520101">社會學概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王金壽 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='80101 ' >社科院大樓                    80101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D520101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>與政治學系合開，80101教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON3008</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=57">醫學、科技與社會學程(STM) </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >154</TD>
+<TD style='text-align: center;' >U551000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=U551000">神經經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>翁明宏 </TD>
+<TD style='text-align: center;' >14</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='D50A  ' >社科院大樓                    八樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=U551000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON5001E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >158</TD>
+<TD style='text-align: center;' >D540600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D540600">產業經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>區俊傑 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='D501  ' >社科院大樓                    階梯教室-經濟</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D540600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON4003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >162</TD>
+<TD style='text-align: center;' >D530801</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D530801">健康經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉亞明 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='D50A  ' >社科院大樓                    八樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D530801&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上機教室：社科院80305電腦教室</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON4004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >163</TD>
+<TD style='text-align: center;' >H342200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=H342200">工程經濟</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張秀雲 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >47</TD>
+<TD><BR>[4]3~4<BR>[2]1</TD>
+<TD><a class='room' href='#' name='61102 ' >工管系館                      61102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H342200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IIM4219</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >164</TD>
+<TD style='text-align: center;' >D542200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D542200">風險管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李宗穎 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='80203 ' >社科院大樓                    80203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D542200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON4013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >經濟系           ECON</TD>
+<TD style='text-align: center;' >D5</TD>
+<TD style='text-align: center;' >165</TD>
+<TD style='text-align: center;' >D532800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=D5&cono=D532800">經濟發展與幸福經濟</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝文真 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >70</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='D501  ' >社科院大樓                    階梯教室-經濟</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=D532800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課---建議英語程度須具備全民英檢中高級複試以上。新課程隸屬於經濟分析領域</TD>
+<TD>需先修以下科目:《經濟學原理（一）                        /必修/3.0學分/60分以上》《經濟學原理（二）                        /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON5005E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,813 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H411120</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H411120&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F612621</TD>
+<TD style='text-align: center;' >Z9</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F612621&class_code=Z9"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GM</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >H415621</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H415621">微積分（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>李俊毅 </TD>
+<TD style='text-align: center;' >75</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H415621&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1032</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >H415720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H415720">會計學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>孫文琦 </TD>
+<TD style='text-align: center;' >76</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H415720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >H415520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H415520">經濟學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>方世杰 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H415520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H410020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H410020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H425000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H425000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >H417920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H417920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉桂珍 </TD>
+<TD style='text-align: center;' >59</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[1]N</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H417920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1108</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >H443100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H443100">企業聯繫</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>東惠瑛 </TD>
+<TD style='text-align: center;' >47</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='62218 ' >企管系館                      62218</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H443100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA4410</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H425000</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H425000&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H410040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H410040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H425000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H425000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >H420720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H420720">統計學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉桂珍 </TD>
+<TD style='text-align: center;' >82</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H420720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限2年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1106</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >062</TD>
+<TD style='text-align: center;' >H420200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H420200">行銷管理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡惠婷 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H420200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限2年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1206</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >H435700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H435700">組織行為</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>莊雙喜 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H435700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限2年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >064</TD>
+<TD style='text-align: center;' >H443500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H443500">國際企業管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許經明 </TD>
+<TD style='text-align: center;' >77</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='62210 ' >企管系館                      62210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H443500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限2年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA3315</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >065</TD>
+<TD style='text-align: center;' >H432100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H432100">組織溝通</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉清和 </TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62121 ' >企管系館                      62121</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H432100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA4405</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >066</TD>
+<TD style='text-align: center;' >H422700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H422700">經濟問題探究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王耀斌 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >32</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='62210 ' >企管系館                      62210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H422700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《經濟學（一）                            /必修/3.0學分/60分以上》《經濟學（二）                            /必修/3.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA2102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H410061</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（六）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H410061&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H425000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H425000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >H420300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H420300">人力資源管理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王瑜琳 </TD>
+<TD style='text-align: center;' >66</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='62335 ' >企管系館                      62335</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H420300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1301</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >H430801</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H430801">作業管理</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃瀞瑩 </TD>
+<TD style='text-align: center;' >66</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='62121 ' >企管系館                      62121</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H430801&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>限3年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >H430600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H430600">國際金融</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>康信鴻 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[1]1~3</TD>
+<TD><a class='room' href='#' name='62210 ' >企管系館                      62210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H430600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>統計系與企管系合開</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA3307</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >111</TD>
+<TD style='text-align: center;' >H436500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H436500">消費者行為</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>賴孟寬 </TD>
+<TD style='text-align: center;' >22</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='62212 ' >企管系館                      62212</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H436500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA3324</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >H432700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H432700">創新管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周信輝 </TD>
+<TD style='text-align: center;' >41</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='62453 ' >企管系館                      62453</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H432700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>建議三年級以上選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA3318</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >H232100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H232100">投資分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳宗正 </TD>
+<TD style='text-align: center;' >95</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='62115 ' >統計系館                      62115</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H232100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>已開放至教室容量最大人數, 請線上選課, 不再接受紙本加選, 依上課座位表入座</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >STAT3010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >H425000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H425000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >162</TD>
+<TD style='text-align: center;' >H445900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H445900">領導學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李憲達 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='62210 ' >企管系館                      62210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H445900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA4750</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >163</TD>
+<TD style='text-align: center;' >H433800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H433800">金融市場技術分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡燿全 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='62212 ' >企管系館                      62212</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H433800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《財務管理                                /必修/3.0學分/60分以上》限4年級以上選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >BA1202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >企管系           BA</TD>
+<TD style='text-align: center;' >H4</TD>
+<TD style='text-align: center;' >164</TD>
+<TD style='text-align: center;' >H130300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=H4&cono=H130300">國際財務管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李宏志 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='63210 ' >會計系館                      63210</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=H130300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ACC3020</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,741 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >203</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩一甲組資源開發及地質選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃啟原 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >57</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='93X57 ' >化工系館                      華立廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩一乙組資源材料及再生選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >5</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4307  ' >資源系館                      4307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩一丙組資源管理及經濟選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >205</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩二甲組資源開發及地質選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃啟原 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >64</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='93X57 ' >化工系館                      華立廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩二乙組資源材料及再生選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4307  ' >資源系館                      4307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩二丙組資源管理及經濟選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >217</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供博一甲組資源開發與地質工程選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >5 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃啟原 </TD>
+<TD style='text-align: center;' >4</TD>
+<TD style='text-align: center;' >73</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='93X57 ' >化工系館                      華立廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=5 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供博一乙組資源材料及再生選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >N450020</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450020">專題討論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >34</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4307  ' >資源系館                      4307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450020&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供博一丙組資源管理及經濟選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >217</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供博二甲組資源開發及地質工程選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >5 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃啟原 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >68</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='93X57 ' >化工系館                      華立廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=5 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供博二乙組資源材料及再生選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >N450040</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450040">專題討論（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4307  ' >資源系館                      4307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450040&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >N450600</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450600">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >205</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450600&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩三博三以上甲組資源開發及地質工程選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1026</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >N450600</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450600">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃啟原 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >67</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='93X57 ' >化工系館                      華立廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450600&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩三博三以上乙組資源材料及再生選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1026</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >N450600</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N450600">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4307  ' >資源系館                      4307</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N450600&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a>僅供碩三博三以上丙組資源管理及經濟選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE1026</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >N472800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N472800">創新與科技管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>施勵行 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='4350  ' >資源系館                      4350</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N472800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7308</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=71">生物科技學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >N466600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N466600">計劃評估與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳榮華 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='4350  ' >資源系館                      4350</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N466600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7303</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >N464300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N464300">地質統計學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>徐國錦 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='4350  ' >資源系館                      4350</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N464300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7109</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >N472500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N472500">高等油層工程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝秉志 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='4302  ' >資源系館                      4302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N472500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7119</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >N472700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N472700">數值分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王建力 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='4302  ' >資源系館                      4302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N472700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE5107</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >N466800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N466800">遙感探測</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>余騰鐸 </TD>
+<TD style='text-align: center;' >7</TD>
+<TD style='text-align: center;' >29</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='4302  ' >資源系館                      4302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N466800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7112</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >N481600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N481600">邊坡水文與穩定</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉信富 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='4350  ' >資源系館                      4350</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N481600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7133</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >N471500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N471500">高等水文地質</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李振誥 </TD>
+<TD style='text-align: center;' >10</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='4302  ' >資源系館                      4302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N471500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7118</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >N456700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N456700">資源與材料開發</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>廖學誠 </TD>
+<TD style='text-align: center;' >74</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='4353  ' >資源系館                      4353</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N456700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7205</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >N461400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N461400">高等溼法冶金</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>申永輝 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='4351  ' >資源系館                      4351</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N461400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7207</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >N471300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N471300">地下儲氣工程特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林再興 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >27</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='4302  ' >資源系館                      4302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N471300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7116</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >資源所           RE</TD>
+<TD style='text-align: center;' >N4</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >N480100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N4&cono=N480100">工程地震學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>葉永田 </TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='4350  ' >資源系館                      4350</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=N480100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >RE7122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

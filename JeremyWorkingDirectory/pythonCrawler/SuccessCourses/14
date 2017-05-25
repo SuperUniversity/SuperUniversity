@@ -1,0 +1,1245 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B113721</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113721&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照英文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >B113221</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B113221">各體文選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳益源 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113221&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《各體文選及習作（一）                    /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >B113221</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B113221">各體文選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林美惠 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='21208 ' >中文系館                      21208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113221&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《各體文選及習作（一）                    /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1102</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >B111120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B111120">國學導讀（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>王翠玲 </TD>
+<TD style='text-align: center;' >61</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B111120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《國學導讀（一）                          /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1110</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >B111220</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B111220">文學概論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳昌明 </TD>
+<TD style='text-align: center;' >39</TD>
+<TD style='text-align: center;' >17</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B111220&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《文學概論（一）                          /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >B111220</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B111220">文學概論（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>翁文嫻 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[3]1~2</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B111220&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《文學概論（一）                          /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >B140820</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B140820">現代戲劇欣賞及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>秦嘉嫄 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >19</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B140820&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組 (學號倒數第二位)</TD>
+<TD>需先修以下科目:《現代戲劇欣賞及習作（一）                /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1126</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >B140820</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B140820">現代戲劇欣賞及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>秦嘉嫄 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B140820&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《現代戲劇欣賞及習作（一）                /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1126</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >B117920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >1</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B117920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>翁文嫻 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[3]N</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B117920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL0002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >B110820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B110820">四書（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳文璋 </TD>
+<TD style='text-align: center;' >59</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B110820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《四書（一）                              /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >B113000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B113000">國語語音學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳梅香 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >44</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1114</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >B113820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B113820">日文（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王翠玲 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >33</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B113820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《日文（一）                              /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1118</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >B135400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B135400">古典戲曲評賞</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>高美華 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >111</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='21122 ' >中文系館                      文學院演講廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B135400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1124</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=94">戲劇學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B125000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B125000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B110020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B110020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >052</TD>
+<TD style='text-align: center;' >B121121</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121121">歷代文選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>侯美珍 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='21208 ' >中文系館                      21208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121121&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《歷代文選及習作（一）                    /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >053</TD>
+<TD style='text-align: center;' >B121121</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121121">歷代文選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>林耀潾 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >33</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121121&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《歷代文選及習作（一）                    /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >054</TD>
+<TD style='text-align: center;' >B121220</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121220">詩選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家煌 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]1<BR>[4]1~2</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121220&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組（學號倒數第二位）</TD>
+<TD>需先修以下科目:《詩選及習作（一）                        /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >B121220</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121220">詩選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳家煌 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >28</TD>
+<TD><BR>[2]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121220&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組（學號倒數第二位）</TD>
+<TD>需先修以下科目:《詩選及習作（一）                        /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >B120320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >3</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B120320">文字學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>高佑仁 </TD>
+<TD style='text-align: center;' >72</TD>
+<TD style='text-align: center;' >8</TD>
+<TD><BR>[2]2<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B120320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《文字學（一）                            /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >B121420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121420">中國文學史（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳昌明 </TD>
+<TD style='text-align: center;' >55</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[3]1~3</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《中國文學史（一）                        /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >058</TD>
+<TD style='text-align: center;' >B120820</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B120820">禮學名著選讀（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林素娟 </TD>
+<TD style='text-align: center;' >37</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='21208 ' >中文系館                      21208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B120820&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《禮學名著選讀（一）                      /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >B120520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B120520">現代詩欣賞及習作（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>翁文嫻 </TD>
+<TD style='text-align: center;' >51</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B120520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1108</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >060</TD>
+<TD style='text-align: center;' >B111520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B111520">現代散文欣賞及習作（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蘇敏逸 </TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B111520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《現代散文欣賞及習作（一）                /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL1106</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >B121600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B121600">修辭學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>仇小屏 </TD>
+<TD style='text-align: center;' >78</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B121600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2026</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >062</TD>
+<TD style='text-align: center;' >B124500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B124500">人生哲學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>萬胥亭 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B124500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>應用哲學學程課程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3044</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=97">應用哲學學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B110040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B110040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B125000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >2</TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B125000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B125000</TD>
+<TD style='text-align: center;' >Z5</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B125000&class_code=Z5"><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >B133620</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133620">詞選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>高美華 </TD>
+<TD style='text-align: center;' >35</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133620&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《詞選及習作（一）                        /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >B133620</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133620">詞選及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>高美華 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >36</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133620&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《詞選及習作（一）                        /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >B131320</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B131320">聲韻學（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳梅香 </TD>
+<TD style='text-align: center;' >62</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]3~4<BR>[3]4</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B131320&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《聲韻學（一）                            /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >B131920</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B131920">現代小說欣賞及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蘇敏逸 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]1~2</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B131920&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《現代小說欣賞及習作（一）                /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >B131920</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B131920">現代小說欣賞及習作（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蘇偉貞 </TD>
+<TD style='text-align: center;' >21</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B131920&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《現代小說欣賞及習作（一）                /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >B141420</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B141420">中國思想史（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林朝成 </TD>
+<TD style='text-align: center;' >57</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]2<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B141420&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《中國思想史（一）                        /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >B133700</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133700">曲選及習作</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>高美華 </TD>
+<TD style='text-align: center;' >31</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[4]1~2</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133700&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>單號為甲組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《詞選及習作（一）                        /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >B133700</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133700">曲選及習作</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>高美華 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >9</TD>
+<TD><BR>[5]1~2</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133700&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>雙號為乙組(學號倒數第二位)</TD>
+<TD>需先修以下科目:《詞選及習作（一）                        /必修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >B135120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B135120">明清小品文（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>侯美珍 </TD>
+<TD style='text-align: center;' >54</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='21201 ' >中文系館                      21201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B135120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《明清小品文（一）                        /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2032</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >111</TD>
+<TD style='text-align: center;' >B136200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B136200">中國古典短篇小說</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳昌明 </TD>
+<TD style='text-align: center;' >50</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B136200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限40人選修</TD>
+<TD>需先修以下科目:《中國文學史（一）                        /必修/3.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3038</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >B133920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133920">臺灣文學史（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>賴麗娟 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《臺灣文學史（一）                        /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >B136120</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B136120">劇本選讀（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林幸慧 </TD>
+<TD style='text-align: center;' >38</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B136120&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《劇本選讀（一）                          /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3031</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=94">戲劇學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B125000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B125000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >151</TD>
+<TD style='text-align: center;' >B133220</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B133220">楚辭（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳怡良 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >22</TD>
+<TD><BR>[2]1~2</TD>
+<TD><a class='room' href='#' name='21208 ' >中文系館                      21208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B133220&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《楚辭（一）                              /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2018</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >152</TD>
+<TD style='text-align: center;' >B145620</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B145620">尚書（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>黃聖松 </TD>
+<TD style='text-align: center;' >36</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='21101 ' >中文系館                      21101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B145620&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《尚書（一）                              /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >153</TD>
+<TD style='text-align: center;' >B132520</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B132520">佛學概論（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林朝成 </TD>
+<TD style='text-align: center;' >9</TD>
+<TD style='text-align: center;' >47</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B132520&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《佛學概論（一）                          /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL3040</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >154</TD>
+<TD style='text-align: center;' >B142720</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B142720">應用文（二）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林耀潾 </TD>
+<TD style='text-align: center;' >25</TD>
+<TD style='text-align: center;' >31</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='21103 ' >中文系館                      21103</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B142720&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《應用文（一）                            /選修/2.0學分/0分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2035</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' >155</TD>
+<TD style='text-align: center;' >B145300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=B1&cono=B145300">文學評論與影評寫作</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>萬胥亭 </TD>
+<TD style='text-align: center;' >42</TD>
+<TD style='text-align: center;' >14</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='21102 ' >中文系館                      21102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B145300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL2054</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >中文系           CL</TD>
+<TD style='text-align: center;' >B1</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >B125000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=B125000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CL</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+

@@ -1,0 +1,1173 @@
+<html>
+<head>
+	<title>Searching Result</title>
+        
+	<link rel="StyleSheet" href="style/tablita_2014.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+	
+	  
+	
+	
+        <!--
+           <script   type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="script/thscroll.js"></script>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript" src="script/thscroll.js"></script>
+        -->
+</head>
+<script type="text/javascript">
+       
+	  
+     $(document).ready(function () {
+    	//$('table').THScroll();
+    //$("table").THScroll();
+      });
+    
+    //$(function() {
+	//$('body').html(
+	//	'目前 jQuery 版本：' + $().jquery
+	//);
+});
+ 
+</script>
+
+<body>
+          <!--服務學習推薦專區  -->
+         <p><a href=http://cid.acad.ncku.edu.tw/files/14-1056-139460,r766-1.php?Lang=zh-tw target='_blank'><div style="font-size:16px;font-weight: bold;background-color:#FFFF99;color: #039; ">服務學習推薦專區</div>  </a></p>   
+
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table >
+   <thead>
+   
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+        
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F314120</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>基礎國文</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>基礎國文（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F314120&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照基礎國文選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >E711521</TD>
+<TD style='text-align: center;' >Z7</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>英文（含口語訓練）（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]3~4</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=E711521&class_code=Z7"><img src="image/moodle.gif" alt="Moodle"></img></a>核心通識，依照國際語言選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ARCH1002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F310020</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~8</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F310020&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F325000</TD>
+<TD style='text-align: center;' >Z1</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F325000&class_code=Z1"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >F317920</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F317920">服務學習（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林雅惠 </TD>
+<TD style='text-align: center;' >48</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]8</TD>
+<TD><a class='room' href='#' name='      ' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F317920&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID0112</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >F313500</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313500">表現技法</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳劭農 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='53302 ' >無                            53302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313500&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《繪畫                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F313500</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313500">表現技法</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>陳劭農 </TD>
+<TD style='text-align: center;' >24</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[3]6~7</TD>
+<TD><a class='room' href='#' name='53302 ' >無                            53302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313500&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《繪畫                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >F313500</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313500">表現技法</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>何俊亨 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5</TD>
+<TD><a class='room' href='#' name='5206  ' >工設系館                      5206</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313500&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《繪畫                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F313500</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313500">表現技法</a></TD>
+<TD>必修</TD>
+<TD></TD><TD>何俊亨 </TD>
+<TD style='text-align: center;' >34</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]6~7</TD>
+<TD><a class='room' href='#' name='5206  ' >工設系館                      5206</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313500&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《繪畫                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >F313000</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313000">基本設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>王藝蓁 </TD>
+<TD style='text-align: center;' >13</TD>
+<TD style='text-align: center;' >5</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='53302 ' >無                            53302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313000&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >F313000</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313000">基本設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳劭農 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='53306 ' >無                            53306</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313000&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >F313000</TD>
+<TD style='text-align: center;' >C </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313000">基本設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳璽任 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='53313 ' >無                            53313</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313000&class_code=C "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >F322800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F322800">計算機概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林雅惠 </TD>
+<TD style='text-align: center;' >63</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]7~9</TD>
+<TD><a class='room' href='#' name='5102  ' >建築系館                      5102</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F322800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>上課教室為C-HUB一樓電腦教室5102</TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >F313600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313600">色彩學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>周君瑞 </TD>
+<TD style='text-align: center;' >57</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='53302 ' >無                            53302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1124</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >F313300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F313300">普通物理學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉明豪 </TD>
+<TD style='text-align: center;' >60</TD>
+<TD style='text-align: center;' >26</TD>
+<TD><BR>[1]2~3<BR>[3]2</TD>
+<TD><a class='room' href='#' name='53101 ' >空中大學                      53101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F313300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PHYS1011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >F323800</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F323800">專題模型製作</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>魏仲君 </TD>
+<TD style='text-align: center;' >26</TD>
+<TD style='text-align: center;' >4</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='53X02 ' >無                            53X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F323800&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《圖學                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1125</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >F323800</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F323800">專題模型製作</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>魏仲君 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='53X02 ' >無                            53X02</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F323800&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》《圖學                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID1125</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F310040</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（四）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F310040&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F325000</TD>
+<TD style='text-align: center;' >Z2</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F325000&class_code=Z2"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >055</TD>
+<TD style='text-align: center;' >F320620</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F320620">產品設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林彥呈 </TD>
+<TD style='text-align: center;' >17</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5206  ' >工設系館                      5206</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F320620&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計方法                                /必修/3.0學分/60分以上》《圖學                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >056</TD>
+<TD style='text-align: center;' >F320620</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F320620">產品設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>林雅惠 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5204A ' >工設系館                      5204A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F320620&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計方法                                /必修/3.0學分/60分以上》《圖學                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >057</TD>
+<TD style='text-align: center;' >F320620</TD>
+<TD style='text-align: center;' >C </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F320620">產品設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳榮煌 </TD>
+<TD style='text-align: center;' >16</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5204B ' >工設系館                      5204B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F320620&class_code=C "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計方法                                /必修/3.0學分/60分以上》《圖學                                    /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >059</TD>
+<TD style='text-align: center;' >F323500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F323500">人類因素學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>洪郁修 </TD>
+<TD style='text-align: center;' >64</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='53101 ' >空中大學                      53101</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F323500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >060</TD>
+<TD style='text-align: center;' >F323300</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F323300">電腦輔助設計與製造</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>羅逸文 </TD>
+<TD style='text-align: center;' >27</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='53311 ' >無                            53311</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F323300&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >061</TD>
+<TD style='text-align: center;' >F323300</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F323300">電腦輔助設計與製造</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>羅逸文 </TD>
+<TD style='text-align: center;' >33</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='53311 ' >無                            53311</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F323300&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2123</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >062</TD>
+<TD style='text-align: center;' >F312600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F312600">機械設計原理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>魏仲君 </TD>
+<TD style='text-align: center;' >45</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='53306 ' >無                            53306</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F312600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《基本設計（一）                          /必修/3.0學分/60分以上》《基本設計（二）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID2222</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >063</TD>
+<TD style='text-align: center;' >F324400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F324400">設計史</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳璽任 </TD>
+<TD style='text-align: center;' >63</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='7117  ' >唯農大樓                      7117</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F324400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3229</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F310061</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（六）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F310061&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >F330121</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >A</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F330121">工業設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾劍峰 </TD>
+<TD style='text-align: center;' >18</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5256A ' >工設系館                      5256A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F330121&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《材料與製造程序                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》《機構學                                  /必修/3.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >F330121</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >B</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F330121">工業設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭世文 </TD>
+<TD style='text-align: center;' >23</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5205A ' >工設系館                      5205A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F330121&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《材料與製造程序                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》《機構學                                  /必修/3.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >F330121</TD>
+<TD style='text-align: center;' >C </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' >C</TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F330121">工業設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉說芳 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[5]5~6<BR>[1]5~8</TD>
+<TD><a class='room' href='#' name='5205B ' >工設系館                      5205B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F330121&class_code=C "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《材料與製造程序                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》《機構學                                  /必修/3.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >F333400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F333400">商業編排設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>莊惠棋 </TD>
+<TD style='text-align: center;' >44</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='53311 ' >無                            53311</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F333400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>1.納入「創意設計學程」2.「創意設計學程」學生請至創意設計教學資源中心加簽</TD>
+<TD>需先修以下科目:《產品設計（一）                          /必修/3.0學分/60分以上》《產品設計（二）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3221</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=38">創意設計學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >F336700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F336700">設計認知</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾元琦 </TD>
+<TD style='text-align: center;' >20</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='5256A ' >工設系館                      5256A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F336700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《產品設計（一）                          /必修/3.0學分/60分以上》《產品設計（二）                          /必修/3.0學分/60分以上》《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3212</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >F330700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F330700">設計與教育</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾劍峰 </TD>
+<TD style='text-align: center;' >28</TD>
+<TD style='text-align: center;' >2</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='53313 ' >無                            53313</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F330700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3223</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >F333000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F333000">設計實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳中聖 </TD>
+<TD style='text-align: center;' >32</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='5206  ' >工設系館                      5206</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F333000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《產品設計（一）                          /必修/3.0學分/60分以上》《產品設計（二）                          /必修/3.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3224</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F325000</TD>
+<TD style='text-align: center;' >Z3</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F325000&class_code=Z3"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >111</TD>
+<TD style='text-align: center;' >F338100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F338100">經營管理與國際行銷</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陸定邦 </TD>
+<TD style='text-align: center;' >46</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='7213  ' >唯農大樓                      7213</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F338100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>服務科學與體驗學程</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3220</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y3'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >F335600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('3 ');">3 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F335600">流行商品展銷與策略</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>曾劍峰 </TD>
+<TD style='text-align: center;' >30</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='53306 ' >無                            53306</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F335600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>1.納入「創意設計學程」2.「創意設計學程」學生請至創意設計教學資源中心加簽</TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID3225</TD>
+<TD style='text-align: center;' ><a target="_blank" href="http://cpi.acad.ncku.edu.tw/cpi/index.php?c=course&m=detail&no=38">創意設計學程 </a></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F325000</TD>
+<TD style='text-align: center;' >Z4</TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>通識課程</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[4]5~6</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F325000&class_code=Z4"><img src="image/moodle.gif" alt="Moodle"></img></a>依照通識領域科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >158</TD>
+<TD style='text-align: center;' >F346500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F346500">展示設計</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾劍峰 </TD>
+<TD style='text-align: center;' >29</TD>
+<TD style='text-align: center;' >1</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='53313 ' >無                            53313</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F346500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID4221</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><tr ><TH class='title_line' style='width:35px '>系所<br>名稱</TH><TH class='title_line' style='width:40px '>系號</TH><TH class='title_line' style='width:50px '>序號</TH><TH class='title_line' style='width:80px '>課程碼</TH><TH class='title_line' style='width:30px '><div style="font-size:12px;">分班碼</div></TH><TH class='title_line' style='width:40px '>班別</TH><TH class='title_line' style='width:40px '>年級</TH><TH class='title_line' style='width:60px '>類別</TH><TH class='title_line' style='width:30px '>組別</TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">英語<br>授課</div></TH><TH class='title_line' style='width:130px '>課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH><TH class='title_line' style='width:50px '>選必修</TH><TH class='title_line' style='width:30px '>學分</TH><TH class='title_line' style='width:80px '>教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH><TH class='title_line' style='width:40px '><div style="font-size:12px;">已選課人數</div></TH><TH class='title_line' style='width:60px '>餘額</TH><TH class='title_line' style='width:60px '>時間</TH><TH class='title_line' style='width:80px '>教室</TH><TH class='title_line' style='width:120px '>備註</TH><TH class='title_line' style='width:100px '>限選條件</TH><TH class='title_line' style='width:50px '><div style="font-size:12px;">業界專家參與</div></TH><TH class='title_line' style='width:80px '>屬性碼</TH><TH class='title_line' style='width:80px '>跨領域學分學程</TH><TH class='title_line' style='width:50px '>Moocs</TH></tr><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >F3100H1</TD>
+<TD style='text-align: center;' >Z </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD>體育（八）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F3100H1&class_code=Z "><img src="image/moodle.gif" alt="Moodle"></img></a>依照體育選項科目序號選課</TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >160</TD>
+<TD style='text-align: center;' >F340421</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F340421">專題設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳豐光 </TD>
+<TD style='text-align: center;' >12</TD>
+<TD style='text-align: center;' >6</TD>
+<TD><BR>[2]5~A</TD>
+<TD><a class='room' href='#' name='5204A ' >工設系館                      5204A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F340421&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID4121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >161</TD>
+<TD style='text-align: center;' >F340421</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F340421">專題設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳璽任 </TD>
+<TD style='text-align: center;' >8</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[2]5~A</TD>
+<TD><a class='room' href='#' name='5204B ' >工設系館                      5204B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F340421&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID4121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >162</TD>
+<TD style='text-align: center;' >F340421</TD>
+<TD style='text-align: center;' >C </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F340421">專題設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>馬敏元 </TD>
+<TD style='text-align: center;' >15</TD>
+<TD style='text-align: center;' >3</TD>
+<TD><BR>[2]5~A</TD>
+<TD><a class='room' href='#' name='5205A ' >工設系館                      5205A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F340421&class_code=C "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID4121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y4'>
+<TD style='text-align: center;' >工設系           ID</TD>
+<TD style='text-align: center;' >F3</TD>
+<TD style='text-align: center;' >163</TD>
+<TD style='text-align: center;' >F340421</TD>
+<TD style='text-align: center;' >D </TD>
+<TD>                              </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('4 ');">4 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F3&cono=F340421">專題設計（二）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝孟達*<BR />何俊亨*</TD>
+<TD style='text-align: center;' >11</TD>
+<TD style='text-align: center;' >7</TD>
+<TD><BR>[2]5~A</TD>
+<TD><a class='room' href='#' name='5205B ' >工設系館                      5205B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0105&sem=2&co_no=F340421&class_code=D "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《設計概論                                /必修/2.0學分/60分以上》第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ID4121</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   
+    
+    
+ </tbody>
+    
+    
+   
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr></p>
+
+
+
+      
+</body>
+</html>
+
